@@ -1,0 +1,42 @@
+Test nouns:
+house
+
+'thing used for V-ing/(V-nom)'
+house-live: 35, dwell: 24
+
+
+'thing used to V (inf)'
+house-live: 31600, house-dwell: 36
+
+
+'thing worth|deserved to V'
+house-live: 2/1710, house-dwell:0
+
+
+"can't/couldn't V in/with/by thing"
+house-live: 5, house-dwell: 150k(?)
+
+
+pattern:
+that/which V-ed by something -> something is animate (if not animate than out of candidate)
+that/which V(es) something
+
+that/which something is/are/can be V-ed to V
+
+where something can? + V
+
+#V-ed by/with (but except some certain verbs) -> could lead to confusion btw telic and agentive
+#Example: glyptic art in the form  
+
+for V-nominal 
+used for/in V-ing
+used in something to V
+used to
+used as N -> might need to find telic role of N
+use(s) something to V
+V derivatively related form
+something to V
+
+made/built/designed/set/ to V
+
+is a V-ing something

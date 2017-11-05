@@ -1,0 +1,2370 @@
+================================
+art.n.01
+[[u'art', u'0', u'3', u'art', u'NN', u'O'], [u'is', u'4', u'6', u'be', u'VBZ', u'O'], [u'the', u'7', u'10', u'the', u'DT', u'O'], [u'products', u'11', u'19', u'product', u'NNS', u'O'], [u'of', u'20', u'22', u'of', u'IN', u'O'], [u'human', u'23', u'28', u'human', u'JJ', u'O'], [u'creativity', u'29', u'39', u'creativity', u'NN', u'O'], [u';', u'39', u'40', u';', u':', u'O'], [u'works', u'41', u'46', u'work', u'NNS', u'O'], [u'of', u'47', u'49', u'of', u'IN', u'O'], [u'art', u'50', u'53', u'art', u'NN', u'O'], [u'collectively', u'54', u'66', u'collectively', u'RB', u'O']]
+(ROOT (NP (NP-TMP (NP (NN art)) (VP (VBZ is) (NP (NP (DT the) (NNS products)) (PP (IN of) (NP (JJ human) (NN creativity)))))) (: ;) (NP (NP (NNS works)) (PP (IN of) (NP (NP (NN art)) (ADVP (RB collectively)))))))
+(ROOT
+  (NP
+    (NP-TMP
+      (NP (NN art))
+      (VP
+        (VBZ is)
+        (NP
+          (NP (DT the) (NNS products))
+          (PP (IN of) (NP (JJ human) (NN creativity))))))
+    (: ;)
+    (NP
+      (NP (NNS works))
+      (PP (IN of) (NP (NP (NN art)) (ADVP (RB collectively)))))))
+[[u'root', u'ROOT', u'art', u'0', u'1'], [u'cop', u'products', u'is', u'4', u'2'], [u'det', u'products', u'the', u'4', u'3'], [u'dep', u'art', u'products', u'1', u'4'], [u'amod', u'creativity', u'human', u'7', u'6'], [u'prep_of', u'products', u'creativity', u'4', u'7'], [u'dep', u'art', u'works', u'1', u'9'], [u'prep_of', u'works', u'art', u'9', u'11'], [u'advmod', u'art', u'collectively', u'11', u'12']]
+[]
+art is the products of human creativity; works of art collectively
+================================
+equipment.n.01
+[[u'equipment', u'0', u'9', u'equipment', u'NN', u'O'], [u'is', u'10', u'12', u'be', u'VBZ', u'O'], [u'an', u'13', u'15', u'a', u'DT', u'O'], [u'instrumentality', u'16', u'31', u'instrumentality', u'NN', u'O'], [u'needed', u'32', u'38', u'need', u'VBN', u'O'], [u'for', u'39', u'42', u'for', u'IN', u'O'], [u'an', u'43', u'45', u'a', u'DT', u'O'], [u'undertaking', u'46', u'57', u'undertaking', u'NN', u'O'], [u'or', u'58', u'60', u'or', u'CC', u'O'], [u'to', u'61', u'63', u'to', u'TO', u'O'], [u'perform', u'64', u'71', u'perform', u'VB', u'O'], [u'a', u'72', u'73', u'a', u'DT', u'O'], [u'service', u'74', u'81', u'service', u'NN', u'O']]
+(ROOT (S (NP (NN equipment)) (VP (VBZ is) (NP (NP (DT an) (NN instrumentality)) (VP (VBN needed) (PP (IN for) (NP (NP (DT an) (NN undertaking)) (CC or) (S (VP (TO to) (VP (VB perform) (NP (DT a) (NN service))))))))))))
+(ROOT
+  (S
+    (NP (NN equipment))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT an) (NN instrumentality))
+        (VP
+          (VBN needed)
+          (PP
+            (IN for)
+            (NP
+              (NP (DT an) (NN undertaking))
+              (CC or)
+              (S
+                (VP
+                  (TO to)
+                  (VP (VB perform) (NP (DT a) (NN service))))))))))))
+[[u'nsubj', u'instrumentality', u'equipment', u'4', u'1'], [u'cop', u'instrumentality', u'is', u'4', u'2'], [u'det', u'instrumentality', u'an', u'4', u'3'], [u'root', u'ROOT', u'instrumentality', u'0', u'4'], [u'partmod', u'instrumentality', u'needed', u'4', u'5'], [u'det', u'undertaking', u'an', u'8', u'7'], [u'prep_for', u'needed', u'undertaking', u'5', u'8'], [u'aux', u'perform', u'to', u'11', u'10'], [u'prep_for', u'needed', u'perform', u'5', u'11'], [u'conj_or', u'undertaking', u'perform', u'8', u'11'], [u'infmod', u'undertaking', u'perform', u'8', u'11'], [u'det', u'service', u'a', u'13', u'12'], [u'dobj', u'perform', u'service', u'11', u'13']]
+[]
+equipment is an instrumentality needed for an undertaking or to perform a service
+================================
+doorway.n.01
+[[u'doorway', u'0', u'7', u'doorway', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'the', u'11', u'14', u'the', u'DT', u'O'], [u'entrance', u'15', u'23', u'entrance', u'NN', u'O'], [u'through', u'25', u'32', u'through', u'IN', u'O'], [u'which', u'33', u'38', u'which', u'WDT', u'O'], [u'you', u'39', u'42', u'you', u'PRP', u'O'], [u'enter', u'43', u'48', u'enter', u'VBP', u'O'], [u'or', u'49', u'51', u'or', u'CC', u'O'], [u'leave', u'52', u'57', u'leave', u'VBP', u'O'], [u'a', u'58', u'59', u'a', u'DT', u'O'], [u'room', u'60', u'64', u'room', u'NN', u'O'], [u'or', u'65', u'67', u'or', u'CC', u'O'], [u'building', u'68', u'76', u'building', u'NN', u'O'], [u';', u'76', u'77', u';', u':', u'O'], [u'the', u'78', u'81', u'the', u'DT', u'O'], [u'space', u'82', u'87', u'space', u'NN', u'O'], [u'that', u'88', u'92', u'that', u'IN', u'O'], [u'a', u'93', u'94', u'a', u'DT', u'O'], [u'door', u'95', u'99', u'door', u'NN', u'O'], [u'can', u'100', u'103', u'can', u'MD', u'O'], [u'close', u'104', u'109', u'close', u'VB', u'O']]
+(ROOT (S (NP (NN doorway)) (VP (VBZ is) (NP (NP (NP (DT the) (NN entrance)) (SBAR (WHPP (IN through) (WHNP (WDT which))) (S (NP (PRP you)) (VP (VBP enter) (CC or) (VBP leave) (NP (DT a) (NN room) (CC or) (NN building)))))) (: ;) (NP (NP (DT the) (NN space)) (SBAR (IN that) (S (NP (DT a) (NN door)) (VP (MD can) (VP (VB close))))))))))
+(ROOT
+  (S
+    (NP (NN doorway))
+    (VP
+      (VBZ is)
+      (NP
+        (NP
+          (NP (DT the) (NN entrance))
+          (SBAR
+            (WHPP (IN through) (WHNP (WDT which)))
+            (S
+              (NP (PRP you))
+              (VP
+                (VBP enter)
+                (CC or)
+                (VBP leave)
+                (NP (DT a) (NN room) (CC or) (NN building))))))
+        (: ;)
+        (NP
+          (NP (DT the) (NN space))
+          (SBAR
+            (IN that)
+            (S (NP (DT a) (NN door)) (VP (MD can) (VP (VB close))))))))))
+[[u'nsubj', u'entrance', u'doorway', u'4', u'1'], [u'cop', u'entrance', u'is', u'4', u'2'], [u'det', u'entrance', u'the', u'4', u'3'], [u'root', u'ROOT', u'entrance', u'0', u'4'], [u'prep_through', u'enter', u'entrance', u'8', u'4'], [u'nsubj', u'enter', u'you', u'8', u'7'], [u'nsubj', u'leave', u'you', u'10', u'7'], [u'rcmod', u'entrance', u'enter', u'4', u'8'], [u'rcmod', u'entrance', u'leave', u'4', u'10'], [u'conj_or', u'enter', u'leave', u'8', u'10'], [u'det', u'room', u'a', u'12', u'11'], [u'dobj', u'enter', u'room', u'8', u'12'], [u'dobj', u'enter', u'building', u'8', u'14'], [u'conj_or', u'room', u'building', u'12', u'14'], [u'det', u'space', u'the', u'17', u'16'], [u'dep', u'entrance', u'space', u'4', u'17'], [u'dobj', u'close', u'space', u'22', u'17'], [u'mark', u'close', u'that', u'22', u'18'], [u'det', u'door', u'a', u'20', u'19'], [u'nsubj', u'close', u'door', u'22', u'20'], [u'aux', u'close', u'can', u'22', u'21'], [u'dep', u'space', u'close', u'17', u'22']]
+[]
+doorway is the entrance  through which you enter or leave a room or building; the space that a door can close
+================================
+picture.n.01
+[[u'picture', u'0', u'7', u'picture', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'a', u'11', u'12', u'a', u'DT', u'O'], [u'visual', u'13', u'19', u'visual', u'JJ', u'O'], [u'representation', u'20', u'34', u'representation', u'NN', u'O'], [u'produced', u'36', u'44', u'produce', u'VBN', u'O'], [u'on', u'45', u'47', u'on', u'IN', u'O'], [u'a', u'48', u'49', u'a', u'DT', u'O'], [u'surface', u'50', u'57', u'surface', u'NN', u'O']]
+(ROOT (S (NP (NN picture)) (VP (VBZ is) (NP (NP (DT a) (JJ visual) (NN representation)) (VP (VBN produced) (PP (IN on) (NP (DT a) (NN surface))))))))
+(ROOT
+  (S
+    (NP (NN picture))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (JJ visual) (NN representation))
+        (VP (VBN produced) (PP (IN on) (NP (DT a) (NN surface))))))))
+[[u'nsubj', u'representation', u'picture', u'5', u'1'], [u'cop', u'representation', u'is', u'5', u'2'], [u'det', u'representation', u'a', u'5', u'3'], [u'amod', u'representation', u'visual', u'5', u'4'], [u'root', u'ROOT', u'representation', u'0', u'5'], [u'partmod', u'representation', u'produced', u'5', u'6'], [u'det', u'surface', u'a', u'9', u'8'], [u'prep_on', u'produced', u'surface', u'6', u'9']]
+[]
+picture is a visual representation  produced on a surface
+================================
+desk.n.01
+[[u'desk', u'0', u'4', u'desk', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'a', u'8', u'9', u'a', u'DT', u'O'], [u'piece', u'10', u'15', u'piece', u'NN', u'O'], [u'of', u'16', u'18', u'of', u'IN', u'O'], [u'furniture', u'19', u'28', u'furniture', u'NN', u'O'], [u'with', u'29', u'33', u'with', u'IN', u'O'], [u'a', u'34', u'35', u'a', u'DT', u'O'], [u'writing', u'36', u'43', u'write', u'VBG', u'O'], [u'surface', u'44', u'51', u'surface', u'NN', u'O'], [u'and', u'52', u'55', u'and', u'CC', u'O'], [u'usually', u'56', u'63', u'usually', u'RB', u'O'], [u'drawers', u'64', u'71', u'drawer', u'NNS', u'O'], [u'or', u'72', u'74', u'or', u'CC', u'O'], [u'other', u'75', u'80', u'other', u'JJ', u'O'], [u'compartments', u'81', u'93', u'compartment', u'NNS', u'O']]
+(ROOT (S (NP (NN desk)) (VP (VBZ is) (NP (NP (NP (DT a) (NN piece)) (PP (IN of) (NP (NP (NN furniture)) (PP (IN with) (NP (DT a) (VBG writing) (NN surface)))))) (CC and) (ADVP (RB usually)) (NP (NP (NNS drawers)) (CC or) (NP (JJ other) (NNS compartments)))))))
+(ROOT
+  (S
+    (NP (NN desk))
+    (VP
+      (VBZ is)
+      (NP
+        (NP
+          (NP (DT a) (NN piece))
+          (PP
+            (IN of)
+            (NP
+              (NP (NN furniture))
+              (PP (IN with) (NP (DT a) (VBG writing) (NN surface))))))
+        (CC and)
+        (ADVP (RB usually))
+        (NP
+          (NP (NNS drawers))
+          (CC or)
+          (NP (JJ other) (NNS compartments)))))))
+[[u'nsubj', u'piece', u'desk', u'4', u'1'], [u'cop', u'piece', u'is', u'4', u'2'], [u'det', u'piece', u'a', u'4', u'3'], [u'root', u'ROOT', u'piece', u'0', u'4'], [u'prep_of', u'piece', u'furniture', u'4', u'6'], [u'det', u'surface', u'a', u'10', u'8'], [u'amod', u'surface', u'writing', u'10', u'9'], [u'prep_with', u'furniture', u'surface', u'6', u'10'], [u'advmod', u'piece', u'usually', u'4', u'12'], [u'conj_and', u'piece', u'usually', u'4', u'12'], [u'conj_and', u'piece', u'drawers', u'4', u'13'], [u'amod', u'compartments', u'other', u'16', u'15'], [u'conj_and', u'piece', u'compartments', u'4', u'16'], [u'conj_or', u'drawers', u'compartments', u'13', u'16']]
+[]
+desk is a piece of furniture with a writing surface and usually drawers or other compartments
+================================
+station.n.01
+[[u'station', u'0', u'7', u'station', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'a', u'11', u'12', u'a', u'DT', u'O'], [u'facility', u'13', u'21', u'facility', u'NN', u'O'], [u'equipped', u'22', u'30', u'equip', u'VBN', u'O'], [u'with', u'31', u'35', u'with', u'IN', u'O'], [u'special', u'36', u'43', u'special', u'JJ', u'O'], [u'equipment', u'44', u'53', u'equipment', u'NN', u'O'], [u'and', u'54', u'57', u'and', u'CC', u'O'], [u'personnel', u'58', u'67', u'personnel', u'NNS', u'O'], [u'for', u'68', u'71', u'for', u'IN', u'O'], [u'a', u'72', u'73', u'a', u'DT', u'O'], [u'particular', u'74', u'84', u'particular', u'JJ', u'O'], [u'purpose', u'85', u'92', u'purpose', u'NN', u'O']]
+(ROOT (S (NP (NN station)) (VP (VBZ is) (NP (NP (DT a) (NN facility)) (VP (VBN equipped) (PP (IN with) (NP (JJ special) (NN equipment) (CC and) (NNS personnel))) (PP (IN for) (NP (DT a) (JJ particular) (NN purpose))))))))
+(ROOT
+  (S
+    (NP (NN station))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN facility))
+        (VP
+          (VBN equipped)
+          (PP
+            (IN with)
+            (NP (JJ special) (NN equipment) (CC and) (NNS personnel)))
+          (PP (IN for) (NP (DT a) (JJ particular) (NN purpose))))))))
+[[u'nsubj', u'facility', u'station', u'4', u'1'], [u'cop', u'facility', u'is', u'4', u'2'], [u'det', u'facility', u'a', u'4', u'3'], [u'root', u'ROOT', u'facility', u'0', u'4'], [u'partmod', u'facility', u'equipped', u'4', u'5'], [u'amod', u'equipment', u'special', u'8', u'7'], [u'prep_with', u'equipped', u'equipment', u'5', u'8'], [u'prep_with', u'equipped', u'personnel', u'5', u'10'], [u'conj_and', u'equipment', u'personnel', u'8', u'10'], [u'det', u'purpose', u'a', u'14', u'12'], [u'amod', u'purpose', u'particular', u'14', u'13'], [u'prep_for', u'equipped', u'purpose', u'5', u'14']]
+[]
+station is a facility equipped with special equipment and personnel for a particular purpose
+================================
+shelter.n.01
+[[u'shelter', u'0', u'7', u'shelter', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'a', u'11', u'12', u'a', u'DT', u'O'], [u'structure', u'13', u'22', u'structure', u'NN', u'O'], [u'that', u'23', u'27', u'that', u'WDT', u'O'], [u'provides', u'28', u'36', u'provide', u'VBZ', u'O'], [u'privacy', u'37', u'44', u'privacy', u'NN', u'O'], [u'and', u'45', u'48', u'and', u'CC', u'O'], [u'protection', u'49', u'59', u'protection', u'NN', u'O'], [u'from', u'60', u'64', u'from', u'IN', u'O'], [u'danger', u'65', u'71', u'danger', u'NN', u'O']]
+(ROOT (S (NP (NN shelter)) (VP (VBZ is) (NP (NP (DT a) (NN structure)) (SBAR (WHNP (WDT that)) (S (VP (VBZ provides) (NP (NN privacy) (CC and) (NN protection)) (PP (IN from) (NP (NN danger))))))))))
+(ROOT
+  (S
+    (NP (NN shelter))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN structure))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ provides)
+              (NP (NN privacy) (CC and) (NN protection))
+              (PP (IN from) (NP (NN danger))))))))))
+[[u'nsubj', u'structure', u'shelter', u'4', u'1'], [u'cop', u'structure', u'is', u'4', u'2'], [u'det', u'structure', u'a', u'4', u'3'], [u'root', u'ROOT', u'structure', u'0', u'4'], [u'nsubj', u'provides', u'structure', u'6', u'4'], [u'rcmod', u'structure', u'provides', u'4', u'6'], [u'dobj', u'provides', u'privacy', u'6', u'7'], [u'dobj', u'provides', u'protection', u'6', u'9'], [u'conj_and', u'privacy', u'protection', u'7', u'9'], [u'prep_from', u'provides', u'danger', u'6', u'11']]
+[]
+shelter is a structure that provides privacy and protection from danger
+================================
+farm.n.01
+[[u'farm', u'0', u'4', u'farm', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'workplace', u'8', u'17', u'workplace', u'JJ', u'O'], [u'consisting', u'18', u'28', u'consist', u'VBG', u'O'], [u'of', u'29', u'31', u'of', u'IN', u'O'], [u'farm', u'32', u'36', u'farm', u'NN', u'O'], [u'buildings', u'37', u'46', u'building', u'NNS', u'O'], [u'and', u'47', u'50', u'and', u'CC', u'O'], [u'cultivated', u'51', u'61', u'cultivate', u'VBN', u'O'], [u'land', u'62', u'66', u'land', u'NN', u'O'], [u'as', u'67', u'69', u'as', u'IN', u'O'], [u'a', u'70', u'71', u'a', u'DT', u'O'], [u'unit', u'72', u'76', u'unit', u'NN', u'O']]
+(ROOT (S (NP (NN farm)) (VP (VBZ is) (ADJP (JJ workplace)) (S (VP (VBG consisting) (PP (IN of) (NP (NP (NN farm) (NNS buildings)) (CC and) (NP (NP (VBN cultivated) (NN land)) (PP (IN as) (NP (DT a) (NN unit)))))))))))
+(ROOT
+  (S
+    (NP (NN farm))
+    (VP
+      (VBZ is)
+      (ADJP (JJ workplace))
+      (S
+        (VP
+          (VBG consisting)
+          (PP
+            (IN of)
+            (NP
+              (NP (NN farm) (NNS buildings))
+              (CC and)
+              (NP
+                (NP (VBN cultivated) (NN land))
+                (PP (IN as) (NP (DT a) (NN unit)))))))))))
+[[u'nsubj', u'workplace', u'farm', u'3', u'1'], [u'cop', u'workplace', u'is', u'3', u'2'], [u'root', u'ROOT', u'workplace', u'0', u'3'], [u'xcomp', u'workplace', u'consisting', u'3', u'4'], [u'nn', u'buildings', u'farm', u'7', u'6'], [u'prep_of', u'consisting', u'buildings', u'4', u'7'], [u'amod', u'land', u'cultivated', u'10', u'9'], [u'prep_of', u'consisting', u'land', u'4', u'10'], [u'conj_and', u'buildings', u'land', u'7', u'10'], [u'det', u'unit', u'a', u'13', u'12'], [u'prep_as', u'land', u'unit', u'10', u'13']]
+[]
+farm is workplace consisting of farm buildings and cultivated land as a unit
+================================
+part.n.02
+[[u'part', u'0', u'4', u'part', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'something', u'8', u'17', u'something', u'NN', u'O'], [u'less', u'18', u'22', u'less', u'JJR', u'O'], [u'than', u'23', u'27', u'than', u'IN', u'O'], [u'the', u'28', u'31', u'the', u'DT', u'O'], [u'whole', u'32', u'37', u'whole', u'NN', u'O'], [u'of', u'38', u'40', u'of', u'IN', u'O'], [u'a', u'41', u'42', u'a', u'DT', u'O'], [u'human', u'43', u'48', u'human', u'JJ', u'O'], [u'artifact', u'49', u'57', u'artifact', u'NN', u'O']]
+(ROOT (S (NP (NN part)) (VP (VBZ is) (ADJP (NP (NN something)) (JJR less) (PP (IN than) (NP (NP (DT the) (NN whole)) (PP (IN of) (NP (DT a) (JJ human) (NN artifact)))))))))
+(ROOT
+  (S
+    (NP (NN part))
+    (VP
+      (VBZ is)
+      (ADJP
+        (NP (NN something))
+        (JJR less)
+        (PP
+          (IN than)
+          (NP
+            (NP (DT the) (NN whole))
+            (PP (IN of) (NP (DT a) (JJ human) (NN artifact)))))))))
+[[u'nsubj', u'less', u'part', u'4', u'1'], [u'cop', u'less', u'is', u'4', u'2'], [u'npadvmod', u'less', u'something', u'4', u'3'], [u'root', u'ROOT', u'less', u'0', u'4'], [u'det', u'whole', u'the', u'7', u'6'], [u'prep_than', u'less', u'whole', u'4', u'7'], [u'det', u'artifact', u'a', u'11', u'9'], [u'amod', u'artifact', u'human', u'11', u'10'], [u'prep_of', u'whole', u'artifact', u'7', u'11']]
+[]
+part is something less than the whole of a human artifact
+================================
+coat.n.01
+[[u'coat', u'0', u'4', u'coat', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'an', u'8', u'10', u'a', u'DT', u'O'], [u'outer', u'11', u'16', u'outer', u'JJ', u'O'], [u'garment', u'17', u'24', u'garment', u'NN', u'O'], [u'that', u'25', u'29', u'that', u'WDT', u'O'], [u'has', u'30', u'33', u'have', u'VBZ', u'O'], [u'sleeves', u'34', u'41', u'sleeve', u'NNS', u'O'], [u'and', u'42', u'45', u'and', u'CC', u'O'], [u'covers', u'46', u'52', u'cover', u'VBZ', u'O'], [u'the', u'53', u'56', u'the', u'DT', u'O'], [u'body', u'57', u'61', u'body', u'NN', u'O'], [u'from', u'62', u'66', u'from', u'IN', u'O'], [u'shoulder', u'67', u'75', u'shoulder', u'NN', u'O'], [u'down', u'76', u'80', u'down', u'RB', u'O'], [u';', u'80', u'81', u';', u':', u'O'], [u'worn', u'82', u'86', u'wear', u'VBG', u'O'], [u'outdoors', u'87', u'95', u'outdoors', u'NNS', u'O']]
+(ROOT (S (NP (NN coat)) (VP (VBZ is) (NP (NP (DT an) (JJ outer) (NN garment)) (SBAR (WHNP (WDT that)) (S (VP (VP (VBZ has) (NP (NNS sleeves))) (CC and) (VP (VBZ covers) (NP (DT the) (NN body)) (PP (IN from) (NP (NN shoulder))) (ADVP (RB down)))))) (: ;) (S (VP (VBG worn) (NP (NNS outdoors))))))))
+(ROOT
+  (S
+    (NP (NN coat))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT an) (JJ outer) (NN garment))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VP (VBZ has) (NP (NNS sleeves)))
+              (CC and)
+              (VP
+                (VBZ covers)
+                (NP (DT the) (NN body))
+                (PP (IN from) (NP (NN shoulder)))
+                (ADVP (RB down))))))
+        (: ;)
+        (S (VP (VBG worn) (NP (NNS outdoors))))))))
+[[u'nsubj', u'garment', u'coat', u'5', u'1'], [u'cop', u'garment', u'is', u'5', u'2'], [u'det', u'garment', u'an', u'5', u'3'], [u'amod', u'garment', u'outer', u'5', u'4'], [u'root', u'ROOT', u'garment', u'0', u'5'], [u'nsubj', u'has', u'garment', u'7', u'5'], [u'nsubj', u'covers', u'garment', u'10', u'5'], [u'rcmod', u'garment', u'has', u'5', u'7'], [u'dobj', u'has', u'sleeves', u'7', u'8'], [u'rcmod', u'garment', u'covers', u'5', u'10'], [u'conj_and', u'has', u'covers', u'7', u'10'], [u'det', u'body', u'the', u'12', u'11'], [u'dobj', u'covers', u'body', u'10', u'12'], [u'prep_from', u'covers', u'shoulder', u'10', u'14'], [u'advmod', u'covers', u'down', u'10', u'15'], [u'dep', u'garment', u'worn', u'5', u'17'], [u'dobj', u'worn', u'outdoors', u'17', u'18']]
+[]
+coat is an outer garment that has sleeves and covers the body from shoulder down; worn outdoors
+================================
+phonograph_record.n.01
+[[u'phonograph_record', u'0', u'17', u'phonograph_record', u'NN', u'O'], [u'is', u'18', u'20', u'be', u'VBZ', u'O'], [u'sound', u'21', u'26', u'sound', u'JJ', u'O'], [u'recording', u'27', u'36', u'recording', u'NN', u'O'], [u'consisting', u'37', u'47', u'consist', u'VBG', u'O'], [u'of', u'48', u'50', u'of', u'IN', u'O'], [u'a', u'51', u'52', u'a', u'DT', u'O'], [u'disk', u'53', u'57', u'disk', u'NN', u'O'], [u'with', u'58', u'62', u'with', u'IN', u'O'], [u'a', u'63', u'64', u'a', u'DT', u'O'], [u'continuous', u'65', u'75', u'continuous', u'JJ', u'O'], [u'groove', u'76', u'82', u'groove', u'NN', u'O'], [u';', u'82', u'83', u';', u':', u'O'], [u'used', u'84', u'88', u'use', u'VBN', u'O'], [u'to', u'89', u'91', u'to', u'TO', u'O'], [u'reproduce', u'92', u'101', u'reproduce', u'VB', u'O'], [u'music', u'102', u'107', u'music', u'NN', u'O'], [u'by', u'108', u'110', u'by', u'IN', u'O'], [u'rotating', u'111', u'119', u'rotate', u'VBG', u'O'], [u'while', u'120', u'125', u'while', u'IN', u'O'], [u'a', u'126', u'127', u'a', u'DT', u'O'], [u'phonograph', u'128', u'138', u'phonograph', u'NN', u'O'], [u'needle', u'139', u'145', u'needle', u'NN', u'O'], [u'tracks', u'146', u'152', u'track', u'NNS', u'O'], [u'in', u'153', u'155', u'in', u'IN', u'O'], [u'the', u'156', u'159', u'the', u'DT', u'O'], [u'groove', u'160', u'166', u'groove', u'NN', u'O']]
+(ROOT (S (NP (NN phonograph_record)) (VP (VBZ is) (NP (NP (JJ sound) (NN recording)) (VP (VBG consisting) (PP (IN of) (NP (DT a) (NN disk))) (PP (IN with) (NP (NP (DT a) (JJ continuous) (NN groove)) (: ;) (VP (VBN used) (S (VP (TO to) (VP (VB reproduce) (NP (NN music)) (PP (IN by) (NP (NP (VBG rotating)) (PP (IN while) (NP (NP (DT a) (NN phonograph) (NN needle) (NNS tracks)) (PP (IN in) (NP (DT the) (NN groove))))))))))))))))))
+(ROOT
+  (S
+    (NP (NN phonograph_record))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (JJ sound) (NN recording))
+        (VP
+          (VBG consisting)
+          (PP (IN of) (NP (DT a) (NN disk)))
+          (PP
+            (IN with)
+            (NP
+              (NP (DT a) (JJ continuous) (NN groove))
+              (: ;)
+              (VP
+                (VBN used)
+                (S
+                  (VP
+                    (TO to)
+                    (VP
+                      (VB reproduce)
+                      (NP (NN music))
+                      (PP
+                        (IN by)
+                        (NP
+                          (NP (VBG rotating))
+                          (PP
+                            (IN while)
+                            (NP
+                              (NP
+                                (DT a)
+                                (NN phonograph)
+                                (NN needle)
+                                (NNS tracks))
+                              (PP (IN in) (NP (DT the) (NN groove))))))))))))))))))
+[[u'nsubj', u'recording', u'phonograph_record', u'4', u'1'], [u'cop', u'recording', u'is', u'4', u'2'], [u'amod', u'recording', u'sound', u'4', u'3'], [u'root', u'ROOT', u'recording', u'0', u'4'], [u'partmod', u'recording', u'consisting', u'4', u'5'], [u'det', u'disk', u'a', u'8', u'7'], [u'prep_of', u'consisting', u'disk', u'5', u'8'], [u'det', u'groove', u'a', u'12', u'10'], [u'amod', u'groove', u'continuous', u'12', u'11'], [u'prep_with', u'consisting', u'groove', u'5', u'12'], [u'partmod', u'groove', u'used', u'12', u'14'], [u'aux', u'reproduce', u'to', u'16', u'15'], [u'xcomp', u'used', u'reproduce', u'14', u'16'], [u'dobj', u'reproduce', u'music', u'16', u'17'], [u'prep_by', u'reproduce', u'rotating', u'16', u'19'], [u'det', u'tracks', u'a', u'24', u'21'], [u'nn', u'tracks', u'phonograph', u'24', u'22'], [u'nn', u'tracks', u'needle', u'24', u'23'], [u'prep_while', u'rotating', u'tracks', u'19', u'24'], [u'det', u'groove', u'the', u'27', u'26'], [u'prep_in', u'tracks', u'groove', u'24', u'27']]
+[]
+phonograph_record is sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove
+================================
+product.n.02
+[[u'product', u'0', u'7', u'product', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'an', u'11', u'13', u'a', u'DT', u'O'], [u'artifact', u'14', u'22', u'artifact', u'NN', u'O'], [u'that', u'23', u'27', u'that', u'WDT', u'O'], [u'has', u'28', u'31', u'have', u'VBZ', u'O'], [u'been', u'32', u'36', u'be', u'VBN', u'O'], [u'created', u'37', u'44', u'create', u'VBN', u'O'], [u'by', u'45', u'47', u'by', u'IN', u'O'], [u'someone', u'48', u'55', u'someone', u'NN', u'O'], [u'or', u'56', u'58', u'or', u'CC', u'O'], [u'some', u'59', u'63', u'some', u'DT', u'O'], [u'process', u'64', u'71', u'process', u'NN', u'O']]
+(ROOT (S (NP (NN product)) (VP (VBZ is) (NP (NP (DT an) (NN artifact)) (SBAR (WHNP (WDT that)) (S (VP (VBZ has) (VP (VBN been) (VP (VBN created) (PP (IN by) (NP (NP (NN someone)) (CC or) (NP (DT some) (NN process)))))))))))))
+(ROOT
+  (S
+    (NP (NN product))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT an) (NN artifact))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ has)
+              (VP
+                (VBN been)
+                (VP
+                  (VBN created)
+                  (PP
+                    (IN by)
+                    (NP
+                      (NP (NN someone))
+                      (CC or)
+                      (NP (DT some) (NN process)))))))))))))
+[[u'nsubj', u'artifact', u'product', u'4', u'1'], [u'cop', u'artifact', u'is', u'4', u'2'], [u'det', u'artifact', u'an', u'4', u'3'], [u'root', u'ROOT', u'artifact', u'0', u'4'], [u'nsubjpass', u'created', u'artifact', u'8', u'4'], [u'aux', u'created', u'has', u'8', u'6'], [u'auxpass', u'created', u'been', u'8', u'7'], [u'rcmod', u'artifact', u'created', u'4', u'8'], [u'agent', u'created', u'someone', u'8', u'10'], [u'det', u'process', u'some', u'13', u'12'], [u'agent', u'created', u'process', u'8', u'13'], [u'conj_or', u'someone', u'process', u'10', u'13']]
+[]
+product is an artifact that has been created by someone or some process
+================================
+plant.n.01
+[[u'plant', u'0', u'5', u'plant', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'buildings', u'9', u'18', u'building', u'NNS', u'O'], [u'for', u'19', u'22', u'for', u'IN', u'O'], [u'carrying', u'23', u'31', u'carry', u'VBG', u'O'], [u'on', u'32', u'34', u'on', u'IN', u'O'], [u'industrial', u'35', u'45', u'industrial', u'JJ', u'O'], [u'labor', u'46', u'51', u'labor', u'NN', u'O']]
+(ROOT (S (NP (NN plant)) (VP (VBZ is) (NP (NP (NNS buildings)) (PP (IN for) (S (VP (VBG carrying) (PP (IN on) (NP (JJ industrial) (NN labor))))))))))
+(ROOT
+  (S
+    (NP (NN plant))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NNS buildings))
+        (PP
+          (IN for)
+          (S
+            (VP
+              (VBG carrying)
+              (PP (IN on) (NP (JJ industrial) (NN labor))))))))))
+[[u'nsubj', u'buildings', u'plant', u'3', u'1'], [u'cop', u'buildings', u'is', u'3', u'2'], [u'root', u'ROOT', u'buildings', u'0', u'3'], [u'prepc_for', u'buildings', u'carrying', u'3', u'5'], [u'amod', u'labor', u'industrial', u'8', u'7'], [u'prep_on', u'carrying', u'labor', u'5', u'8']]
+[]
+plant is buildings for carrying on industrial labor
+================================
+ball.n.01
+[[u'ball', u'0', u'4', u'ball', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'round', u'8', u'13', u'round', u'JJ', u'O'], [u'object', u'14', u'20', u'object', u'NN', u'O'], [u'that', u'21', u'25', u'that', u'WDT', u'O'], [u'is', u'26', u'28', u'be', u'VBZ', u'O'], [u'hit', u'29', u'32', u'hit', u'VBN', u'O'], [u'or', u'33', u'35', u'or', u'CC', u'O'], [u'thrown', u'36', u'42', u'throw', u'VBN', u'O'], [u'or', u'43', u'45', u'or', u'CC', u'O'], [u'kicked', u'46', u'52', u'kick', u'VBN', u'O'], [u'in', u'53', u'55', u'in', u'IN', u'O'], [u'games', u'56', u'61', u'game', u'NNS', u'O']]
+(ROOT (S (NP (NN ball)) (VP (VBZ is) (NP (NP (JJ round) (NN object)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (VP (VP (VBN hit) (CC or) (VBN thrown)) (CC or) (VP (VBN kicked) (PP (IN in) (NP (NNS games))))))))))))
+(ROOT
+  (S
+    (NP (NN ball))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (JJ round) (NN object))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ is)
+              (VP
+                (VP (VBN hit) (CC or) (VBN thrown))
+                (CC or)
+                (VP (VBN kicked) (PP (IN in) (NP (NNS games))))))))))))
+[[u'nsubj', u'object', u'ball', u'4', u'1'], [u'cop', u'object', u'is', u'4', u'2'], [u'amod', u'object', u'round', u'4', u'3'], [u'root', u'ROOT', u'object', u'0', u'4'], [u'nsubjpass', u'hit', u'object', u'7', u'4'], [u'nsubjpass', u'thrown', u'object', u'9', u'4'], [u'nsubjpass', u'kicked', u'object', u'11', u'4'], [u'auxpass', u'hit', u'is', u'7', u'6'], [u'rcmod', u'object', u'hit', u'4', u'7'], [u'rcmod', u'object', u'thrown', u'4', u'9'], [u'conj_or', u'hit', u'thrown', u'7', u'9'], [u'rcmod', u'object', u'kicked', u'4', u'11'], [u'conj_or', u'hit', u'kicked', u'7', u'11'], [u'prep_in', u'kicked', u'games', u'11', u'13']]
+[]
+ball is round object that is hit or thrown or kicked in games
+================================
+camera.n.01
+[[u'camera', u'0', u'6', u'camera', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'equipment', u'10', u'19', u'equipment', u'NN', u'O'], [u'for', u'20', u'23', u'for', u'IN', u'O'], [u'taking', u'24', u'30', u'take', u'VBG', u'O'], [u'photographs', u'31', u'42', u'photograph', u'NNS', u'O']]
+(ROOT (S (NP (NN camera)) (VP (VBZ is) (NP (NP (NN equipment)) (PP (IN for) (S (VP (VBG taking) (NP (NNS photographs)))))))))
+(ROOT
+  (S
+    (NP (NN camera))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NN equipment))
+        (PP (IN for) (S (VP (VBG taking) (NP (NNS photographs)))))))))
+[[u'nsubj', u'equipment', u'camera', u'3', u'1'], [u'cop', u'equipment', u'is', u'3', u'2'], [u'root', u'ROOT', u'equipment', u'0', u'3'], [u'prepc_for', u'equipment', u'taking', u'3', u'5'], [u'dobj', u'taking', u'photographs', u'5', u'6']]
+[]
+camera is equipment for taking photographs
+================================
+hallway.n.01
+[[u'hallway', u'0', u'7', u'hallway', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'an', u'11', u'13', u'a', u'DT', u'O'], [u'interior', u'14', u'22', u'interior', u'JJ', u'O'], [u'passage', u'23', u'30', u'passage', u'NN', u'O'], [u'or', u'31', u'33', u'or', u'CC', u'O'], [u'corridor', u'34', u'42', u'corridor', u'NN', u'O'], [u'onto', u'43', u'47', u'onto', u'IN', u'O'], [u'which', u'48', u'53', u'which', u'WDT', u'O'], [u'rooms', u'54', u'59', u'room', u'NNS', u'O'], [u'open', u'60', u'64', u'open', u'JJ', u'O']]
+(ROOT (S (NP (NN hallway)) (VP (VBZ is) (NP (DT an) (JJ interior) (NN passage) (CC or) (NN corridor)) (PP (IN onto) (WHNP (WDT which) (NNS rooms))) (ADVP (JJ open)))))
+(ROOT
+  (S
+    (NP (NN hallway))
+    (VP
+      (VBZ is)
+      (NP (DT an) (JJ interior) (NN passage) (CC or) (NN corridor))
+      (PP (IN onto) (WHNP (WDT which) (NNS rooms)))
+      (ADVP (JJ open)))))
+[[u'nsubj', u'passage', u'hallway', u'5', u'1'], [u'cop', u'passage', u'is', u'5', u'2'], [u'det', u'passage', u'an', u'5', u'3'], [u'amod', u'passage', u'interior', u'5', u'4'], [u'root', u'ROOT', u'passage', u'0', u'5'], [u'conj_or', u'passage', u'corridor', u'5', u'7'], [u'det', u'rooms', u'which', u'10', u'9'], [u'prep_onto', u'passage', u'rooms', u'5', u'10'], [u'advmod', u'passage', u'open', u'5', u'11']]
+[]
+hallway is an interior passage or corridor onto which rooms open
+================================
+work.n.02
+[[u'work', u'0', u'4', u'work', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'a', u'8', u'9', u'a', u'DT', u'O'], [u'product', u'10', u'17', u'product', u'NN', u'O'], [u'produced', u'18', u'26', u'produce', u'VBD', u'O'], [u'or', u'27', u'29', u'or', u'CC', u'O'], [u'accomplished', u'30', u'42', u'accomplish', u'VBN', u'O'], [u'through', u'43', u'50', u'through', u'IN', u'O'], [u'the', u'51', u'54', u'the', u'DT', u'O'], [u'effort', u'55', u'61', u'effort', u'NN', u'O'], [u'or', u'62', u'64', u'or', u'CC', u'O'], [u'activity', u'65', u'73', u'activity', u'NN', u'O'], [u'or', u'74', u'76', u'or', u'CC', u'O'], [u'agency', u'77', u'83', u'agency', u'NN', u'O'], [u'of', u'84', u'86', u'of', u'IN', u'O'], [u'a', u'87', u'88', u'a', u'DT', u'O'], [u'person', u'89', u'95', u'person', u'NN', u'O'], [u'or', u'96', u'98', u'or', u'CC', u'O'], [u'thing', u'99', u'104', u'thing', u'NN', u'O']]
+(ROOT (S (NP (NN work)) (VP (VBZ is) (NP (NP (DT a) (NN product)) (SBAR (S (VP (VP (VBD produced)) (CC or) (VP (VBN accomplished) (PP (IN through) (NP (NP (DT the) (NN effort)) (CC or) (NP (NP (NN activity) (CC or) (NN agency)) (PP (IN of) (NP (DT a) (NN person) (CC or) (NN thing))))))))))))))
+(ROOT
+  (S
+    (NP (NN work))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN product))
+        (SBAR
+          (S
+            (VP
+              (VP (VBD produced))
+              (CC or)
+              (VP
+                (VBN accomplished)
+                (PP
+                  (IN through)
+                  (NP
+                    (NP (DT the) (NN effort))
+                    (CC or)
+                    (NP
+                      (NP (NN activity) (CC or) (NN agency))
+                      (PP
+                        (IN of)
+                        (NP (DT a) (NN person) (CC or) (NN thing))))))))))))))
+[[u'nsubj', u'product', u'work', u'4', u'1'], [u'cop', u'product', u'is', u'4', u'2'], [u'det', u'product', u'a', u'4', u'3'], [u'root', u'ROOT', u'product', u'0', u'4'], [u'rcmod', u'product', u'produced', u'4', u'5'], [u'rcmod', u'product', u'accomplished', u'4', u'7'], [u'conj_or', u'produced', u'accomplished', u'5', u'7'], [u'det', u'effort', u'the', u'10', u'9'], [u'prep_through', u'accomplished', u'effort', u'7', u'10'], [u'prep_through', u'accomplished', u'activity', u'7', u'12'], [u'conj_or', u'effort', u'activity', u'10', u'12'], [u'conj_or', u'effort', u'agency', u'10', u'14'], [u'conj_or', u'activity', u'agency', u'12', u'14'], [u'det', u'person', u'a', u'17', u'16'], [u'prep_of', u'activity', u'person', u'12', u'17'], [u'prep_of', u'activity', u'thing', u'12', u'19'], [u'conj_or', u'person', u'thing', u'17', u'19']]
+[]
+work is a product produced or accomplished through the effort or activity or agency of a person or thing
+================================
+basement.n.01
+[[u'basement', u'0', u'8', u'basement', u'NN', u'O'], [u'is', u'9', u'11', u'be', u'VBZ', u'O'], [u'the', u'12', u'15', u'the', u'DT', u'O'], [u'lowermost', u'16', u'25', u'lowermost', u'JJS', u'O'], [u'portion', u'26', u'33', u'portion', u'NN', u'O'], [u'of', u'34', u'36', u'of', u'IN', u'O'], [u'a', u'37', u'38', u'a', u'DT', u'O'], [u'structure', u'39', u'48', u'structure', u'NN', u'O'], [u'partly', u'49', u'55', u'partly', u'RB', u'O'], [u'or', u'56', u'58', u'or', u'CC', u'O'], [u'wholly', u'59', u'65', u'wholly', u'RB', u'O'], [u'below', u'66', u'71', u'below', u'IN', u'O'], [u'ground', u'72', u'78', u'ground', u'NN', u'O'], [u'level', u'79', u'84', u'level', u'NN', u'O'], [u';', u'84', u'85', u';', u':', u'O'], [u'often', u'86', u'91', u'often', u'RB', u'O'], [u'used', u'92', u'96', u'use', u'VBN', u'O'], [u'for', u'97', u'100', u'for', u'IN', u'O'], [u'storage', u'101', u'108', u'storage', u'NN', u'O']]
+(ROOT (S (S (NP (NN basement)) (VP (VBZ is) (NP (NP (DT the) (JJS lowermost) (NN portion)) (PP (IN of) (NP (NP (DT a) (NN structure)) (UCP (ADVP (RB partly)) (CC or) (PP (ADVP (RB wholly)) (IN below) (NP (NN ground) (NN level))))))))) (: ;) (S (ADVP (RB often)) (VP (VBN used) (PP (IN for) (NP (NN storage)))))))
+(ROOT
+  (S
+    (S
+      (NP (NN basement))
+      (VP
+        (VBZ is)
+        (NP
+          (NP (DT the) (JJS lowermost) (NN portion))
+          (PP
+            (IN of)
+            (NP
+              (NP (DT a) (NN structure))
+              (UCP
+                (ADVP (RB partly))
+                (CC or)
+                (PP
+                  (ADVP (RB wholly))
+                  (IN below)
+                  (NP (NN ground) (NN level)))))))))
+    (: ;)
+    (S
+      (ADVP (RB often))
+      (VP (VBN used) (PP (IN for) (NP (NN storage)))))))
+[[u'nsubj', u'portion', u'basement', u'5', u'1'], [u'cop', u'portion', u'is', u'5', u'2'], [u'det', u'portion', u'the', u'5', u'3'], [u'amod', u'portion', u'lowermost', u'5', u'4'], [u'root', u'ROOT', u'portion', u'0', u'5'], [u'det', u'structure', u'a', u'8', u'7'], [u'prep_of', u'portion', u'structure', u'5', u'8'], [u'dep', u'structure', u'partly', u'8', u'9'], [u'advmod', u'below', u'wholly', u'12', u'11'], [u'dep', u'structure', u'below', u'8', u'12'], [u'conj_or', u'partly', u'below', u'9', u'12'], [u'nn', u'level', u'ground', u'14', u'13'], [u'pobj', u'below', u'level', u'12', u'14'], [u'advmod', u'used', u'often', u'17', u'16'], [u'parataxis', u'portion', u'used', u'5', u'17'], [u'prep_for', u'used', u'storage', u'17', u'19']]
+[]
+basement is the lowermost portion of a structure partly or wholly below ground level; often used for storage
+================================
+anteroom.n.01
+[[u'anteroom', u'0', u'8', u'anteroom', u'NN', u'O'], [u'is', u'9', u'11', u'be', u'VBZ', u'O'], [u'a', u'12', u'13', u'a', u'DT', u'O'], [u'large', u'14', u'19', u'large', u'JJ', u'O'], [u'entrance', u'20', u'28', u'entrance', u'NN', u'O'], [u'or', u'29', u'31', u'or', u'CC', u'O'], [u'reception', u'32', u'41', u'reception', u'NN', u'O'], [u'room', u'42', u'46', u'room', u'NN', u'O'], [u'or', u'47', u'49', u'or', u'CC', u'O'], [u'area', u'50', u'54', u'area', u'NN', u'O']]
+(ROOT (S (NP (NN anteroom)) (VP (VBZ is) (NP (NP (NP (DT a) (JJ large) (NN entrance)) (CC or) (NP (NN reception) (NN room))) (CC or) (NP (NN area))))))
+(ROOT
+  (S
+    (NP (NN anteroom))
+    (VP
+      (VBZ is)
+      (NP
+        (NP
+          (NP (DT a) (JJ large) (NN entrance))
+          (CC or)
+          (NP (NN reception) (NN room)))
+        (CC or)
+        (NP (NN area))))))
+[[u'nsubj', u'entrance', u'anteroom', u'5', u'1'], [u'cop', u'entrance', u'is', u'5', u'2'], [u'det', u'entrance', u'a', u'5', u'3'], [u'amod', u'entrance', u'large', u'5', u'4'], [u'root', u'ROOT', u'entrance', u'0', u'5'], [u'nn', u'room', u'reception', u'8', u'7'], [u'conj_or', u'entrance', u'room', u'5', u'8'], [u'conj_or', u'entrance', u'area', u'5', u'10']]
+[]
+anteroom is a large entrance or reception room or area
+================================
+box.n.01
+[[u'box', u'0', u'3', u'box', u'NN', u'O'], [u'is', u'4', u'6', u'be', u'VBZ', u'O'], [u'a', u'7', u'8', u'a', u'DT', u'O'], [u'container', u'10', u'19', u'container', u'NN', u'O'], [u';', u'19', u'20', u';', u':', u'O'], [u'may', u'21', u'24', u'may', u'MD', u'O'], [u'have', u'25', u'29', u'have', u'VB', u'O'], [u'a', u'30', u'31', u'a', u'DT', u'O'], [u'lid', u'32', u'35', u'lid', u'NN', u'O']]
+(ROOT (S (NP (NN box)) (VP (VBZ is) (NP (NP (DT a) (NN container)) (: ;) (S (VP (MD may) (VP (VB have) (NP (DT a) (NN lid)))))))))
+(ROOT
+  (S
+    (NP (NN box))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN container))
+        (: ;)
+        (S (VP (MD may) (VP (VB have) (NP (DT a) (NN lid)))))))))
+[[u'nsubj', u'container', u'box', u'4', u'1'], [u'cop', u'container', u'is', u'4', u'2'], [u'det', u'container', u'a', u'4', u'3'], [u'root', u'ROOT', u'container', u'0', u'4'], [u'aux', u'have', u'may', u'7', u'6'], [u'dep', u'container', u'have', u'4', u'7'], [u'det', u'lid', u'a', u'9', u'8'], [u'dobj', u'have', u'lid', u'7', u'9']]
+[]
+box is a  container; may have a lid
+================================
+hotel.n.01
+[[u'hotel', u'0', u'5', u'hotel', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'a', u'9', u'10', u'a', u'DT', u'O'], [u'building', u'11', u'19', u'building', u'NN', u'O'], [u'where', u'20', u'25', u'where', u'WRB', u'O'], [u'travelers', u'26', u'35', u'traveler', u'NNS', u'O'], [u'can', u'36', u'39', u'can', u'MD', u'O'], [u'pay', u'40', u'43', u'pay', u'VB', u'O'], [u'for', u'44', u'47', u'for', u'IN', u'O'], [u'lodging', u'48', u'55', u'lodging', u'NN', u'O'], [u'and', u'56', u'59', u'and', u'CC', u'O'], [u'meals', u'60', u'65', u'meal', u'NNS', u'O'], [u'and', u'66', u'69', u'and', u'CC', u'O'], [u'other', u'70', u'75', u'other', u'JJ', u'O'], [u'services', u'76', u'84', u'service', u'NNS', u'O']]
+(ROOT (S (NP (NN hotel)) (VP (VBZ is) (NP (NP (DT a) (NN building)) (SBAR (WHADVP (WRB where)) (S (NP (NNS travelers)) (VP (MD can) (VP (VB pay) (PP (IN for) (NP (NP (NN lodging) (CC and) (NNS meals)) (CC and) (NP (JJ other) (NNS services))))))))))))
+(ROOT
+  (S
+    (NP (NN hotel))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN building))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (NNS travelers))
+            (VP
+              (MD can)
+              (VP
+                (VB pay)
+                (PP
+                  (IN for)
+                  (NP
+                    (NP (NN lodging) (CC and) (NNS meals))
+                    (CC and)
+                    (NP (JJ other) (NNS services))))))))))))
+[[u'nsubj', u'building', u'hotel', u'4', u'1'], [u'cop', u'building', u'is', u'4', u'2'], [u'det', u'building', u'a', u'4', u'3'], [u'root', u'ROOT', u'building', u'0', u'4'], [u'advmod', u'pay', u'where', u'8', u'5'], [u'nsubj', u'pay', u'travelers', u'8', u'6'], [u'aux', u'pay', u'can', u'8', u'7'], [u'rcmod', u'building', u'pay', u'4', u'8'], [u'prep_for', u'pay', u'lodging', u'8', u'10'], [u'prep_for', u'pay', u'meals', u'8', u'12'], [u'conj_and', u'lodging', u'meals', u'10', u'12'], [u'amod', u'services', u'other', u'15', u'14'], [u'prep_for', u'pay', u'services', u'8', u'15'], [u'conj_and', u'lodging', u'services', u'10', u'15']]
+[]
+hotel is a building where travelers can pay for lodging and meals and other services
+================================
+floor.n.02
+[[u'floor', u'0', u'5', u'floor', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'a', u'9', u'10', u'a', u'DT', u'O'], [u'structure', u'11', u'20', u'structure', u'NN', u'O'], [u'consisting', u'21', u'31', u'consist', u'VBG', u'O'], [u'of', u'32', u'34', u'of', u'IN', u'O'], [u'a', u'35', u'36', u'a', u'DT', u'O'], [u'room', u'37', u'41', u'room', u'NN', u'O'], [u'or', u'42', u'44', u'or', u'CC', u'O'], [u'set', u'45', u'48', u'set', u'NN', u'O'], [u'of', u'49', u'51', u'of', u'IN', u'O'], [u'rooms', u'52', u'57', u'room', u'NNS', u'O'], [u'at', u'58', u'60', u'at', u'IN', u'O'], [u'a', u'61', u'62', u'a', u'DT', u'O'], [u'single', u'63', u'69', u'single', u'JJ', u'O'], [u'position', u'70', u'78', u'position', u'NN', u'O'], [u'along', u'79', u'84', u'along', u'IN', u'O'], [u'a', u'85', u'86', u'a', u'DT', u'O'], [u'vertical', u'87', u'95', u'vertical', u'JJ', u'O'], [u'scale', u'96', u'101', u'scale', u'NN', u'O']]
+(ROOT (S (NP (NN floor)) (VP (VBZ is) (NP (NP (DT a) (NN structure)) (VP (VBG consisting) (PP (IN of) (NP (NP (DT a) (NN room) (CC or) (NN set)) (PP (IN of) (NP (NNS rooms))))) (PP (IN at) (NP (NP (DT a) (JJ single) (NN position)) (PP (IN along) (NP (DT a) (JJ vertical) (NN scale))))))))))
+(ROOT
+  (S
+    (NP (NN floor))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN structure))
+        (VP
+          (VBG consisting)
+          (PP
+            (IN of)
+            (NP
+              (NP (DT a) (NN room) (CC or) (NN set))
+              (PP (IN of) (NP (NNS rooms)))))
+          (PP
+            (IN at)
+            (NP
+              (NP (DT a) (JJ single) (NN position))
+              (PP (IN along) (NP (DT a) (JJ vertical) (NN scale))))))))))
+[[u'nsubj', u'structure', u'floor', u'4', u'1'], [u'cop', u'structure', u'is', u'4', u'2'], [u'det', u'structure', u'a', u'4', u'3'], [u'root', u'ROOT', u'structure', u'0', u'4'], [u'partmod', u'structure', u'consisting', u'4', u'5'], [u'det', u'room', u'a', u'8', u'7'], [u'prep_of', u'consisting', u'room', u'5', u'8'], [u'prep_of', u'consisting', u'set', u'5', u'10'], [u'conj_or', u'room', u'set', u'8', u'10'], [u'prep_of', u'room', u'rooms', u'8', u'12'], [u'det', u'position', u'a', u'16', u'14'], [u'amod', u'position', u'single', u'16', u'15'], [u'prep_at', u'consisting', u'position', u'5', u'16'], [u'det', u'scale', u'a', u'20', u'18'], [u'amod', u'scale', u'vertical', u'20', u'19'], [u'prep_along', u'position', u'scale', u'16', u'20']]
+[]
+floor is a structure consisting of a room or set of rooms at a single position along a vertical scale
+================================
+floor.n.01
+[[u'floor', u'0', u'5', u'floor', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'the', u'9', u'12', u'the', u'DT', u'O'], [u'inside', u'13', u'19', u'inside', u'RB', u'O'], [u'lower', u'20', u'25', u'lower', u'JJR', u'O'], [u'horizontal', u'26', u'36', u'horizontal', u'JJ', u'O'], [u'surface', u'37', u'44', u'surface', u'NN', u'O']]
+(ROOT (S (NP (NN floor)) (VP (VBZ is) (NP (DT the) (ADJP (ADVP (RB inside) (JJR lower)) (JJ horizontal)) (NN surface)))))
+(ROOT
+  (S
+    (NP (NN floor))
+    (VP
+      (VBZ is)
+      (NP
+        (DT the)
+        (ADJP (ADVP (RB inside) (JJR lower)) (JJ horizontal))
+        (NN surface)))))
+[[u'nsubj', u'surface', u'floor', u'7', u'1'], [u'cop', u'surface', u'is', u'7', u'2'], [u'det', u'surface', u'the', u'7', u'3'], [u'advmod', u'lower', u'inside', u'5', u'4'], [u'advmod', u'horizontal', u'lower', u'6', u'5'], [u'amod', u'surface', u'horizontal', u'7', u'6'], [u'root', u'ROOT', u'surface', u'0', u'7']]
+[]
+floor is the inside lower horizontal surface
+================================
+sketch.n.01
+[[u'sketch', u'0', u'6', u'sketch', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'preliminary', u'10', u'21', u'preliminary', u'JJ', u'O'], [u'drawing', u'22', u'29', u'drawing', u'NN', u'O'], [u'for', u'30', u'33', u'for', u'IN', u'O'], [u'later', u'34', u'39', u'later', u'JJ', u'O'], [u'elaboration', u'40', u'51', u'elaboration', u'NN', u'O']]
+(ROOT (S (NP (NN sketch)) (VP (VBZ is) (NP (NP (JJ preliminary) (NN drawing)) (PP (IN for) (NP (JJ later) (NN elaboration)))))))
+(ROOT
+  (S
+    (NP (NN sketch))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (JJ preliminary) (NN drawing))
+        (PP (IN for) (NP (JJ later) (NN elaboration)))))))
+[[u'nsubj', u'drawing', u'sketch', u'4', u'1'], [u'cop', u'drawing', u'is', u'4', u'2'], [u'amod', u'drawing', u'preliminary', u'4', u'3'], [u'root', u'ROOT', u'drawing', u'0', u'4'], [u'amod', u'elaboration', u'later', u'7', u'6'], [u'prep_for', u'drawing', u'elaboration', u'4', u'7']]
+[]
+sketch is preliminary drawing for later elaboration
+================================
+holder.n.01
+[[u'holder', u'0', u'6', u'holder', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'a', u'10', u'11', u'a', u'DT', u'O'], [u'holding', u'12', u'19', u'hold', u'VBG', u'O'], [u'device', u'20', u'26', u'device', u'NN', u'O']]
+(ROOT (S (NP (NN holder)) (VP (VBZ is) (NP (DT a) (VBG holding) (NN device)))))
+(ROOT
+  (S
+    (NP (NN holder))
+    (VP (VBZ is) (NP (DT a) (VBG holding) (NN device)))))
+[[u'nsubj', u'device', u'holder', u'5', u'1'], [u'cop', u'device', u'is', u'5', u'2'], [u'det', u'device', u'a', u'5', u'3'], [u'amod', u'device', u'holding', u'5', u'4'], [u'root', u'ROOT', u'device', u'0', u'5']]
+[]
+holder is a holding device
+================================
+book.n.02
+[[u'book', u'0', u'4', u'book', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'physical', u'8', u'16', u'physical', u'JJ', u'O'], [u'objects', u'17', u'24', u'object', u'NNS', u'O'], [u'consisting', u'25', u'35', u'consist', u'VBG', u'O'], [u'of', u'36', u'38', u'of', u'IN', u'O'], [u'a', u'39', u'40', u'a', u'DT', u'O'], [u'number', u'41', u'47', u'number', u'NN', u'O'], [u'of', u'48', u'50', u'of', u'IN', u'O'], [u'pages', u'51', u'56', u'page', u'NNS', u'O'], [u'bound', u'57', u'62', u'bind', u'VBN', u'O'], [u'together', u'63', u'71', u'together', u'RB', u'O']]
+(ROOT (S (NP (NN book)) (VP (VBZ is) (NP (NP (JJ physical) (NNS objects)) (VP (VBG consisting) (PP (IN of) (NP (NP (DT a) (NN number)) (PP (IN of) (NP (NP (NNS pages)) (VP (VBN bound) (ADVP (RB together))))))))))))
+(ROOT
+  (S
+    (NP (NN book))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (JJ physical) (NNS objects))
+        (VP
+          (VBG consisting)
+          (PP
+            (IN of)
+            (NP
+              (NP (DT a) (NN number))
+              (PP
+                (IN of)
+                (NP
+                  (NP (NNS pages))
+                  (VP (VBN bound) (ADVP (RB together))))))))))))
+[[u'nsubj', u'objects', u'book', u'4', u'1'], [u'cop', u'objects', u'is', u'4', u'2'], [u'amod', u'objects', u'physical', u'4', u'3'], [u'root', u'ROOT', u'objects', u'0', u'4'], [u'partmod', u'objects', u'consisting', u'4', u'5'], [u'det', u'number', u'a', u'8', u'7'], [u'prep_of', u'consisting', u'number', u'5', u'8'], [u'prep_of', u'number', u'pages', u'8', u'10'], [u'partmod', u'pages', u'bound', u'10', u'11'], [u'advmod', u'bound', u'together', u'11', u'12']]
+[]
+book is physical objects consisting of a number of pages bound together
+================================
+machine.n.01
+[[u'machine', u'0', u'7', u'machine', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'any', u'11', u'14', u'any', u'DT', u'O'], [u'mechanical', u'15', u'25', u'mechanical', u'JJ', u'O'], [u'or', u'26', u'28', u'or', u'CC', u'O'], [u'electrical', u'29', u'39', u'electrical', u'JJ', u'O'], [u'device', u'40', u'46', u'device', u'NN', u'O'], [u'that', u'47', u'51', u'that', u'WDT', u'O'], [u'transmits', u'52', u'61', u'transmit', u'VBZ', u'O'], [u'or', u'62', u'64', u'or', u'CC', u'O'], [u'modifies', u'65', u'73', u'modify', u'VBZ', u'O'], [u'energy', u'74', u'80', u'energy', u'NN', u'O'], [u'to', u'81', u'83', u'to', u'TO', u'O'], [u'perform', u'84', u'91', u'perform', u'VB', u'O'], [u'or', u'92', u'94', u'or', u'CC', u'O'], [u'assist', u'95', u'101', u'assist', u'VB', u'O'], [u'in', u'102', u'104', u'in', u'IN', u'O'], [u'the', u'105', u'108', u'the', u'DT', u'O'], [u'performance', u'109', u'120', u'performance', u'NN', u'O'], [u'of', u'121', u'123', u'of', u'IN', u'O'], [u'human', u'124', u'129', u'human', u'JJ', u'O'], [u'tasks', u'130', u'135', u'task', u'NNS', u'O']]
+(ROOT (S (NP (NN machine)) (VP (VBZ is) (NP (NP (DT any) (ADJP (JJ mechanical) (CC or) (JJ electrical)) (NN device)) (SBAR (WHNP (WDT that)) (S (VP (VBZ transmits) (CC or) (VBZ modifies) (NP (NN energy)) (S (VP (TO to) (VP (VB perform) (CC or) (VB assist) (PP (IN in) (NP (NP (DT the) (NN performance)) (PP (IN of) (NP (JJ human) (NNS tasks)))))))))))))))
+(ROOT
+  (S
+    (NP (NN machine))
+    (VP
+      (VBZ is)
+      (NP
+        (NP
+          (DT any)
+          (ADJP (JJ mechanical) (CC or) (JJ electrical))
+          (NN device))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ transmits)
+              (CC or)
+              (VBZ modifies)
+              (NP (NN energy))
+              (S
+                (VP
+                  (TO to)
+                  (VP
+                    (VB perform)
+                    (CC or)
+                    (VB assist)
+                    (PP
+                      (IN in)
+                      (NP
+                        (NP (DT the) (NN performance))
+                        (PP (IN of) (NP (JJ human) (NNS tasks)))))))))))))))
+[[u'nsubj', u'device', u'machine', u'7', u'1'], [u'cop', u'device', u'is', u'7', u'2'], [u'det', u'device', u'any', u'7', u'3'], [u'amod', u'device', u'mechanical', u'7', u'4'], [u'conj_or', u'mechanical', u'electrical', u'4', u'6'], [u'amod', u'device', u'electrical', u'7', u'6'], [u'root', u'ROOT', u'device', u'0', u'7'], [u'nsubj', u'transmits', u'device', u'9', u'7'], [u'nsubj', u'modifies', u'device', u'11', u'7'], [u'xsubj', u'perform', u'device', u'14', u'7'], [u'rcmod', u'device', u'transmits', u'7', u'9'], [u'rcmod', u'device', u'modifies', u'7', u'11'], [u'conj_or', u'transmits', u'modifies', u'9', u'11'], [u'dobj', u'transmits', u'energy', u'9', u'12'], [u'aux', u'perform', u'to', u'14', u'13'], [u'xcomp', u'transmits', u'perform', u'9', u'14'], [u'xcomp', u'transmits', u'assist', u'9', u'16'], [u'conj_or', u'perform', u'assist', u'14', u'16'], [u'det', u'performance', u'the', u'19', u'18'], [u'prep_in', u'perform', u'performance', u'14', u'19'], [u'amod', u'tasks', u'human', u'22', u'21'], [u'prep_of', u'performance', u'tasks', u'19', u'22']]
+[]
+machine is any mechanical or electrical device that transmits or modifies energy to perform or assist in the performance of human tasks
+================================
+rifle.n.01
+[[u'rifle', u'0', u'5', u'rifle', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'a', u'9', u'10', u'a', u'DT', u'O'], [u'shoulder', u'11', u'19', u'shoulder', u'NN', u'O'], [u'firearm', u'20', u'27', u'firearm', u'NN', u'O'], [u'with', u'28', u'32', u'with', u'IN', u'O'], [u'a', u'33', u'34', u'a', u'DT', u'O'], [u'long', u'35', u'39', u'long', u'JJ', u'O'], [u'barrel', u'40', u'46', u'barrel', u'NN', u'O'], [u'and', u'47', u'50', u'and', u'CC', u'O'], [u'a', u'51', u'52', u'a', u'DT', u'O'], [u'rifled', u'53', u'59', u'rifled', u'JJ', u'O'], [u'bore', u'60', u'64', u'bear', u'VBD', u'O']]
+(ROOT (S (NP (NN rifle)) (VP (VBZ is) (NP (NP (DT a) (NN shoulder) (NN firearm)) (PP (IN with) (NP (NP (DT a) (JJ long) (NN barrel)) (CC and) (NP (NP (DT a) (JJ rifled)) (VP (VBD bore)))))))))
+(ROOT
+  (S
+    (NP (NN rifle))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN shoulder) (NN firearm))
+        (PP
+          (IN with)
+          (NP
+            (NP (DT a) (JJ long) (NN barrel))
+            (CC and)
+            (NP (NP (DT a) (JJ rifled)) (VP (VBD bore)))))))))
+[[u'nsubj', u'firearm', u'rifle', u'5', u'1'], [u'cop', u'firearm', u'is', u'5', u'2'], [u'det', u'firearm', u'a', u'5', u'3'], [u'nn', u'firearm', u'shoulder', u'5', u'4'], [u'root', u'ROOT', u'firearm', u'0', u'5'], [u'det', u'barrel', u'a', u'9', u'7'], [u'amod', u'barrel', u'long', u'9', u'8'], [u'prep_with', u'firearm', u'barrel', u'5', u'9'], [u'det', u'rifled', u'a', u'12', u'11'], [u'prep_with', u'firearm', u'rifled', u'5', u'12'], [u'conj_and', u'barrel', u'rifled', u'9', u'12'], [u'partmod', u'rifled', u'bore', u'12', u'13']]
+[]
+rifle is a shoulder firearm with a long barrel and a rifled bore
+================================
+weapon.n.01
+[[u'weapon', u'0', u'6', u'weapon', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'any', u'10', u'13', u'any', u'DT', u'O'], [u'instrument', u'14', u'24', u'instrument', u'NN', u'O'], [u'or', u'25', u'27', u'or', u'CC', u'O'], [u'instrumentality', u'28', u'43', u'instrumentality', u'NN', u'O'], [u'used', u'44', u'48', u'use', u'VBN', u'O'], [u'in', u'49', u'51', u'in', u'IN', u'O'], [u'fighting', u'52', u'60', u'fight', u'VBG', u'O'], [u'or', u'61', u'63', u'or', u'CC', u'O'], [u'hunting', u'64', u'71', u'hunting', u'NN', u'O']]
+(ROOT (S (NP (NN weapon)) (VP (VBZ is) (NP (NP (DT any) (NN instrument) (CC or) (NN instrumentality)) (VP (VBN used) (PP (IN in) (NP (VBG fighting) (CC or) (NN hunting))))))))
+(ROOT
+  (S
+    (NP (NN weapon))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT any) (NN instrument) (CC or) (NN instrumentality))
+        (VP
+          (VBN used)
+          (PP (IN in) (NP (VBG fighting) (CC or) (NN hunting))))))))
+[[u'nsubj', u'instrument', u'weapon', u'4', u'1'], [u'cop', u'instrument', u'is', u'4', u'2'], [u'det', u'instrument', u'any', u'4', u'3'], [u'root', u'ROOT', u'instrument', u'0', u'4'], [u'conj_or', u'instrument', u'instrumentality', u'4', u'6'], [u'partmod', u'instrument', u'used', u'4', u'7'], [u'prep_in', u'used', u'fighting', u'7', u'9'], [u'prep_in', u'used', u'hunting', u'7', u'11'], [u'conj_or', u'fighting', u'hunting', u'9', u'11']]
+[]
+weapon is any instrument or instrumentality used in fighting or hunting
+================================
+fence.n.01
+[[u'fence', u'0', u'5', u'fence', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'a', u'9', u'10', u'a', u'DT', u'O'], [u'barrier', u'11', u'18', u'barrier', u'NN', u'O'], [u'that', u'19', u'23', u'that', u'WDT', u'O'], [u'serves', u'24', u'30', u'serve', u'VBZ', u'O'], [u'to', u'31', u'33', u'to', u'TO', u'O'], [u'enclose', u'34', u'41', u'enclose', u'VB', u'O'], [u'an', u'42', u'44', u'a', u'DT', u'O'], [u'area', u'45', u'49', u'area', u'NN', u'O']]
+(ROOT (S (NP (NN fence)) (VP (VBZ is) (NP (NP (DT a) (NN barrier)) (SBAR (WHNP (WDT that)) (S (VP (VBZ serves) (S (VP (TO to) (VP (VB enclose) (NP (DT an) (NN area))))))))))))
+(ROOT
+  (S
+    (NP (NN fence))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN barrier))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ serves)
+              (S
+                (VP (TO to) (VP (VB enclose) (NP (DT an) (NN area))))))))))))
+[[u'nsubj', u'barrier', u'fence', u'4', u'1'], [u'cop', u'barrier', u'is', u'4', u'2'], [u'det', u'barrier', u'a', u'4', u'3'], [u'root', u'ROOT', u'barrier', u'0', u'4'], [u'nsubj', u'serves', u'barrier', u'6', u'4'], [u'xsubj', u'enclose', u'barrier', u'8', u'4'], [u'rcmod', u'barrier', u'serves', u'4', u'6'], [u'aux', u'enclose', u'to', u'8', u'7'], [u'xcomp', u'serves', u'enclose', u'6', u'8'], [u'det', u'area', u'an', u'10', u'9'], [u'dobj', u'enclose', u'area', u'8', u'10']]
+[]
+fence is a barrier that serves to enclose an area
+================================
+cell.n.01
+[[u'cell', u'0', u'4', u'cell', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'any', u'8', u'11', u'any', u'DT', u'O'], [u'small', u'12', u'17', u'small', u'JJ', u'O'], [u'compartment', u'18', u'29', u'compartment', u'NN', u'O']]
+(ROOT (S (NP (NN cell)) (VP (VBZ is) (NP (DT any) (JJ small) (NN compartment)))))
+(ROOT
+  (S
+    (NP (NN cell))
+    (VP (VBZ is) (NP (DT any) (JJ small) (NN compartment)))))
+[[u'nsubj', u'compartment', u'cell', u'5', u'1'], [u'cop', u'compartment', u'is', u'5', u'2'], [u'det', u'compartment', u'any', u'5', u'3'], [u'amod', u'compartment', u'small', u'5', u'4'], [u'root', u'ROOT', u'compartment', u'0', u'5']]
+[]
+cell is any small compartment
+================================
+gun.n.01
+[[u'gun', u'0', u'3', u'gun', u'NN', u'O'], [u'is', u'4', u'6', u'be', u'VBZ', u'O'], [u'a', u'7', u'8', u'a', u'DT', u'O'], [u'weapon', u'9', u'15', u'weapon', u'NN', u'O'], [u'that', u'16', u'20', u'that', u'WDT', u'O'], [u'discharges', u'21', u'31', u'discharge', u'VBZ', u'O'], [u'a', u'32', u'33', u'a', u'DT', u'O'], [u'missile', u'34', u'41', u'missile', u'NN', u'O'], [u'at', u'42', u'44', u'at', u'IN', u'O'], [u'high', u'45', u'49', u'high', u'JJ', u'O'], [u'velocity', u'50', u'58', u'velocity', u'NN', u'O']]
+(ROOT (S (NP (NN gun)) (VP (VBZ is) (NP (NP (DT a) (NN weapon)) (SBAR (WHNP (WDT that)) (S (VP (VBZ discharges) (NP (NP (DT a) (NN missile)) (PP (IN at) (NP (JJ high) (NN velocity)))))))))))
+(ROOT
+  (S
+    (NP (NN gun))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN weapon))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ discharges)
+              (NP
+                (NP (DT a) (NN missile))
+                (PP (IN at) (NP (JJ high) (NN velocity)))))))))))
+[[u'nsubj', u'weapon', u'gun', u'4', u'1'], [u'cop', u'weapon', u'is', u'4', u'2'], [u'det', u'weapon', u'a', u'4', u'3'], [u'root', u'ROOT', u'weapon', u'0', u'4'], [u'nsubj', u'discharges', u'weapon', u'6', u'4'], [u'rcmod', u'weapon', u'discharges', u'4', u'6'], [u'det', u'missile', u'a', u'8', u'7'], [u'dobj', u'discharges', u'missile', u'6', u'8'], [u'amod', u'velocity', u'high', u'11', u'10'], [u'prep_at', u'missile', u'velocity', u'8', u'11']]
+[]
+gun is a weapon that discharges a missile at high velocity
+================================
+surface.n.01
+[[u'surface', u'0', u'7', u'surface', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'the', u'11', u'14', u'the', u'DT', u'O'], [u'outer', u'15', u'20', u'outer', u'JJ', u'O'], [u'boundary', u'21', u'29', u'boundary', u'NN', u'O'], [u'of', u'30', u'32', u'of', u'IN', u'O'], [u'an', u'33', u'35', u'a', u'DT', u'O'], [u'artifact', u'36', u'44', u'artifact', u'NN', u'O'], [u'or', u'45', u'47', u'or', u'CC', u'O'], [u'a', u'48', u'49', u'a', u'DT', u'O'], [u'material', u'50', u'58', u'material', u'NN', u'O'], [u'layer', u'59', u'64', u'layer', u'NN', u'O'], [u'constituting', u'65', u'77', u'constituting', u'NN', u'O'], [u'or', u'78', u'80', u'or', u'CC', u'O'], [u'resembling', u'81', u'91', u'resemble', u'VBG', u'O'], [u'such', u'92', u'96', u'such', u'JJ', u'O'], [u'a', u'97', u'98', u'a', u'DT', u'O'], [u'boundary', u'99', u'107', u'boundary', u'NN', u'O']]
+(ROOT (S (NP (NN surface)) (VP (VBZ is) (NP (NP (DT the) (JJ outer) (NN boundary)) (PP (IN of) (NP (NP (NP (DT an) (NN artifact)) (CC or) (NP (DT a) (NN material) (NN layer) (NN constituting))) (CC or) (S (VP (VBG resembling) (PP (JJ such) (NP (DT a) (NN boundary)))))))))))
+(ROOT
+  (S
+    (NP (NN surface))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT the) (JJ outer) (NN boundary))
+        (PP
+          (IN of)
+          (NP
+            (NP
+              (NP (DT an) (NN artifact))
+              (CC or)
+              (NP (DT a) (NN material) (NN layer) (NN constituting)))
+            (CC or)
+            (S
+              (VP
+                (VBG resembling)
+                (PP (JJ such) (NP (DT a) (NN boundary)))))))))))
+[[u'nsubj', u'boundary', u'surface', u'5', u'1'], [u'cop', u'boundary', u'is', u'5', u'2'], [u'det', u'boundary', u'the', u'5', u'3'], [u'amod', u'boundary', u'outer', u'5', u'4'], [u'root', u'ROOT', u'boundary', u'0', u'5'], [u'det', u'artifact', u'an', u'8', u'7'], [u'prep_of', u'boundary', u'artifact', u'5', u'8'], [u'det', u'constituting', u'a', u'13', u'10'], [u'nn', u'constituting', u'material', u'13', u'11'], [u'nn', u'constituting', u'layer', u'13', u'12'], [u'prep_of', u'boundary', u'constituting', u'5', u'13'], [u'conj_or', u'artifact', u'constituting', u'8', u'13'], [u'prep_of', u'boundary', u'resembling', u'5', u'15'], [u'conj_or', u'artifact', u'resembling', u'8', u'15'], [u'prep', u'resembling', u'such', u'15', u'16'], [u'det', u'boundary', u'a', u'18', u'17'], [u'dep', u'such', u'boundary', u'16', u'18']]
+[]
+surface is the outer boundary of an artifact or a material layer constituting or resembling such a boundary
+================================
+bed.n.01
+[[u'bed', u'0', u'3', u'bed', u'NN', u'O'], [u'is', u'4', u'6', u'be', u'VBZ', u'O'], [u'a', u'7', u'8', u'a', u'DT', u'O'], [u'piece', u'9', u'14', u'piece', u'NN', u'O'], [u'of', u'15', u'17', u'of', u'IN', u'O'], [u'furniture', u'18', u'27', u'furniture', u'NN', u'O'], [u'that', u'28', u'32', u'that', u'WDT', u'O'], [u'provides', u'33', u'41', u'provide', u'VBZ', u'O'], [u'a', u'42', u'43', u'a', u'DT', u'O'], [u'place', u'44', u'49', u'place', u'NN', u'O'], [u'to', u'50', u'52', u'to', u'TO', u'O'], [u'sleep', u'53', u'58', u'sleep', u'VB', u'O']]
+(ROOT (S (NP (NN bed)) (VP (VBZ is) (NP (NP (DT a) (NN piece)) (PP (IN of) (NP (NN furniture))) (SBAR (WHNP (WDT that)) (S (VP (VBZ provides) (NP (DT a) (NN place) (S (VP (TO to) (VP (VB sleep))))))))))))
+(ROOT
+  (S
+    (NP (NN bed))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN piece))
+        (PP (IN of) (NP (NN furniture)))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ provides)
+              (NP (DT a) (NN place) (S (VP (TO to) (VP (VB sleep))))))))))))
+[[u'nsubj', u'piece', u'bed', u'4', u'1'], [u'cop', u'piece', u'is', u'4', u'2'], [u'det', u'piece', u'a', u'4', u'3'], [u'root', u'ROOT', u'piece', u'0', u'4'], [u'nsubj', u'provides', u'piece', u'8', u'4'], [u'prep_of', u'piece', u'furniture', u'4', u'6'], [u'rcmod', u'piece', u'provides', u'4', u'8'], [u'det', u'place', u'a', u'10', u'9'], [u'dobj', u'provides', u'place', u'8', u'10'], [u'aux', u'sleep', u'to', u'12', u'11'], [u'infmod', u'place', u'sleep', u'10', u'12']]
+[]
+bed is a piece of furniture that provides a place to sleep
+================================
+room.n.01
+[[u'room', u'0', u'4', u'room', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'an', u'8', u'10', u'a', u'DT', u'O'], [u'area', u'11', u'15', u'area', u'NN', u'O'], [u'within', u'16', u'22', u'within', u'IN', u'O'], [u'a', u'23', u'24', u'a', u'DT', u'O'], [u'building', u'25', u'33', u'building', u'NN', u'O'], [u'enclosed', u'34', u'42', u'enclose', u'VBN', u'O'], [u'by', u'43', u'45', u'by', u'IN', u'O'], [u'walls', u'46', u'51', u'wall', u'NNS', u'O'], [u'and', u'52', u'55', u'and', u'CC', u'O'], [u'floor', u'56', u'61', u'floor', u'NN', u'O'], [u'and', u'62', u'65', u'and', u'CC', u'O'], [u'ceiling', u'66', u'73', u'ceiling', u'NN', u'O']]
+(ROOT (S (NP (NN room)) (VP (VBZ is) (NP (NP (DT an) (NN area)) (PP (IN within) (NP (NP (DT a) (NN building)) (VP (VBN enclosed) (PP (IN by) (NP (NP (NNS walls)) (CC and) (NP (NN floor) (CC and) (NN ceiling)))))))))))
+(ROOT
+  (S
+    (NP (NN room))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT an) (NN area))
+        (PP
+          (IN within)
+          (NP
+            (NP (DT a) (NN building))
+            (VP
+              (VBN enclosed)
+              (PP
+                (IN by)
+                (NP
+                  (NP (NNS walls))
+                  (CC and)
+                  (NP (NN floor) (CC and) (NN ceiling)))))))))))
+[[u'nsubj', u'area', u'room', u'4', u'1'], [u'cop', u'area', u'is', u'4', u'2'], [u'det', u'area', u'an', u'4', u'3'], [u'root', u'ROOT', u'area', u'0', u'4'], [u'det', u'building', u'a', u'7', u'6'], [u'prep_within', u'area', u'building', u'4', u'7'], [u'partmod', u'building', u'enclosed', u'7', u'8'], [u'agent', u'enclosed', u'walls', u'8', u'10'], [u'agent', u'enclosed', u'floor', u'8', u'12'], [u'conj_and', u'walls', u'floor', u'10', u'12'], [u'conj_and', u'walls', u'ceiling', u'10', u'14'], [u'conj_and', u'floor', u'ceiling', u'12', u'14']]
+[]
+room is an area within a building enclosed by walls and floor and ceiling
+================================
+pocket.n.01
+[[u'pocket', u'0', u'6', u'pocket', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'a', u'10', u'11', u'a', u'DT', u'O'], [u'small', u'12', u'17', u'small', u'JJ', u'O'], [u'pouch', u'18', u'23', u'pouch', u'NN', u'O'], [u'inside', u'24', u'30', u'inside', u'IN', u'O'], [u'a', u'31', u'32', u'a', u'DT', u'O'], [u'garment', u'33', u'40', u'garment', u'NN', u'O'], [u'for', u'41', u'44', u'for', u'IN', u'O'], [u'carrying', u'45', u'53', u'carry', u'VBG', u'O'], [u'small', u'54', u'59', u'small', u'JJ', u'O'], [u'articles', u'60', u'68', u'article', u'NNS', u'O']]
+(ROOT (S (NP (NN pocket)) (VP (VBZ is) (NP (NP (DT a) (JJ small) (NN pouch)) (PP (IN inside) (NP (NP (DT a) (NN garment)) (PP (IN for) (S (VP (VBG carrying) (NP (JJ small) (NNS articles)))))))))))
+(ROOT
+  (S
+    (NP (NN pocket))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (JJ small) (NN pouch))
+        (PP
+          (IN inside)
+          (NP
+            (NP (DT a) (NN garment))
+            (PP
+              (IN for)
+              (S (VP (VBG carrying) (NP (JJ small) (NNS articles)))))))))))
+[[u'nsubj', u'pouch', u'pocket', u'5', u'1'], [u'cop', u'pouch', u'is', u'5', u'2'], [u'det', u'pouch', u'a', u'5', u'3'], [u'amod', u'pouch', u'small', u'5', u'4'], [u'root', u'ROOT', u'pouch', u'0', u'5'], [u'det', u'garment', u'a', u'8', u'7'], [u'prep_inside', u'pouch', u'garment', u'5', u'8'], [u'prepc_for', u'garment', u'carrying', u'8', u'10'], [u'amod', u'articles', u'small', u'12', u'11'], [u'dobj', u'carrying', u'articles', u'10', u'12']]
+[]
+pocket is a small pouch inside a garment for carrying small articles
+================================
+shoe.n.01
+[[u'shoe', u'0', u'4', u'shoe', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'footwear', u'8', u'16', u'footwear', u'NN', u'O'], [u'shaped', u'17', u'23', u'shape', u'VBN', u'O'], [u'to', u'24', u'26', u'to', u'TO', u'O'], [u'fit', u'27', u'30', u'fit', u'VB', u'O'], [u'the', u'31', u'34', u'the', u'DT', u'O'], [u'foot', u'35', u'39', u'foot', u'NN', u'O'], [u'with', u'41', u'45', u'with', u'IN', u'O'], [u'a', u'46', u'47', u'a', u'DT', u'O'], [u'flexible', u'48', u'56', u'flexible', u'JJ', u'O'], [u'upper', u'57', u'62', u'upper', u'JJ', u'O'], [u'of', u'63', u'65', u'of', u'IN', u'O'], [u'leather', u'66', u'73', u'leather', u'NN', u'O'], [u'or', u'74', u'76', u'or', u'CC', u'O'], [u'plastic', u'77', u'84', u'plastic', u'NN', u'O'], [u'and', u'85', u'88', u'and', u'CC', u'O'], [u'a', u'89', u'90', u'a', u'DT', u'O'], [u'sole', u'91', u'95', u'sole', u'JJ', u'O'], [u'and', u'96', u'99', u'and', u'CC', u'O'], [u'heel', u'100', u'104', u'heel', u'NN', u'O'], [u'of', u'105', u'107', u'of', u'IN', u'O'], [u'heavier', u'108', u'115', u'heavier', u'JJR', u'O'], [u'material', u'116', u'124', u'material', u'NN', u'O']]
+(ROOT (S (NP (NN shoe)) (VP (VBZ is) (NP (NP (NN footwear)) (VP (VBN shaped) (S (VP (TO to) (VP (VB fit) (NP (DT the) (NN foot)) (PP (IN with) (NP (NP (NP (DT a) (JJ flexible) (JJ upper)) (PP (IN of) (NP (NP (NN leather) (CC or) (NN plastic)) (CC and) (NP (DT a) (JJ sole))))) (CC and) (NP (NP (NN heel)) (PP (IN of) (NP (JJR heavier) (NN material))))))))))))))
+(ROOT
+  (S
+    (NP (NN shoe))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NN footwear))
+        (VP
+          (VBN shaped)
+          (S
+            (VP
+              (TO to)
+              (VP
+                (VB fit)
+                (NP (DT the) (NN foot))
+                (PP
+                  (IN with)
+                  (NP
+                    (NP
+                      (NP (DT a) (JJ flexible) (JJ upper))
+                      (PP
+                        (IN of)
+                        (NP
+                          (NP (NN leather) (CC or) (NN plastic))
+                          (CC and)
+                          (NP (DT a) (JJ sole)))))
+                    (CC and)
+                    (NP
+                      (NP (NN heel))
+                      (PP (IN of) (NP (JJR heavier) (NN material))))))))))))))
+[[u'nsubj', u'footwear', u'shoe', u'3', u'1'], [u'cop', u'footwear', u'is', u'3', u'2'], [u'root', u'ROOT', u'footwear', u'0', u'3'], [u'partmod', u'footwear', u'shaped', u'3', u'4'], [u'aux', u'fit', u'to', u'6', u'5'], [u'xcomp', u'shaped', u'fit', u'4', u'6'], [u'det', u'foot', u'the', u'8', u'7'], [u'dobj', u'fit', u'foot', u'6', u'8'], [u'det', u'upper', u'a', u'12', u'10'], [u'amod', u'upper', u'flexible', u'12', u'11'], [u'prep_with', u'fit', u'upper', u'6', u'12'], [u'prep_of', u'upper', u'leather', u'12', u'14'], [u'prep_of', u'upper', u'plastic', u'12', u'16'], [u'conj_or', u'leather', u'plastic', u'14', u'16'], [u'det', u'sole', u'a', u'19', u'18'], [u'prep_of', u'upper', u'sole', u'12', u'19'], [u'conj_and', u'leather', u'sole', u'14', u'19'], [u'prep_with', u'fit', u'heel', u'6', u'21'], [u'conj_and', u'upper', u'heel', u'12', u'21'], [u'amod', u'material', u'heavier', u'24', u'23'], [u'prep_of', u'heel', u'material', u'21', u'24']]
+[]
+shoe is footwear shaped to fit the foot  with a flexible upper of leather or plastic and a sole and heel of heavier material
+================================
+bedroom.n.01
+[[u'bedroom', u'0', u'7', u'bedroom', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'a', u'11', u'12', u'a', u'DT', u'O'], [u'room', u'13', u'17', u'room', u'NN', u'O'], [u'used', u'18', u'22', u'use', u'VBN', u'O'], [u'primarily', u'23', u'32', u'primarily', u'RB', u'O'], [u'for', u'33', u'36', u'for', u'IN', u'O'], [u'sleeping', u'37', u'45', u'sleep', u'VBG', u'O']]
+(ROOT (S (NP (NN bedroom)) (VP (VBZ is) (NP (NP (DT a) (NN room)) (VP (VBN used) (ADVP (RB primarily)) (PP (IN for) (NP (VBG sleeping))))))))
+(ROOT
+  (S
+    (NP (NN bedroom))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN room))
+        (VP
+          (VBN used)
+          (ADVP (RB primarily))
+          (PP (IN for) (NP (VBG sleeping))))))))
+[[u'nsubj', u'room', u'bedroom', u'4', u'1'], [u'cop', u'room', u'is', u'4', u'2'], [u'det', u'room', u'a', u'4', u'3'], [u'root', u'ROOT', u'room', u'0', u'4'], [u'partmod', u'room', u'used', u'4', u'5'], [u'advmod', u'used', u'primarily', u'5', u'6'], [u'prep_for', u'used', u'sleeping', u'5', u'8']]
+[]
+bedroom is a room used primarily for sleeping
+================================
+painting.n.01
+[[u'painting', u'0', u'8', u'painting', u'NN', u'O'], [u'is', u'9', u'11', u'be', u'VBZ', u'O'], [u'graphic', u'12', u'19', u'graphic', u'JJ', u'O'], [u'art', u'20', u'23', u'art', u'NN', u'O'], [u'consisting', u'24', u'34', u'consist', u'VBG', u'O'], [u'of', u'35', u'37', u'of', u'IN', u'O'], [u'an', u'38', u'40', u'a', u'DT', u'O'], [u'artistic', u'41', u'49', u'artistic', u'JJ', u'O'], [u'composition', u'50', u'61', u'composition', u'NN', u'O'], [u'made', u'62', u'66', u'make', u'VBN', u'O'], [u'by', u'67', u'69', u'by', u'IN', u'O'], [u'applying', u'70', u'78', u'apply', u'VBG', u'O'], [u'paints', u'79', u'85', u'paint', u'NNS', u'O'], [u'to', u'86', u'88', u'to', u'TO', u'O'], [u'a', u'89', u'90', u'a', u'DT', u'O'], [u'surface', u'91', u'98', u'surface', u'NN', u'O']]
+(ROOT (S (NP (NN painting)) (VP (VBZ is) (NP (NP (JJ graphic) (NN art)) (VP (VBG consisting) (PP (IN of) (NP (NP (DT an) (JJ artistic) (NN composition)) (VP (VBN made) (PP (IN by) (S (VP (VBG applying) (NP (NNS paints)) (PP (TO to) (NP (DT a) (NN surface))))))))))))))
+(ROOT
+  (S
+    (NP (NN painting))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (JJ graphic) (NN art))
+        (VP
+          (VBG consisting)
+          (PP
+            (IN of)
+            (NP
+              (NP (DT an) (JJ artistic) (NN composition))
+              (VP
+                (VBN made)
+                (PP
+                  (IN by)
+                  (S
+                    (VP
+                      (VBG applying)
+                      (NP (NNS paints))
+                      (PP (TO to) (NP (DT a) (NN surface))))))))))))))
+[[u'nsubj', u'art', u'painting', u'4', u'1'], [u'cop', u'art', u'is', u'4', u'2'], [u'amod', u'art', u'graphic', u'4', u'3'], [u'root', u'ROOT', u'art', u'0', u'4'], [u'partmod', u'art', u'consisting', u'4', u'5'], [u'det', u'composition', u'an', u'9', u'7'], [u'amod', u'composition', u'artistic', u'9', u'8'], [u'prep_of', u'consisting', u'composition', u'5', u'9'], [u'partmod', u'composition', u'made', u'9', u'10'], [u'agent', u'made', u'applying', u'10', u'12'], [u'dobj', u'applying', u'paints', u'12', u'13'], [u'det', u'surface', u'a', u'16', u'15'], [u'prep_to', u'applying', u'surface', u'12', u'16']]
+[]
+painting is graphic art consisting of an artistic composition made by applying paints to a surface
+================================
+artillery.n.01
+[[u'artillery', u'0', u'9', u'artillery', u'NN', u'O'], [u'is', u'10', u'12', u'be', u'VBZ', u'O'], [u'large', u'13', u'18', u'large', u'JJ', u'O'], [u'but', u'19', u'22', u'but', u'CC', u'O'], [u'transportable', u'23', u'36', u'transportable', u'JJ', u'O'], [u'armament', u'37', u'45', u'armament', u'NN', u'O']]
+(ROOT (S (NP (NN artillery)) (VP (VBZ is) (NP (ADJP (JJ large) (CC but) (JJ transportable)) (NN armament)))))
+(ROOT
+  (S
+    (NP (NN artillery))
+    (VP
+      (VBZ is)
+      (NP
+        (ADJP (JJ large) (CC but) (JJ transportable))
+        (NN armament)))))
+[[u'nsubj', u'armament', u'artillery', u'6', u'1'], [u'cop', u'armament', u'is', u'6', u'2'], [u'amod', u'armament', u'large', u'6', u'3'], [u'conj_but', u'large', u'transportable', u'3', u'5'], [u'amod', u'armament', u'transportable', u'6', u'5'], [u'root', u'ROOT', u'armament', u'0', u'6']]
+[]
+artillery is large but transportable armament
+================================
+kitchen.n.01
+[[u'kitchen', u'0', u'7', u'kitchen', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'a', u'11', u'12', u'a', u'DT', u'O'], [u'room', u'13', u'17', u'room', u'NN', u'O'], [u'equipped', u'18', u'26', u'equip', u'VBN', u'O'], [u'for', u'27', u'30', u'for', u'IN', u'O'], [u'preparing', u'31', u'40', u'prepare', u'VBG', u'O'], [u'meals', u'41', u'46', u'meal', u'NNS', u'O']]
+(ROOT (S (NP (NN kitchen)) (VP (VBZ is) (NP (NP (DT a) (NN room)) (VP (VBN equipped) (PP (IN for) (S (VP (VBG preparing) (NP (NNS meals))))))))))
+(ROOT
+  (S
+    (NP (NN kitchen))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN room))
+        (VP
+          (VBN equipped)
+          (PP (IN for) (S (VP (VBG preparing) (NP (NNS meals))))))))))
+[[u'nsubj', u'room', u'kitchen', u'4', u'1'], [u'cop', u'room', u'is', u'4', u'2'], [u'det', u'room', u'a', u'4', u'3'], [u'root', u'ROOT', u'room', u'0', u'4'], [u'partmod', u'room', u'equipped', u'4', u'5'], [u'prepc_for', u'equipped', u'preparing', u'5', u'7'], [u'dobj', u'preparing', u'meals', u'7', u'8']]
+[]
+kitchen is a room equipped for preparing meals
+================================
+wagon.n.01
+[[u'wagon', u'0', u'5', u'wagon', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'any', u'9', u'12', u'any', u'DT', u'O'], [u'of', u'13', u'15', u'of', u'IN', u'O'], [u'various', u'16', u'23', u'various', u'JJ', u'O'], [u'kinds', u'24', u'29', u'kind', u'NNS', u'O'], [u'of', u'30', u'32', u'of', u'IN', u'O'], [u'wheeled', u'33', u'40', u'wheel', u'VBN', u'O'], [u'vehicles', u'41', u'49', u'vehicle', u'NNS', u'O'], [u'drawn', u'50', u'55', u'draw', u'VBN', u'O'], [u'by', u'56', u'58', u'by', u'IN', u'O'], [u'an', u'59', u'61', u'a', u'DT', u'O'], [u'animal', u'62', u'68', u'animal', u'NN', u'O'], [u'or', u'69', u'71', u'or', u'CC', u'O'], [u'a', u'72', u'73', u'a', u'DT', u'O'], [u'tractor', u'74', u'81', u'tractor', u'NN', u'O']]
+(ROOT (S (NP (NN wagon)) (VP (VBZ is) (NP (NP (DT any)) (PP (IN of) (NP (NP (JJ various) (NNS kinds)) (PP (IN of) (NP (NP (VBN wheeled) (NNS vehicles)) (VP (VBN drawn) (PP (IN by) (NP (NP (DT an) (NN animal)) (CC or) (NP (DT a) (NN tractor)))))))))))))
+(ROOT
+  (S
+    (NP (NN wagon))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT any))
+        (PP
+          (IN of)
+          (NP
+            (NP (JJ various) (NNS kinds))
+            (PP
+              (IN of)
+              (NP
+                (NP (VBN wheeled) (NNS vehicles))
+                (VP
+                  (VBN drawn)
+                  (PP
+                    (IN by)
+                    (NP
+                      (NP (DT an) (NN animal))
+                      (CC or)
+                      (NP (DT a) (NN tractor)))))))))))))
+[[u'nsubj', u'any', u'wagon', u'3', u'1'], [u'cop', u'any', u'is', u'3', u'2'], [u'root', u'ROOT', u'any', u'0', u'3'], [u'amod', u'kinds', u'various', u'6', u'5'], [u'prep_of', u'any', u'kinds', u'3', u'6'], [u'amod', u'vehicles', u'wheeled', u'9', u'8'], [u'prep_of', u'kinds', u'vehicles', u'6', u'9'], [u'partmod', u'vehicles', u'drawn', u'9', u'10'], [u'det', u'animal', u'an', u'13', u'12'], [u'agent', u'drawn', u'animal', u'10', u'13'], [u'det', u'tractor', u'a', u'16', u'15'], [u'agent', u'drawn', u'tractor', u'10', u'16'], [u'conj_or', u'animal', u'tractor', u'13', u'16']]
+[]
+wagon is any of various kinds of wheeled vehicles drawn by an animal or a tractor
+================================
+merchandise.n.01
+[[u'merchandise', u'0', u'11', u'merchandise', u'NN', u'O'], [u'is', u'12', u'14', u'be', u'VBZ', u'O'], [u'commodities', u'15', u'26', u'commodity', u'NNS', u'O'], [u'offered', u'27', u'34', u'offer', u'VBN', u'O'], [u'for', u'35', u'38', u'for', u'IN', u'O'], [u'sale', u'39', u'43', u'sale', u'NN', u'O']]
+(ROOT (S (NP (NN merchandise)) (VP (VBZ is) (NP (NP (NNS commodities)) (VP (VBN offered) (PP (IN for) (NP (NN sale))))))))
+(ROOT
+  (S
+    (NP (NN merchandise))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NNS commodities))
+        (VP (VBN offered) (PP (IN for) (NP (NN sale))))))))
+[[u'nsubj', u'commodities', u'merchandise', u'3', u'1'], [u'cop', u'commodities', u'is', u'3', u'2'], [u'root', u'ROOT', u'commodities', u'0', u'3'], [u'partmod', u'commodities', u'offered', u'3', u'4'], [u'prep_for', u'offered', u'sale', u'4', u'6']]
+[]
+merchandise is commodities offered for sale
+================================
+thing.n.08
+[[u'thing', u'0', u'5', u'thing', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'an', u'9', u'11', u'a', u'DT', u'O'], [u'entity', u'12', u'18', u'entity', u'NN', u'O'], [u'that', u'19', u'23', u'that', u'WDT', u'O'], [u'is', u'24', u'26', u'be', u'VBZ', u'O'], [u'not', u'27', u'30', u'not', u'RB', u'O'], [u'named', u'31', u'36', u'name', u'VBN', u'O'], [u'specifically', u'37', u'49', u'specifically', u'RB', u'O']]
+(ROOT (S (NP (NN thing)) (VP (VBZ is) (NP (NP (DT an) (NN entity)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (RB not) (VP (VBN named) (ADVP (RB specifically))))))))))
+(ROOT
+  (S
+    (NP (NN thing))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT an) (NN entity))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ is)
+              (RB not)
+              (VP (VBN named) (ADVP (RB specifically))))))))))
+[[u'nsubj', u'entity', u'thing', u'4', u'1'], [u'cop', u'entity', u'is', u'4', u'2'], [u'det', u'entity', u'an', u'4', u'3'], [u'root', u'ROOT', u'entity', u'0', u'4'], [u'nsubjpass', u'named', u'entity', u'8', u'4'], [u'auxpass', u'named', u'is', u'8', u'6'], [u'neg', u'named', u'not', u'8', u'7'], [u'rcmod', u'entity', u'named', u'4', u'8'], [u'advmod', u'named', u'specifically', u'8', u'9']]
+[]
+thing is an entity that is not named specifically
+================================
+hospital.n.01
+[[u'hospital', u'0', u'8', u'hospital', u'NN', u'O'], [u'is', u'9', u'11', u'be', u'VBZ', u'O'], [u'a', u'12', u'13', u'a', u'DT', u'O'], [u'health', u'14', u'20', u'health', u'NN', u'O'], [u'facility', u'21', u'29', u'facility', u'NN', u'O'], [u'where', u'30', u'35', u'where', u'WRB', u'O'], [u'patients', u'36', u'44', u'patient', u'NNS', u'O'], [u'receive', u'45', u'52', u'receive', u'VBP', u'O'], [u'treatment', u'53', u'62', u'treatment', u'NN', u'O']]
+(ROOT (S (NP (NN hospital)) (VP (VBZ is) (NP (NP (DT a) (NN health) (NN facility)) (SBAR (WHADVP (WRB where)) (S (NP (NNS patients)) (VP (VBP receive) (NP (NN treatment)))))))))
+(ROOT
+  (S
+    (NP (NN hospital))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN health) (NN facility))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (NNS patients))
+            (VP (VBP receive) (NP (NN treatment)))))))))
+[[u'nsubj', u'facility', u'hospital', u'5', u'1'], [u'cop', u'facility', u'is', u'5', u'2'], [u'det', u'facility', u'a', u'5', u'3'], [u'nn', u'facility', u'health', u'5', u'4'], [u'root', u'ROOT', u'facility', u'0', u'5'], [u'advmod', u'receive', u'where', u'8', u'6'], [u'nsubj', u'receive', u'patients', u'8', u'7'], [u'rcmod', u'facility', u'receive', u'5', u'8'], [u'dobj', u'receive', u'treatment', u'8', u'9']]
+[]
+hospital is a health facility where patients receive treatment
+================================
+shop.n.01
+[[u'shop', u'0', u'4', u'shop', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'a', u'8', u'9', u'a', u'DT', u'O'], [u'mercantile', u'10', u'20', u'mercantile', u'NN', u'O'], [u'establishment', u'21', u'34', u'establishment', u'NN', u'O'], [u'for', u'35', u'38', u'for', u'IN', u'O'], [u'the', u'39', u'42', u'the', u'DT', u'O'], [u'retail', u'43', u'49', u'retail', u'JJ', u'O'], [u'sale', u'50', u'54', u'sale', u'NN', u'O'], [u'of', u'55', u'57', u'of', u'IN', u'O'], [u'goods', u'58', u'63', u'goods', u'NNS', u'O'], [u'or', u'64', u'66', u'or', u'CC', u'O'], [u'services', u'67', u'75', u'service', u'NNS', u'O']]
+(ROOT (S (NP (NN shop)) (VP (VBZ is) (NP (NP (DT a) (NN mercantile) (NN establishment)) (PP (IN for) (NP (NP (DT the) (JJ retail) (NN sale)) (PP (IN of) (NP (NNS goods) (CC or) (NNS services)))))))))
+(ROOT
+  (S
+    (NP (NN shop))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN mercantile) (NN establishment))
+        (PP
+          (IN for)
+          (NP
+            (NP (DT the) (JJ retail) (NN sale))
+            (PP (IN of) (NP (NNS goods) (CC or) (NNS services)))))))))
+[[u'nsubj', u'establishment', u'shop', u'5', u'1'], [u'cop', u'establishment', u'is', u'5', u'2'], [u'det', u'establishment', u'a', u'5', u'3'], [u'nn', u'establishment', u'mercantile', u'5', u'4'], [u'root', u'ROOT', u'establishment', u'0', u'5'], [u'det', u'sale', u'the', u'9', u'7'], [u'amod', u'sale', u'retail', u'9', u'8'], [u'prep_for', u'establishment', u'sale', u'5', u'9'], [u'prep_of', u'sale', u'goods', u'9', u'11'], [u'prep_of', u'sale', u'services', u'9', u'13'], [u'conj_or', u'goods', u'services', u'11', u'13']]
+[]
+shop is a mercantile establishment for the retail sale of goods or services
+================================
+blanket.n.01
+[[u'blanket', u'0', u'7', u'blanket', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'bedding', u'11', u'18', u'bedding', u'NN', u'O'], [u'that', u'19', u'23', u'that', u'IN', u'O'], [u'keeps', u'24', u'29', u'keep', u'VBZ', u'O'], [u'a', u'30', u'31', u'a', u'DT', u'O'], [u'person', u'32', u'38', u'person', u'NN', u'O'], [u'warm', u'39', u'43', u'warm', u'JJ', u'O'], [u'in', u'44', u'46', u'in', u'IN', u'O'], [u'bed', u'47', u'50', u'bed', u'NN', u'O']]
+(ROOT (S (NP (NN blanket)) (VP (VBZ is) (NP (NP (NN bedding)) (SBAR (WHNP (IN that)) (S (VP (VBZ keeps) (S (NP (DT a) (NN person)) (ADJP (JJ warm) (PP (IN in) (NP (NN bed))))))))))))
+(ROOT
+  (S
+    (NP (NN blanket))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NN bedding))
+        (SBAR
+          (WHNP (IN that))
+          (S
+            (VP
+              (VBZ keeps)
+              (S
+                (NP (DT a) (NN person))
+                (ADJP (JJ warm) (PP (IN in) (NP (NN bed))))))))))))
+[[u'nsubj', u'bedding', u'blanket', u'3', u'1'], [u'cop', u'bedding', u'is', u'3', u'2'], [u'root', u'ROOT', u'bedding', u'0', u'3'], [u'nsubj', u'keeps', u'bedding', u'5', u'3'], [u'rcmod', u'bedding', u'keeps', u'3', u'5'], [u'det', u'person', u'a', u'7', u'6'], [u'nsubj', u'warm', u'person', u'8', u'7'], [u'xcomp', u'keeps', u'warm', u'5', u'8'], [u'prep_in', u'warm', u'bed', u'8', u'10']]
+[]
+blanket is bedding that keeps a person warm in bed
+================================
+uniform.n.01
+[[u'uniform', u'0', u'7', u'uniform', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'clothing', u'11', u'19', u'clothing', u'NN', u'O'], [u'of', u'20', u'22', u'of', u'IN', u'O'], [u'distinctive', u'23', u'34', u'distinctive', u'JJ', u'O'], [u'design', u'35', u'41', u'design', u'NN', u'O'], [u'worn', u'42', u'46', u'worn', u'JJ', u'O'], [u'by', u'47', u'49', u'by', u'IN', u'O'], [u'members', u'50', u'57', u'member', u'NNS', u'O'], [u'of', u'58', u'60', u'of', u'IN', u'O'], [u'a', u'61', u'62', u'a', u'DT', u'O'], [u'particular', u'63', u'73', u'particular', u'JJ', u'O'], [u'group', u'74', u'79', u'group', u'NN', u'O'], [u'as', u'80', u'82', u'as', u'IN', u'O'], [u'a', u'83', u'84', u'a', u'DT', u'O'], [u'means', u'85', u'90', u'means', u'NN', u'O'], [u'of', u'91', u'93', u'of', u'IN', u'O'], [u'identification', u'94', u'108', u'identification', u'NN', u'O']]
+(ROOT (S (NP (NN uniform)) (VP (VBZ is) (NP (NP (NN clothing)) (PP (IN of) (NP (NP (JJ distinctive) (NN design)) (ADJP (JJ worn) (PP (IN by) (NP (NP (NNS members)) (PP (IN of) (NP (NP (DT a) (JJ particular) (NN group)) (PP (IN as) (NP (NP (DT a) (NN means)) (PP (IN of) (NP (NN identification))))))))))))))))
+(ROOT
+  (S
+    (NP (NN uniform))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NN clothing))
+        (PP
+          (IN of)
+          (NP
+            (NP (JJ distinctive) (NN design))
+            (ADJP
+              (JJ worn)
+              (PP
+                (IN by)
+                (NP
+                  (NP (NNS members))
+                  (PP
+                    (IN of)
+                    (NP
+                      (NP (DT a) (JJ particular) (NN group))
+                      (PP
+                        (IN as)
+                        (NP
+                          (NP (DT a) (NN means))
+                          (PP (IN of) (NP (NN identification))))))))))))))))
+[[u'nsubj', u'clothing', u'uniform', u'3', u'1'], [u'cop', u'clothing', u'is', u'3', u'2'], [u'root', u'ROOT', u'clothing', u'0', u'3'], [u'amod', u'design', u'distinctive', u'6', u'5'], [u'prep_of', u'clothing', u'design', u'3', u'6'], [u'amod', u'design', u'worn', u'6', u'7'], [u'prep_by', u'worn', u'members', u'7', u'9'], [u'det', u'group', u'a', u'13', u'11'], [u'amod', u'group', u'particular', u'13', u'12'], [u'prep_of', u'members', u'group', u'9', u'13'], [u'det', u'means', u'a', u'16', u'15'], [u'prep_as', u'group', u'means', u'13', u'16'], [u'prep_of', u'means', u'identification', u'16', u'18']]
+[]
+uniform is clothing of distinctive design worn by members of a particular group as a means of identification
+================================
+window.n.01
+[[u'window', u'0', u'6', u'window', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'a', u'10', u'11', u'a', u'DT', u'O'], [u'framework', u'12', u'21', u'framework', u'NN', u'O'], [u'of', u'22', u'24', u'of', u'IN', u'O'], [u'wood', u'25', u'29', u'wood', u'NN', u'O'], [u'or', u'30', u'32', u'or', u'CC', u'O'], [u'metal', u'33', u'38', u'metal', u'NN', u'O'], [u'that', u'39', u'43', u'that', u'WDT', u'O'], [u'contains', u'44', u'52', u'contain', u'VBZ', u'O'], [u'a', u'53', u'54', u'a', u'DT', u'O'], [u'glass', u'55', u'60', u'glass', u'NN', u'O'], [u'windowpane', u'61', u'71', u'windowpane', u'NN', u'O'], [u'and', u'72', u'75', u'and', u'CC', u'O'], [u'is', u'76', u'78', u'be', u'VBZ', u'O'], [u'built', u'79', u'84', u'build', u'VBN', u'O'], [u'into', u'85', u'89', u'into', u'IN', u'O'], [u'a', u'90', u'91', u'a', u'DT', u'O'], [u'wall', u'92', u'96', u'wall', u'NN', u'O'], [u'or', u'97', u'99', u'or', u'CC', u'O'], [u'roof', u'100', u'104', u'roof', u'NN', u'O'], [u'to', u'105', u'107', u'to', u'TO', u'O'], [u'admit', u'108', u'113', u'admit', u'VB', u'O'], [u'light', u'114', u'119', u'light', u'JJ', u'O'], [u'or', u'120', u'122', u'or', u'CC', u'O'], [u'air', u'123', u'126', u'air', u'NN', u'O']]
+(ROOT (S (NP (NN window)) (VP (VBZ is) (NP (NP (DT a) (NN framework)) (PP (IN of) (NP (NN wood) (CC or) (NN metal))) (SBAR (WHNP (WDT that)) (S (VP (VP (VBZ contains) (NP (DT a) (NN glass) (NN windowpane))) (CC and) (VP (VBZ is) (VP (VP (VBN built) (PP (IN into) (NP (DT a) (NN wall) (CC or) (NN roof))) (S (VP (TO to) (VP (VB admit) (ADJP (JJ light)))))) (CC or) (VP (NN air)))))))))))
+(ROOT
+  (S
+    (NP (NN window))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN framework))
+        (PP (IN of) (NP (NN wood) (CC or) (NN metal)))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VP
+                (VBZ contains)
+                (NP (DT a) (NN glass) (NN windowpane)))
+              (CC and)
+              (VP
+                (VBZ is)
+                (VP
+                  (VP
+                    (VBN built)
+                    (PP
+                      (IN into)
+                      (NP (DT a) (NN wall) (CC or) (NN roof)))
+                    (S
+                      (VP (TO to) (VP (VB admit) (ADJP (JJ light))))))
+                  (CC or)
+                  (VP (NN air)))))))))))
+[[u'nsubj', u'framework', u'window', u'4', u'1'], [u'cop', u'framework', u'is', u'4', u'2'], [u'det', u'framework', u'a', u'4', u'3'], [u'root', u'ROOT', u'framework', u'0', u'4'], [u'nsubj', u'contains', u'framework', u'10', u'4'], [u'nsubjpass', u'built', u'framework', u'16', u'4'], [u'xsubj', u'admit', u'framework', u'23', u'4'], [u'prep_of', u'framework', u'wood', u'4', u'6'], [u'prep_of', u'framework', u'metal', u'4', u'8'], [u'conj_or', u'wood', u'metal', u'6', u'8'], [u'rcmod', u'framework', u'contains', u'4', u'10'], [u'det', u'windowpane', u'a', u'13', u'11'], [u'nn', u'windowpane', u'glass', u'13', u'12'], [u'dobj', u'contains', u'windowpane', u'10', u'13'], [u'auxpass', u'built', u'is', u'16', u'15'], [u'rcmod', u'framework', u'built', u'4', u'16'], [u'conj_and', u'contains', u'built', u'10', u'16'], [u'det', u'wall', u'a', u'19', u'18'], [u'prep_into', u'built', u'wall', u'16', u'19'], [u'prep_into', u'built', u'roof', u'16', u'21'], [u'conj_or', u'wall', u'roof', u'19', u'21'], [u'aux', u'admit', u'to', u'23', u'22'], [u'xcomp', u'built', u'admit', u'16', u'23'], [u'acomp', u'admit', u'light', u'23', u'24'], [u'conj_and', u'contains', u'air', u'10', u'26'], [u'conj_or', u'built', u'air', u'16', u'26']]
+[]
+window is a framework of wood or metal that contains a glass windowpane and is built into a wall or roof to admit light or air
+================================
+barn.n.01
+[[u'barn', u'0', u'4', u'barn', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'an', u'8', u'10', u'a', u'DT', u'O'], [u'outlying', u'11', u'19', u'outlying', u'JJ', u'O'], [u'farm', u'20', u'24', u'farm', u'NN', u'O'], [u'building', u'25', u'33', u'building', u'NN', u'O'], [u'for', u'34', u'37', u'for', u'IN', u'O'], [u'storing', u'38', u'45', u'store', u'VBG', u'O'], [u'grain', u'46', u'51', u'grain', u'NN', u'O'], [u'or', u'52', u'54', u'or', u'CC', u'O'], [u'animal', u'55', u'61', u'animal', u'NN', u'O'], [u'feed', u'62', u'66', u'feed', u'NN', u'O'], [u'and', u'67', u'70', u'and', u'CC', u'O'], [u'housing', u'71', u'78', u'housing', u'NN', u'O'], [u'farm', u'79', u'83', u'farm', u'NN', u'O'], [u'animals', u'84', u'91', u'animal', u'NNS', u'O']]
+(ROOT (S (NP (NN barn)) (VP (VBZ is) (NP (NP (DT an) (JJ outlying) (NN farm) (NN building)) (PP (IN for) (S (VP (VBG storing) (NP (NP (NP (NN grain) (CC or) (NN animal)) (NN feed)) (CC and) (NP (NN housing) (NN farm) (NNS animals))))))))))
+(ROOT
+  (S
+    (NP (NN barn))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT an) (JJ outlying) (NN farm) (NN building))
+        (PP
+          (IN for)
+          (S
+            (VP
+              (VBG storing)
+              (NP
+                (NP (NP (NN grain) (CC or) (NN animal)) (NN feed))
+                (CC and)
+                (NP (NN housing) (NN farm) (NNS animals))))))))))
+[[u'nsubj', u'building', u'barn', u'6', u'1'], [u'cop', u'building', u'is', u'6', u'2'], [u'det', u'building', u'an', u'6', u'3'], [u'amod', u'building', u'outlying', u'6', u'4'], [u'nn', u'building', u'farm', u'6', u'5'], [u'root', u'ROOT', u'building', u'0', u'6'], [u'prepc_for', u'building', u'storing', u'6', u'8'], [u'nn', u'feed', u'grain', u'12', u'9'], [u'conj_or', u'grain', u'animal', u'9', u'11'], [u'nn', u'feed', u'animal', u'12', u'11'], [u'dobj', u'storing', u'feed', u'8', u'12'], [u'nn', u'animals', u'housing', u'16', u'14'], [u'nn', u'animals', u'farm', u'16', u'15'], [u'dobj', u'storing', u'animals', u'8', u'16'], [u'conj_and', u'feed', u'animals', u'12', u'16']]
+[]
+barn is an outlying farm building for storing grain or animal feed and housing farm animals
+================================
+bottle.n.01
+[[u'bottle', u'0', u'6', u'bottle', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'a', u'10', u'11', u'a', u'DT', u'O'], [u'glass', u'12', u'17', u'glass', u'NN', u'O'], [u'or', u'18', u'20', u'or', u'CC', u'O'], [u'plastic', u'21', u'28', u'plastic', u'NN', u'O'], [u'vessel', u'29', u'35', u'vessel', u'NN', u'O'], [u'used', u'36', u'40', u'use', u'VBN', u'O'], [u'for', u'41', u'44', u'for', u'IN', u'O'], [u'storing', u'45', u'52', u'store', u'VBG', u'O'], [u'drinks', u'53', u'59', u'drink', u'NNS', u'O'], [u'or', u'60', u'62', u'or', u'CC', u'O'], [u'other', u'63', u'68', u'other', u'JJ', u'O'], [u'liquids', u'69', u'76', u'liquid', u'NNS', u'O'], [u';', u'76', u'77', u';', u':', u'O'], [u'typically', u'78', u'87', u'typically', u'RB', u'O'], [u'cylindrical', u'88', u'99', u'cylindrical', u'JJ', u'O'], [u'without', u'100', u'107', u'without', u'IN', u'O'], [u'handles', u'108', u'115', u'handle', u'VBZ', u'O'], [u'and', u'116', u'119', u'and', u'CC', u'O'], [u'with', u'120', u'124', u'with', u'IN', u'O'], [u'a', u'125', u'126', u'a', u'DT', u'O'], [u'narrow', u'127', u'133', u'narrow', u'JJ', u'O'], [u'neck', u'134', u'138', u'neck', u'NN', u'O'], [u'that', u'139', u'143', u'that', u'WDT', u'O'], [u'can', u'144', u'147', u'can', u'MD', u'O'], [u'be', u'148', u'150', u'be', u'VB', u'O'], [u'plugged', u'151', u'158', u'plug', u'VBN', u'O'], [u'or', u'159', u'161', u'or', u'CC', u'O'], [u'capped', u'162', u'168', u'cap', u'VBN', u'O']]
+(ROOT (S (NP (NN bottle)) (VP (VBZ is) (NP (NP (DT a) (NP (NN glass) (CC or) (NN plastic)) (NN vessel)) (VP (VBN used) (PP (IN for) (S (VP (VBG storing) (NP (NP (NNS drinks)) (CC or) (NP (JJ other) (NNS liquids))))))) (: ;) (ADJP (ADJP (RB typically) (JJ cylindrical) (PP (PP (IN without) (S (VP (VBZ handles)))) (CC and) (PP (IN with) (NP (NP (DT a) (JJ narrow) (NN neck)) (SBAR (WHNP (WDT that)) (S (VP (MD can) (VP (VB be) (VP (VBN plugged)))))))))) (CC or) (ADJP (VBN capped)))))))
+(ROOT
+  (S
+    (NP (NN bottle))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NP (NN glass) (CC or) (NN plastic)) (NN vessel))
+        (VP
+          (VBN used)
+          (PP
+            (IN for)
+            (S
+              (VP
+                (VBG storing)
+                (NP
+                  (NP (NNS drinks))
+                  (CC or)
+                  (NP (JJ other) (NNS liquids)))))))
+        (: ;)
+        (ADJP
+          (ADJP
+            (RB typically)
+            (JJ cylindrical)
+            (PP
+              (PP (IN without) (S (VP (VBZ handles))))
+              (CC and)
+              (PP
+                (IN with)
+                (NP
+                  (NP (DT a) (JJ narrow) (NN neck))
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S (VP (MD can) (VP (VB be) (VP (VBN plugged))))))))))
+          (CC or)
+          (ADJP (VBN capped)))))))
+[[u'nsubj', u'vessel', u'bottle', u'7', u'1'], [u'cop', u'vessel', u'is', u'7', u'2'], [u'det', u'vessel', u'a', u'7', u'3'], [u'nn', u'vessel', u'glass', u'7', u'4'], [u'conj_or', u'glass', u'plastic', u'4', u'6'], [u'nn', u'vessel', u'plastic', u'7', u'6'], [u'root', u'ROOT', u'vessel', u'0', u'7'], [u'partmod', u'vessel', u'used', u'7', u'8'], [u'prepc_for', u'used', u'storing', u'8', u'10'], [u'dobj', u'storing', u'drinks', u'10', u'11'], [u'amod', u'liquids', u'other', u'14', u'13'], [u'dobj', u'storing', u'liquids', u'10', u'14'], [u'conj_or', u'drinks', u'liquids', u'11', u'14'], [u'advmod', u'cylindrical', u'typically', u'17', u'16'], [u'amod', u'vessel', u'cylindrical', u'7', u'17'], [u'amod', u'vessel', u'cylindrical', u'7', u"17'"], [u'conj_and', u'cylindrical', u'cylindrical', u'17', u"17'"], [u'prepc_without', u'cylindrical', u'handles', u'17', u'19'], [u'det', u'neck', u'a', u'24', u'22'], [u'amod', u'neck', u'narrow', u'24', u'23'], [u'prep_with', u'cylindrical', u'neck', u"17'", u'24'], [u'nsubjpass', u'plugged', u'neck', u'28', u'24'], [u'aux', u'plugged', u'can', u'28', u'26'], [u'auxpass', u'plugged', u'be', u'28', u'27'], [u'rcmod', u'neck', u'plugged', u'24', u'28'], [u'amod', u'vessel', u'capped', u'7', u'30'], [u'conj_or', u'cylindrical', u'capped', u'17', u'30']]
+[]
+bottle is a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped
+================================
+street.n.01
+[[u'street', u'0', u'6', u'street', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'a', u'10', u'11', u'a', u'DT', u'O'], [u'thoroughfare', u'12', u'24', u'thoroughfare', u'NN', u'O'], [u'that', u'26', u'30', u'that', u'WDT', u'O'], [u'is', u'31', u'33', u'be', u'VBZ', u'O'], [u'lined', u'34', u'39', u'line', u'VBN', u'O'], [u'with', u'40', u'44', u'with', u'IN', u'O'], [u'buildings', u'45', u'54', u'building', u'NNS', u'O']]
+(ROOT (S (NP (NN street)) (VP (VBZ is) (NP (NP (DT a) (NN thoroughfare)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (VP (VBN lined) (PP (IN with) (NP (NNS buildings)))))))))))
+(ROOT
+  (S
+    (NP (NN street))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN thoroughfare))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ is)
+              (VP (VBN lined) (PP (IN with) (NP (NNS buildings)))))))))))
+[[u'nsubj', u'thoroughfare', u'street', u'4', u'1'], [u'cop', u'thoroughfare', u'is', u'4', u'2'], [u'det', u'thoroughfare', u'a', u'4', u'3'], [u'root', u'ROOT', u'thoroughfare', u'0', u'4'], [u'nsubjpass', u'lined', u'thoroughfare', u'7', u'4'], [u'auxpass', u'lined', u'is', u'7', u'6'], [u'rcmod', u'thoroughfare', u'lined', u'4', u'7'], [u'prep_with', u'lined', u'buildings', u'7', u'9']]
+[]
+street is a thoroughfare  that is lined with buildings
+================================
+device.n.01
+[[u'device', u'0', u'6', u'device', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'an', u'10', u'12', u'a', u'DT', u'O'], [u'instrumentality', u'13', u'28', u'instrumentality', u'NN', u'O'], [u'invented', u'29', u'37', u'invent', u'VBN', u'O'], [u'for', u'38', u'41', u'for', u'IN', u'O'], [u'a', u'42', u'43', u'a', u'DT', u'O'], [u'particular', u'44', u'54', u'particular', u'JJ', u'O'], [u'purpose', u'55', u'62', u'purpose', u'NN', u'O']]
+(ROOT (S (NP (NN device)) (VP (VBZ is) (NP (NP (DT an) (NN instrumentality)) (VP (VBN invented) (PP (IN for) (NP (DT a) (JJ particular) (NN purpose))))))))
+(ROOT
+  (S
+    (NP (NN device))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT an) (NN instrumentality))
+        (VP
+          (VBN invented)
+          (PP (IN for) (NP (DT a) (JJ particular) (NN purpose))))))))
+[[u'nsubj', u'instrumentality', u'device', u'4', u'1'], [u'cop', u'instrumentality', u'is', u'4', u'2'], [u'det', u'instrumentality', u'an', u'4', u'3'], [u'root', u'ROOT', u'instrumentality', u'0', u'4'], [u'partmod', u'instrumentality', u'invented', u'4', u'5'], [u'det', u'purpose', u'a', u'9', u'7'], [u'amod', u'purpose', u'particular', u'9', u'8'], [u'prep_for', u'invented', u'purpose', u'5', u'9']]
+[]
+device is an instrumentality invented for a particular purpose
+================================
+camp.n.01
+[[u'camp', u'0', u'4', u'camp', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'temporary', u'8', u'17', u'temporary', u'JJ', u'O'], [u'living', u'18', u'24', u'living', u'NN', u'O'], [u'quarters', u'25', u'33', u'quarter', u'NNS', u'O'], [u'specially', u'34', u'43', u'specially', u'RB', u'O'], [u'built', u'44', u'49', u'build', u'VBN', u'O'], [u'by', u'50', u'52', u'by', u'IN', u'O'], [u'the', u'53', u'56', u'the', u'DT', u'O'], [u'army', u'57', u'61', u'army', u'NN', u'O'], [u'for', u'62', u'65', u'for', u'IN', u'O'], [u'soldiers', u'66', u'74', u'soldier', u'NNS', u'O']]
+(ROOT (S (NP (NN camp)) (VP (VBZ is) (NP (NP (JJ temporary) (NN living) (NNS quarters)) (VP (ADVP (RB specially)) (VBN built) (PP (IN by) (NP (NP (DT the) (NN army)) (PP (IN for) (NP (NNS soldiers))))))))))
+(ROOT
+  (S
+    (NP (NN camp))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (JJ temporary) (NN living) (NNS quarters))
+        (VP
+          (ADVP (RB specially))
+          (VBN built)
+          (PP
+            (IN by)
+            (NP
+              (NP (DT the) (NN army))
+              (PP (IN for) (NP (NNS soldiers))))))))))
+[[u'nsubj', u'quarters', u'camp', u'5', u'1'], [u'cop', u'quarters', u'is', u'5', u'2'], [u'amod', u'quarters', u'temporary', u'5', u'3'], [u'nn', u'quarters', u'living', u'5', u'4'], [u'root', u'ROOT', u'quarters', u'0', u'5'], [u'advmod', u'built', u'specially', u'7', u'6'], [u'partmod', u'quarters', u'built', u'5', u'7'], [u'det', u'army', u'the', u'10', u'9'], [u'agent', u'built', u'army', u'7', u'10'], [u'prep_for', u'army', u'soldiers', u'10', u'12']]
+[]
+camp is temporary living quarters specially built by the army for soldiers
+================================
+roof.n.01
+[[u'roof', u'0', u'4', u'roof', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'a', u'8', u'9', u'a', u'DT', u'O'], [u'protective', u'10', u'20', u'protective', u'JJ', u'O'], [u'covering', u'21', u'29', u'cover', u'VBG', u'O'], [u'that', u'30', u'34', u'that', u'IN', u'O'], [u'covers', u'35', u'41', u'cover', u'VBZ', u'O'], [u'or', u'42', u'44', u'or', u'CC', u'O'], [u'forms', u'45', u'50', u'form', u'VBZ', u'O'], [u'the', u'51', u'54', u'the', u'DT', u'O'], [u'top', u'55', u'58', u'top', u'NN', u'O'], [u'of', u'59', u'61', u'of', u'IN', u'O'], [u'a', u'62', u'63', u'a', u'DT', u'O'], [u'building', u'64', u'72', u'building', u'NN', u'O']]
+(ROOT (S (NP (NN roof)) (VP (VBZ is) (NP (NP (DT a) (JJ protective)) (VP (VBG covering) (SBAR (IN that) (S (VP (VBZ covers) (CC or) (VBZ forms) (NP (NP (DT the) (NN top)) (PP (IN of) (NP (DT a) (NN building))))))))))))
+(ROOT
+  (S
+    (NP (NN roof))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (JJ protective))
+        (VP
+          (VBG covering)
+          (SBAR
+            (IN that)
+            (S
+              (VP
+                (VBZ covers)
+                (CC or)
+                (VBZ forms)
+                (NP
+                  (NP (DT the) (NN top))
+                  (PP (IN of) (NP (DT a) (NN building))))))))))))
+[[u'nsubj', u'protective', u'roof', u'4', u'1'], [u'cop', u'protective', u'is', u'4', u'2'], [u'det', u'protective', u'a', u'4', u'3'], [u'root', u'ROOT', u'protective', u'0', u'4'], [u'partmod', u'protective', u'covering', u'4', u'5'], [u'mark', u'covers', u'that', u'7', u'6'], [u'ccomp', u'covering', u'covers', u'5', u'7'], [u'ccomp', u'covering', u'forms', u'5', u'9'], [u'conj_or', u'covers', u'forms', u'7', u'9'], [u'det', u'top', u'the', u'11', u'10'], [u'dobj', u'covers', u'top', u'7', u'11'], [u'det', u'building', u'a', u'14', u'13'], [u'prep_of', u'top', u'building', u'11', u'14']]
+[]
+roof is a protective covering that covers or forms the top of a building
+================================
+car.n.01
+[[u'car', u'0', u'3', u'car', u'NN', u'O'], [u'is', u'4', u'6', u'be', u'VBZ', u'O'], [u'a', u'7', u'8', u'a', u'DT', u'O'], [u'motor', u'9', u'14', u'motor', u'NN', u'O'], [u'vehicle', u'15', u'22', u'vehicle', u'NN', u'O'], [u'with', u'23', u'27', u'with', u'IN', u'O'], [u'four', u'28', u'32', u'four', u'CD', u'NUMBER'], [u'wheels', u'33', u'39', u'wheel', u'NNS', u'O'], [u';', u'39', u'40', u';', u':', u'O'], [u'usually', u'41', u'48', u'usually', u'RB', u'O'], [u'propelled', u'49', u'58', u'propel', u'VBN', u'O'], [u'by', u'59', u'61', u'by', u'IN', u'O'], [u'an', u'62', u'64', u'a', u'DT', u'O'], [u'internal', u'65', u'73', u'internal', u'JJ', u'O'], [u'combustion', u'74', u'84', u'combustion', u'NN', u'O'], [u'engine', u'85', u'91', u'engine', u'NN', u'O']]
+(ROOT (S (S (NP (NN car)) (VP (VBZ is) (NP (NP (DT a) (NN motor) (NN vehicle)) (PP (IN with) (NP (CD four) (NNS wheels)))))) (: ;) (S (ADVP (RB usually)) (VP (VBN propelled) (PP (IN by) (NP (DT an) (JJ internal) (NN combustion) (NN engine)))))))
+(ROOT
+  (S
+    (S
+      (NP (NN car))
+      (VP
+        (VBZ is)
+        (NP
+          (NP (DT a) (NN motor) (NN vehicle))
+          (PP (IN with) (NP (CD four) (NNS wheels))))))
+    (: ;)
+    (S
+      (ADVP (RB usually))
+      (VP
+        (VBN propelled)
+        (PP
+          (IN by)
+          (NP (DT an) (JJ internal) (NN combustion) (NN engine)))))))
+[[u'nsubj', u'vehicle', u'car', u'5', u'1'], [u'cop', u'vehicle', u'is', u'5', u'2'], [u'det', u'vehicle', u'a', u'5', u'3'], [u'nn', u'vehicle', u'motor', u'5', u'4'], [u'root', u'ROOT', u'vehicle', u'0', u'5'], [u'num', u'wheels', u'four', u'8', u'7'], [u'prep_with', u'vehicle', u'wheels', u'5', u'8'], [u'advmod', u'propelled', u'usually', u'11', u'10'], [u'parataxis', u'vehicle', u'propelled', u'5', u'11'], [u'det', u'engine', u'an', u'16', u'13'], [u'amod', u'engine', u'internal', u'16', u'14'], [u'nn', u'engine', u'combustion', u'16', u'15'], [u'prep_by', u'propelled', u'engine', u'11', u'16']]
+[]
+car is a motor vehicle with four wheels; usually propelled by an internal combustion engine
+================================
+anode.n.01
+[[u'anode', u'0', u'5', u'anode', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'a', u'9', u'10', u'a', u'DT', u'O'], [u'positively', u'11', u'21', u'positively', u'RB', u'O'], [u'charged', u'22', u'29', u'charge', u'VBN', u'O'], [u'electrode', u'30', u'39', u'electrode', u'NN', u'O'], [u'by', u'40', u'42', u'by', u'IN', u'O'], [u'which', u'43', u'48', u'which', u'WDT', u'O'], [u'electrons', u'49', u'58', u'electron', u'NNS', u'O'], [u'leave', u'59', u'64', u'leave', u'VBP', u'O'], [u'an', u'65', u'67', u'a', u'DT', u'O'], [u'electrical', u'68', u'78', u'electrical', u'JJ', u'O'], [u'device', u'79', u'85', u'device', u'NN', u'O']]
+(ROOT (S (NP (NN anode)) (VP (VBZ is) (NP (DT a) (ADJP (ADVP (RB positively)) (VBN charged)) (NN electrode) (SBAR (WHPP (IN by) (WHNP (WDT which))) (S (NP (NNS electrons)) (VP (VBP leave) (NP (DT an) (JJ electrical) (NN device)))))))))
+(ROOT
+  (S
+    (NP (NN anode))
+    (VP
+      (VBZ is)
+      (NP
+        (DT a)
+        (ADJP (ADVP (RB positively)) (VBN charged))
+        (NN electrode)
+        (SBAR
+          (WHPP (IN by) (WHNP (WDT which)))
+          (S
+            (NP (NNS electrons))
+            (VP (VBP leave) (NP (DT an) (JJ electrical) (NN device)))))))))
+[[u'nsubj', u'electrode', u'anode', u'6', u'1'], [u'cop', u'electrode', u'is', u'6', u'2'], [u'det', u'electrode', u'a', u'6', u'3'], [u'advmod', u'charged', u'positively', u'5', u'4'], [u'amod', u'electrode', u'charged', u'6', u'5'], [u'root', u'ROOT', u'electrode', u'0', u'6'], [u'prep_by', u'leave', u'which', u'10', u'8'], [u'nsubj', u'leave', u'electrons', u'10', u'9'], [u'ccomp', u'electrode', u'leave', u'6', u'10'], [u'det', u'device', u'an', u'13', u'11'], [u'amod', u'device', u'electrical', u'13', u'12'], [u'dobj', u'leave', u'device', u'10', u'13']]
+[]
+anode is a positively charged electrode by which electrons leave an electrical device
+================================
+tent.n.01
+[[u'tent', u'0', u'4', u'tent', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'a', u'8', u'9', u'a', u'DT', u'O'], [u'portable', u'10', u'18', u'portable', u'JJ', u'O'], [u'shelter', u'19', u'26', u'shelter', u'NN', u'O']]
+(ROOT (S (NP (NN tent)) (VP (VBZ is) (NP (DT a) (JJ portable) (NN shelter)))))
+(ROOT
+  (S
+    (NP (NN tent))
+    (VP (VBZ is) (NP (DT a) (JJ portable) (NN shelter)))))
+[[u'nsubj', u'shelter', u'tent', u'5', u'1'], [u'cop', u'shelter', u'is', u'5', u'2'], [u'det', u'shelter', u'a', u'5', u'3'], [u'amod', u'shelter', u'portable', u'5', u'4'], [u'root', u'ROOT', u'shelter', u'0', u'5']]
+[]
+tent is a portable shelter
+================================
+stairs.n.01
+[[u'stairs', u'0', u'6', u'stair', u'NNS', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'a', u'10', u'11', u'a', u'DT', u'O'], [u'flight', u'12', u'18', u'flight', u'NN', u'O'], [u'of', u'19', u'21', u'of', u'IN', u'O'], [u'stairs', u'22', u'28', u'stair', u'NNS', u'O'], [u'or', u'29', u'31', u'or', u'CC', u'O'], [u'a', u'32', u'33', u'a', u'DT', u'O'], [u'flight', u'34', u'40', u'flight', u'NN', u'O'], [u'of', u'41', u'43', u'of', u'IN', u'O'], [u'steps', u'44', u'49', u'step', u'NNS', u'O']]
+(ROOT (S (NP (NNS stairs)) (VP (VBZ is) (NP (NP (NP (DT a) (NN flight)) (PP (IN of) (NP (NNS stairs)))) (CC or) (NP (NP (DT a) (NN flight)) (PP (IN of) (NP (NNS steps))))))))
+(ROOT
+  (S
+    (NP (NNS stairs))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NP (DT a) (NN flight)) (PP (IN of) (NP (NNS stairs))))
+        (CC or)
+        (NP (NP (DT a) (NN flight)) (PP (IN of) (NP (NNS steps))))))))
+[[u'nsubj', u'flight', u'stairs', u'4', u'1'], [u'cop', u'flight', u'is', u'4', u'2'], [u'det', u'flight', u'a', u'4', u'3'], [u'root', u'ROOT', u'flight', u'0', u'4'], [u'prep_of', u'flight', u'stairs', u'4', u'6'], [u'det', u'flight', u'a', u'9', u'8'], [u'conj_or', u'flight', u'flight', u'4', u'9'], [u'prep_of', u'flight', u'steps', u'9', u'11']]
+[[[[u'stairs', 0, 5, 5, 6], [u'stairs', 0, 0, 0, 1]]]]
+stairs is a flight of stairs or a flight of steps
+================================
+building.n.01
+[[u'building', u'0', u'8', u'building', u'NN', u'O'], [u'is', u'9', u'11', u'be', u'VBZ', u'O'], [u'a', u'12', u'13', u'a', u'DT', u'O'], [u'structure', u'14', u'23', u'structure', u'NN', u'O'], [u'that', u'24', u'28', u'that', u'WDT', u'O'], [u'has', u'29', u'32', u'have', u'VBZ', u'O'], [u'a', u'33', u'34', u'a', u'DT', u'O'], [u'roof', u'35', u'39', u'roof', u'NN', u'O'], [u'and', u'40', u'43', u'and', u'CC', u'O'], [u'walls', u'44', u'49', u'wall', u'NNS', u'O'], [u'and', u'50', u'53', u'and', u'CC', u'O'], [u'stands', u'54', u'60', u'stand', u'VBZ', u'O'], [u'more', u'61', u'65', u'more', u'RBR', u'O'], [u'or', u'66', u'68', u'or', u'CC', u'O'], [u'less', u'69', u'73', u'less', u'RBR', u'O'], [u'permanently', u'74', u'85', u'permanently', u'RB', u'O'], [u'in', u'86', u'88', u'in', u'IN', u'O'], [u'one', u'89', u'92', u'one', u'CD', u'NUMBER'], [u'place', u'93', u'98', u'place', u'NN', u'O']]
+(ROOT (S (NP (NN building)) (VP (VBZ is) (NP (NP (DT a) (NN structure)) (SBAR (WHNP (WDT that)) (S (VP (VP (VBZ has) (NP (NP (DT a) (NN roof)) (CC and) (NP (NNS walls)))) (CC and) (VP (VBZ stands) (ADVP (RBR more) (CC or) (RBR less) (RB permanently)) (PP (IN in) (NP (CD one) (NN place)))))))))))
+(ROOT
+  (S
+    (NP (NN building))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN structure))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VP
+                (VBZ has)
+                (NP (NP (DT a) (NN roof)) (CC and) (NP (NNS walls))))
+              (CC and)
+              (VP
+                (VBZ stands)
+                (ADVP (RBR more) (CC or) (RBR less) (RB permanently))
+                (PP (IN in) (NP (CD one) (NN place)))))))))))
+[[u'nsubj', u'structure', u'building', u'4', u'1'], [u'cop', u'structure', u'is', u'4', u'2'], [u'det', u'structure', u'a', u'4', u'3'], [u'root', u'ROOT', u'structure', u'0', u'4'], [u'nsubj', u'has', u'structure', u'6', u'4'], [u'nsubj', u'stands', u'structure', u'12', u'4'], [u'rcmod', u'structure', u'has', u'4', u'6'], [u'det', u'roof', u'a', u'8', u'7'], [u'dobj', u'has', u'roof', u'6', u'8'], [u'dobj', u'has', u'walls', u'6', u'10'], [u'conj_and', u'roof', u'walls', u'8', u'10'], [u'rcmod', u'structure', u'stands', u'4', u'12'], [u'conj_and', u'has', u'stands', u'6', u'12'], [u'dep', u'permanently', u'more', u'16', u'13'], [u'advmod', u'stands', u'less', u'12', u'15'], [u'conj_or', u'permanently', u'less', u'16', u'15'], [u'advmod', u'stands', u'permanently', u'12', u'16'], [u'num', u'place', u'one', u'19', u'18'], [u'prep_in', u'stands', u'place', u'12', u'19']]
+[]
+building is a structure that has a roof and walls and stands more or less permanently in one place
+================================
+living_room.n.01
+[[u'living_room', u'0', u'11', u'living_room', u'NN', u'O'], [u'is', u'12', u'14', u'be', u'VBZ', u'O'], [u'a', u'15', u'16', u'a', u'DT', u'O'], [u'room', u'17', u'21', u'room', u'NN', u'O'], [u'in', u'22', u'24', u'in', u'IN', u'O'], [u'a', u'25', u'26', u'a', u'DT', u'O'], [u'private', u'27', u'34', u'private', u'JJ', u'O'], [u'house', u'35', u'40', u'house', u'NN', u'O'], [u'or', u'41', u'43', u'or', u'CC', u'O'], [u'establishment', u'44', u'57', u'establishment', u'NN', u'O'], [u'where', u'58', u'63', u'where', u'WRB', u'O'], [u'people', u'64', u'70', u'people', u'NNS', u'O'], [u'can', u'71', u'74', u'can', u'MD', u'O'], [u'sit', u'75', u'78', u'sit', u'VB', u'O'], [u'and', u'79', u'82', u'and', u'CC', u'O'], [u'talk', u'83', u'87', u'talk', u'VB', u'O'], [u'and', u'88', u'91', u'and', u'CC', u'O'], [u'relax', u'92', u'97', u'relax', u'VB', u'O']]
+(ROOT (S (NP (NN living_room)) (VP (VBZ is) (NP (NP (DT a) (NN room)) (PP (IN in) (NP (NP (DT a) (JJ private) (NN house) (CC or) (NN establishment)) (SBAR (WHADVP (WRB where)) (S (NP (NNS people)) (VP (MD can) (VP (VP (VB sit)) (CC and) (VP (VB talk) (CC and) (VB relax))))))))))))
+(ROOT
+  (S
+    (NP (NN living_room))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN room))
+        (PP
+          (IN in)
+          (NP
+            (NP
+              (DT a)
+              (JJ private)
+              (NN house)
+              (CC or)
+              (NN establishment))
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (NNS people))
+                (VP
+                  (MD can)
+                  (VP
+                    (VP (VB sit))
+                    (CC and)
+                    (VP (VB talk) (CC and) (VB relax))))))))))))
+[[u'nsubj', u'room', u'living_room', u'4', u'1'], [u'cop', u'room', u'is', u'4', u'2'], [u'det', u'room', u'a', u'4', u'3'], [u'root', u'ROOT', u'room', u'0', u'4'], [u'det', u'house', u'a', u'8', u'6'], [u'amod', u'house', u'private', u'8', u'7'], [u'prep_in', u'room', u'house', u'4', u'8'], [u'prep_in', u'room', u'establishment', u'4', u'10'], [u'conj_or', u'house', u'establishment', u'8', u'10'], [u'advmod', u'sit', u'where', u'14', u'11'], [u'nsubj', u'sit', u'people', u'14', u'12'], [u'nsubj', u'talk', u'people', u'16', u'12'], [u'aux', u'sit', u'can', u'14', u'13'], [u'rcmod', u'house', u'sit', u'8', u'14'], [u'rcmod', u'house', u'talk', u'8', u'16'], [u'conj_and', u'sit', u'talk', u'14', u'16'], [u'conj_and', u'sit', u'relax', u'14', u'18'], [u'conj_and', u'talk', u'relax', u'16', u'18']]
+[]
+living_room is a room in a private house or establishment where people can sit and talk and relax
+================================
+facility.n.01
+[[u'facility', u'0', u'8', u'facility', u'NN', u'O'], [u'is', u'9', u'11', u'be', u'VBZ', u'O'], [u'a', u'12', u'13', u'a', u'DT', u'O'], [u'building', u'14', u'22', u'building', u'NN', u'O'], [u'or', u'23', u'25', u'or', u'CC', u'O'], [u'place', u'26', u'31', u'place', u'NN', u'O'], [u'that', u'32', u'36', u'that', u'WDT', u'O'], [u'provides', u'37', u'45', u'provide', u'VBZ', u'O'], [u'a', u'46', u'47', u'a', u'DT', u'O'], [u'particular', u'48', u'58', u'particular', u'JJ', u'O'], [u'service', u'59', u'66', u'service', u'NN', u'O'], [u'or', u'67', u'69', u'or', u'CC', u'O'], [u'is', u'70', u'72', u'be', u'VBZ', u'O'], [u'used', u'73', u'77', u'use', u'VBN', u'O'], [u'for', u'78', u'81', u'for', u'IN', u'O'], [u'a', u'82', u'83', u'a', u'DT', u'O'], [u'particular', u'84', u'94', u'particular', u'JJ', u'O'], [u'industry', u'95', u'103', u'industry', u'NN', u'O']]
+(ROOT (S (NP (NN facility)) (VP (VBZ is) (NP (NP (DT a) (NN building) (CC or) (NN place)) (SBAR (WHNP (WDT that)) (S (VP (VP (VBZ provides) (NP (DT a) (JJ particular) (NN service))) (CC or) (VP (VBZ is) (VP (VBN used) (PP (IN for) (NP (DT a) (JJ particular) (NN industry))))))))))))
+(ROOT
+  (S
+    (NP (NN facility))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN building) (CC or) (NN place))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VP
+                (VBZ provides)
+                (NP (DT a) (JJ particular) (NN service)))
+              (CC or)
+              (VP
+                (VBZ is)
+                (VP
+                  (VBN used)
+                  (PP
+                    (IN for)
+                    (NP (DT a) (JJ particular) (NN industry))))))))))))
+[[u'nsubj', u'building', u'facility', u'4', u'1'], [u'cop', u'building', u'is', u'4', u'2'], [u'det', u'building', u'a', u'4', u'3'], [u'root', u'ROOT', u'building', u'0', u'4'], [u'nsubj', u'provides', u'building', u'8', u'4'], [u'nsubjpass', u'used', u'building', u'14', u'4'], [u'conj_or', u'building', u'place', u'4', u'6'], [u'nsubj', u'provides', u'place', u'8', u'6'], [u'rcmod', u'building', u'provides', u'4', u'8'], [u'det', u'service', u'a', u'11', u'9'], [u'amod', u'service', u'particular', u'11', u'10'], [u'dobj', u'provides', u'service', u'8', u'11'], [u'auxpass', u'used', u'is', u'14', u'13'], [u'rcmod', u'building', u'used', u'4', u'14'], [u'conj_or', u'provides', u'used', u'8', u'14'], [u'det', u'industry', u'a', u'18', u'16'], [u'amod', u'industry', u'particular', u'18', u'17'], [u'prep_for', u'used', u'industry', u'14', u'18']]
+[]
+facility is a building or place that provides a particular service or is used for a particular industry
+================================
+dwelling.n.01
+[[u'dwelling', u'0', u'8', u'dwelling', u'NN', u'O'], [u'is', u'9', u'11', u'be', u'VBZ', u'O'], [u'housing', u'12', u'19', u'housing', u'NN', u'O'], [u'that', u'20', u'24', u'that', u'IN', u'O'], [u'someone', u'25', u'32', u'someone', u'NN', u'O'], [u'is', u'33', u'35', u'be', u'VBZ', u'O'], [u'living', u'36', u'42', u'live', u'VBG', u'O'], [u'in', u'43', u'45', u'in', u'IN', u'O']]
+(ROOT (S (NP (NN dwelling)) (VP (VBZ is) (NP (NN housing)) (SBAR (IN that) (S (NP (NN someone)) (VP (VBZ is) (VP (VBG living) (PP (IN in)))))))))
+(ROOT
+  (S
+    (NP (NN dwelling))
+    (VP
+      (VBZ is)
+      (NP (NN housing))
+      (SBAR
+        (IN that)
+        (S
+          (NP (NN someone))
+          (VP (VBZ is) (VP (VBG living) (PP (IN in)))))))))
+[[u'nsubj', u'housing', u'dwelling', u'3', u'1'], [u'cop', u'housing', u'is', u'3', u'2'], [u'root', u'ROOT', u'housing', u'0', u'3'], [u'mark', u'living', u'that', u'7', u'4'], [u'nsubj', u'living', u'someone', u'7', u'5'], [u'aux', u'living', u'is', u'7', u'6'], [u'ccomp', u'housing', u'living', u'3', u'7'], [u'prep', u'living', u'in', u'7', u'8']]
+[]
+dwelling is housing that someone is living in
+================================
+wall.n.01
+[[u'wall', u'0', u'4', u'wall', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'an', u'8', u'10', u'a', u'DT', u'O'], [u'architectural', u'11', u'24', u'architectural', u'JJ', u'O'], [u'partition', u'25', u'34', u'partition', u'NN', u'O'], [u'with', u'35', u'39', u'with', u'IN', u'O'], [u'a', u'40', u'41', u'a', u'DT', u'O'], [u'height', u'42', u'48', u'height', u'NN', u'O'], [u'and', u'49', u'52', u'and', u'CC', u'O'], [u'length', u'53', u'59', u'length', u'NN', u'O'], [u'greater', u'60', u'67', u'greater', u'JJR', u'O'], [u'than', u'68', u'72', u'than', u'IN', u'O'], [u'its', u'73', u'76', u'its', u'PRP$', u'O'], [u'thickness', u'77', u'86', u'thickness', u'NN', u'O'], [u';', u'86', u'87', u';', u':', u'O'], [u'used', u'88', u'92', u'use', u'VBN', u'O'], [u'to', u'93', u'95', u'to', u'TO', u'O'], [u'divide', u'96', u'102', u'divide', u'VB', u'O'], [u'or', u'103', u'105', u'or', u'CC', u'O'], [u'enclose', u'106', u'113', u'enclose', u'VB', u'O'], [u'an', u'114', u'116', u'a', u'DT', u'O'], [u'area', u'117', u'121', u'area', u'NN', u'O'], [u'or', u'122', u'124', u'or', u'CC', u'O'], [u'to', u'125', u'127', u'to', u'TO', u'O'], [u'support', u'128', u'135', u'support', u'VB', u'O'], [u'another', u'136', u'143', u'another', u'DT', u'O'], [u'structure', u'144', u'153', u'structure', u'NN', u'O']]
+(ROOT (S (NP (NN wall)) (VP (VBZ is) (ADJP (ADJP (NP (NP (DT an) (JJ architectural) (NN partition)) (PP (IN with) (NP (DT a) (NN height) (CC and) (NN length)))) (JJR greater)) (PP (IN than) (NP (NP (PRP$ its) (NN thickness)) (: ;) (VP (VBN used) (S (VP (VP (TO to) (VP (VB divide) (CC or) (VB enclose) (NP (DT an) (NN area)))) (CC or) (VP (TO to) (VP (VB support) (NP (DT another) (NN structure)))))))))))))
+(ROOT
+  (S
+    (NP (NN wall))
+    (VP
+      (VBZ is)
+      (ADJP
+        (ADJP
+          (NP
+            (NP (DT an) (JJ architectural) (NN partition))
+            (PP
+              (IN with)
+              (NP (DT a) (NN height) (CC and) (NN length))))
+          (JJR greater))
+        (PP
+          (IN than)
+          (NP
+            (NP (PRP$ its) (NN thickness))
+            (: ;)
+            (VP
+              (VBN used)
+              (S
+                (VP
+                  (VP
+                    (TO to)
+                    (VP
+                      (VB divide)
+                      (CC or)
+                      (VB enclose)
+                      (NP (DT an) (NN area))))
+                  (CC or)
+                  (VP
+                    (TO to)
+                    (VP
+                      (VB support)
+                      (NP (DT another) (NN structure)))))))))))))
+[[u'nsubj', u'greater', u'wall', u'11', u'1'], [u'cop', u'greater', u'is', u'11', u'2'], [u'det', u'partition', u'an', u'5', u'3'], [u'amod', u'partition', u'architectural', u'5', u'4'], [u'npadvmod', u'greater', u'partition', u'11', u'5'], [u'det', u'height', u'a', u'8', u'7'], [u'prep_with', u'partition', u'height', u'5', u'8'], [u'prep_with', u'partition', u'length', u'5', u'10'], [u'conj_and', u'height', u'length', u'8', u'10'], [u'root', u'ROOT', u'greater', u'0', u'11'], [u'poss', u'thickness', u'its', u'14', u'13'], [u'prep_than', u'greater', u'thickness', u'11', u'14'], [u'partmod', u'thickness', u'used', u'14', u'16'], [u'aux', u'divide', u'to', u'18', u'17'], [u'ccomp', u'used', u'divide', u'16', u'18'], [u'ccomp', u'used', u'enclose', u'16', u'20'], [u'conj_or', u'divide', u'enclose', u'18', u'20'], [u'det', u'area', u'an', u'22', u'21'], [u'dobj', u'divide', u'area', u'18', u'22'], [u'aux', u'support', u'to', u'25', u'24'], [u'ccomp', u'used', u'support', u'16', u'25'], [u'conj_or', u'divide', u'support', u'18', u'25'], [u'det', u'structure', u'another', u'27', u'26'], [u'dobj', u'support', u'structure', u'25', u'27']]
+[[[[u'its', 0, 2, 12, 13], [u'an architectural partition with a height and length', 0, 4, 2, 10]]]]
+wall is an architectural partition with a height and length greater than its thickness; used to divide or enclose an area or to support another structure
+================================
+component.n.03
+[[u'component', u'0', u'9', u'component', u'NN', u'O'], [u'is', u'10', u'12', u'be', u'VBZ', u'O'], [u'an', u'13', u'15', u'a', u'DT', u'O'], [u'artifact', u'16', u'24', u'artifact', u'NN', u'O'], [u'that', u'25', u'29', u'that', u'WDT', u'O'], [u'is', u'30', u'32', u'be', u'VBZ', u'O'], [u'one', u'33', u'36', u'one', u'CD', u'NUMBER'], [u'of', u'37', u'39', u'of', u'IN', u'O'], [u'the', u'40', u'43', u'the', u'DT', u'O'], [u'individual', u'44', u'54', u'individual', u'JJ', u'O'], [u'parts', u'55', u'60', u'part', u'NNS', u'O'], [u'of', u'61', u'63', u'of', u'IN', u'O'], [u'which', u'64', u'69', u'which', u'WDT', u'O'], [u'a', u'70', u'71', u'a', u'DT', u'O'], [u'composite', u'72', u'81', u'composite', u'JJ', u'O'], [u'entity', u'82', u'88', u'entity', u'NN', u'O'], [u'is', u'89', u'91', u'be', u'VBZ', u'O'], [u'made', u'92', u'96', u'make', u'VBN', u'O'], [u'up', u'97', u'99', u'up', u'RP', u'O'], [u';', u'99', u'100', u';', u':', u'O'], [u'especially', u'101', u'111', u'especially', u'RB', u'O'], [u'a', u'112', u'113', u'a', u'DT', u'O'], [u'part', u'114', u'118', u'part', u'NN', u'O'], [u'that', u'119', u'123', u'that', u'WDT', u'O'], [u'can', u'124', u'127', u'can', u'MD', u'O'], [u'be', u'128', u'130', u'be', u'VB', u'O'], [u'separated', u'131', u'140', u'separate', u'VBN', u'O'], [u'from', u'141', u'145', u'from', u'IN', u'O'], [u'or', u'146', u'148', u'or', u'CC', u'O'], [u'attached', u'149', u'157', u'attach', u'VBN', u'O'], [u'to', u'158', u'160', u'to', u'TO', u'O'], [u'a', u'161', u'162', u'a', u'DT', u'O'], [u'system', u'163', u'169', u'system', u'NN', u'O']]
+(ROOT (S (NP (NN component)) (VP (VBZ is) (NP (NP (NP (DT an) (NN artifact)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (NP (NP (CD one)) (PP (IN of) (NP (NP (DT the) (JJ individual) (NNS parts)) (SBAR (WHPP (IN of) (WHNP (WDT which))) (S (NP (DT a) (JJ composite) (NN entity)) (VP (VBZ is) (VP (VBN made) (PRT (RP up))))))))))))) (: ;) (RB especially) (NP (NP (DT a) (NN part)) (SBAR (WHNP (WDT that)) (S (VP (MD can) (VP (VB be) (VP (VP (VBN separated) (PP (IN from))) (CC or) (VP (VBN attached) (PP (TO to) (NP (DT a) (NN system))))))))))))))
+(ROOT
+  (S
+    (NP (NN component))
+    (VP
+      (VBZ is)
+      (NP
+        (NP
+          (NP (DT an) (NN artifact))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP
+                (VBZ is)
+                (NP
+                  (NP (CD one))
+                  (PP
+                    (IN of)
+                    (NP
+                      (NP (DT the) (JJ individual) (NNS parts))
+                      (SBAR
+                        (WHPP (IN of) (WHNP (WDT which)))
+                        (S
+                          (NP (DT a) (JJ composite) (NN entity))
+                          (VP (VBZ is) (VP (VBN made) (PRT (RP up)))))))))))))
+        (: ;)
+        (RB especially)
+        (NP
+          (NP (DT a) (NN part))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP
+                (MD can)
+                (VP
+                  (VB be)
+                  (VP
+                    (VP (VBN separated) (PP (IN from)))
+                    (CC or)
+                    (VP
+                      (VBN attached)
+                      (PP (TO to) (NP (DT a) (NN system))))))))))))))
+[[u'nsubj', u'artifact', u'component', u'4', u'1'], [u'cop', u'artifact', u'is', u'4', u'2'], [u'det', u'artifact', u'an', u'4', u'3'], [u'root', u'ROOT', u'artifact', u'0', u'4'], [u'nsubj', u'one', u'artifact', u'7', u'4'], [u'cop', u'one', u'is', u'7', u'6'], [u'rcmod', u'artifact', u'one', u'4', u'7'], [u'det', u'parts', u'the', u'11', u'9'], [u'amod', u'parts', u'individual', u'11', u'10'], [u'prep_of', u'one', u'parts', u'7', u'11'], [u'prep_of', u'made', u'parts', u'18', u'11'], [u'det', u'entity', u'a', u'16', u'14'], [u'amod', u'entity', u'composite', u'16', u'15'], [u'nsubjpass', u'made', u'entity', u'18', u'16'], [u'auxpass', u'made', u'is', u'18', u'17'], [u'rcmod', u'parts', u'made', u'11', u'18'], [u'prt', u'made', u'up', u'18', u'19'], [u'advmod', u'artifact', u'especially', u'4', u'21'], [u'det', u'part', u'a', u'23', u'22'], [u'dep', u'artifact', u'part', u'4', u'23'], [u'nsubjpass', u'separated', u'part', u'27', u'23'], [u'nsubjpass', u'attached', u'part', u'30', u'23'], [u'aux', u'separated', u'can', u'27', u'25'], [u'auxpass', u'separated', u'be', u'27', u'26'], [u'rcmod', u'part', u'separated', u'23', u'27'], [u'prep', u'separated', u'from', u'27', u'28'], [u'rcmod', u'part', u'attached', u'23', u'30'], [u'conj_or', u'separated', u'attached', u'27', u'30'], [u'det', u'system', u'a', u'33', u'32'], [u'prep_to', u'attached', u'system', u'30', u'33']]
+[]
+component is an artifact that is one of the individual parts of which a composite entity is made up; especially a part that can be separated from or attached to a system
+================================
+factory.n.01
+[[u'factory', u'0', u'7', u'factory', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'a', u'11', u'12', u'a', u'DT', u'O'], [u'plant', u'13', u'18', u'plant', u'NN', u'O'], [u'consisting', u'19', u'29', u'consist', u'VBG', u'O'], [u'of', u'30', u'32', u'of', u'IN', u'O'], [u'one', u'33', u'36', u'one', u'CD', u'NUMBER'], [u'or', u'37', u'39', u'or', u'CC', u'O'], [u'more', u'40', u'44', u'more', u'JJR', u'O'], [u'buildings', u'45', u'54', u'building', u'NNS', u'O'], [u'with', u'55', u'59', u'with', u'IN', u'O'], [u'facilities', u'60', u'70', u'facility', u'NNS', u'O'], [u'for', u'71', u'74', u'for', u'IN', u'O'], [u'manufacturing', u'75', u'88', u'manufacturing', u'NN', u'O']]
+(ROOT (S (NP (NN factory)) (VP (VBZ is) (NP (NP (DT a) (NN plant)) (VP (VBG consisting) (PP (IN of) (NP (QP (NP (CD one)) (CC or) (NP (JJR more))) (NNS buildings))) (PP (IN with) (NP (NP (NNS facilities)) (PP (IN for) (NP (NN manufacturing))))))))))
+(ROOT
+  (S
+    (NP (NN factory))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN plant))
+        (VP
+          (VBG consisting)
+          (PP
+            (IN of)
+            (NP
+              (QP (NP (CD one)) (CC or) (NP (JJR more)))
+              (NNS buildings)))
+          (PP
+            (IN with)
+            (NP
+              (NP (NNS facilities))
+              (PP (IN for) (NP (NN manufacturing))))))))))
+[[u'nsubj', u'plant', u'factory', u'4', u'1'], [u'cop', u'plant', u'is', u'4', u'2'], [u'det', u'plant', u'a', u'4', u'3'], [u'root', u'ROOT', u'plant', u'0', u'4'], [u'partmod', u'plant', u'consisting', u'4', u'5'], [u'num', u'buildings', u'one', u'10', u'7'], [u'conj_or', u'one', u'more', u'7', u'9'], [u'num', u'buildings', u'more', u'10', u'9'], [u'prep_of', u'consisting', u'buildings', u'5', u'10'], [u'prep_with', u'consisting', u'facilities', u'5', u'12'], [u'prep_for', u'facilities', u'manufacturing', u'12', u'14']]
+[]
+factory is a plant consisting of one or more buildings with facilities for manufacturing
+================================
+block.n.01
+[[u'block', u'0', u'5', u'block', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'a', u'9', u'10', u'a', u'DT', u'O'], [u'solid', u'11', u'16', u'solid', u'JJ', u'O'], [u'piece', u'17', u'22', u'piece', u'NN', u'O'], [u'of', u'23', u'25', u'of', u'IN', u'O'], [u'something', u'26', u'35', u'something', u'NN', u'O']]
+(ROOT (S (NP (NN block)) (VP (VBZ is) (NP (NP (DT a) (JJ solid) (NN piece)) (PP (IN of) (NP (NN something)))))))
+(ROOT
+  (S
+    (NP (NN block))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (JJ solid) (NN piece))
+        (PP (IN of) (NP (NN something)))))))
+[[u'nsubj', u'piece', u'block', u'5', u'1'], [u'cop', u'piece', u'is', u'5', u'2'], [u'det', u'piece', u'a', u'5', u'3'], [u'amod', u'piece', u'solid', u'5', u'4'], [u'root', u'ROOT', u'piece', u'0', u'5'], [u'prep_of', u'piece', u'something', u'5', u'7']]
+[]
+block is a solid piece of something
+================================
+telephone.n.01
+[[u'telephone', u'0', u'9', u'telephone', u'NN', u'O'], [u'is', u'10', u'12', u'be', u'VBZ', u'O'], [u'electronic', u'13', u'23', u'electronic', u'JJ', u'O'], [u'equipment', u'24', u'33', u'equipment', u'NN', u'O'], [u'that', u'34', u'38', u'that', u'WDT', u'O'], [u'converts', u'39', u'47', u'convert', u'VBZ', u'O'], [u'sound', u'48', u'53', u'sound', u'NN', u'O'], [u'into', u'54', u'58', u'into', u'IN', u'O'], [u'electrical', u'59', u'69', u'electrical', u'JJ', u'O'], [u'signals', u'70', u'77', u'signal', u'NNS', u'O'], [u'that', u'78', u'82', u'that', u'WDT', u'O'], [u'can', u'83', u'86', u'can', u'MD', u'O'], [u'be', u'87', u'89', u'be', u'VB', u'O'], [u'transmitted', u'90', u'101', u'transmit', u'VBN', u'O'], [u'over', u'102', u'106', u'over', u'IN', u'O'], [u'distances', u'107', u'116', u'distance', u'NNS', u'O'], [u'and', u'117', u'120', u'and', u'CC', u'O'], [u'then', u'121', u'125', u'then', u'RB', u'O'], [u'converts', u'126', u'134', u'convert', u'VBZ', u'O'], [u'received', u'135', u'143', u'receive', u'VBN', u'O'], [u'signals', u'144', u'151', u'signal', u'NNS', u'O'], [u'back', u'152', u'156', u'back', u'RB', u'O'], [u'into', u'157', u'161', u'into', u'IN', u'O'], [u'sounds', u'162', u'168', u'sound', u'NNS', u'O']]
+(ROOT (S (NP (NN telephone)) (VP (VBZ is) (NP (NP (JJ electronic) (NN equipment)) (SBAR (WHNP (WDT that)) (S (VP (VP (VBZ converts) (NP (NN sound)) (PP (IN into) (NP (NP (JJ electrical) (NNS signals)) (SBAR (WHNP (WDT that)) (S (VP (MD can) (VP (VB be) (VP (VBN transmitted) (PP (IN over) (NP (NNS distances))))))))))) (CC and) (ADVP (RB then)) (VP (VBZ converts) (NP (VBN received) (NNS signals)) (ADVP (RB back) (PP (IN into) (NP (NNS sounds))))))))))))
+(ROOT
+  (S
+    (NP (NN telephone))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (JJ electronic) (NN equipment))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VP
+                (VBZ converts)
+                (NP (NN sound))
+                (PP
+                  (IN into)
+                  (NP
+                    (NP (JJ electrical) (NNS signals))
+                    (SBAR
+                      (WHNP (WDT that))
+                      (S
+                        (VP
+                          (MD can)
+                          (VP
+                            (VB be)
+                            (VP
+                              (VBN transmitted)
+                              (PP (IN over) (NP (NNS distances)))))))))))
+              (CC and)
+              (ADVP (RB then))
+              (VP
+                (VBZ converts)
+                (NP (VBN received) (NNS signals))
+                (ADVP (RB back) (PP (IN into) (NP (NNS sounds))))))))))))
+[[u'nsubj', u'equipment', u'telephone', u'4', u'1'], [u'cop', u'equipment', u'is', u'4', u'2'], [u'amod', u'equipment', u'electronic', u'4', u'3'], [u'root', u'ROOT', u'equipment', u'0', u'4'], [u'nsubj', u'converts', u'equipment', u'6', u'4'], [u'nsubj', u'converts', u'equipment', u'19', u'4'], [u'rcmod', u'equipment', u'converts', u'4', u'6'], [u'dobj', u'converts', u'sound', u'6', u'7'], [u'amod', u'signals', u'electrical', u'10', u'9'], [u'prep_into', u'converts', u'signals', u'6', u'10'], [u'nsubjpass', u'transmitted', u'signals', u'14', u'10'], [u'aux', u'transmitted', u'can', u'14', u'12'], [u'auxpass', u'transmitted', u'be', u'14', u'13'], [u'rcmod', u'signals', u'transmitted', u'10', u'14'], [u'prep_over', u'transmitted', u'distances', u'14', u'16'], [u'rcmod', u'equipment', u'then', u'4', u'18'], [u'advmod', u'converts', u'then', u'6', u'18'], [u'conj_and', u'converts', u'then', u'6', u'18'], [u'rcmod', u'equipment', u'converts', u'4', u'19'], [u'conj_and', u'converts', u'converts', u'6', u'19'], [u'amod', u'signals', u'received', u'21', u'20'], [u'dobj', u'converts', u'signals', u'19', u'21'], [u'advmod', u'converts', u'back', u'19', u'22'], [u'prep_into', u'back', u'sounds', u'22', u'24']]
+[]
+telephone is electronic equipment that converts sound into electrical signals that can be transmitted over distances and then converts received signals back into sounds
+================================
+lab.n.01
+[[u'lab', u'0', u'3', u'lab', u'NN', u'O'], [u'is', u'4', u'6', u'be', u'VBZ', u'O'], [u'a', u'7', u'8', u'a', u'DT', u'O'], [u'workplace', u'9', u'18', u'workplace', u'NN', u'O'], [u'for', u'19', u'22', u'for', u'IN', u'O'], [u'the', u'23', u'26', u'the', u'DT', u'O'], [u'conduct', u'27', u'34', u'conduct', u'NN', u'O'], [u'of', u'35', u'37', u'of', u'IN', u'O'], [u'scientific', u'38', u'48', u'scientific', u'JJ', u'O'], [u'research', u'49', u'57', u'research', u'NN', u'O']]
+(ROOT (S (NP (NN lab)) (VP (VBZ is) (NP (NP (DT a) (NN workplace)) (PP (IN for) (NP (NP (DT the) (NN conduct)) (PP (IN of) (NP (JJ scientific) (NN research)))))))))
+(ROOT
+  (S
+    (NP (NN lab))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN workplace))
+        (PP
+          (IN for)
+          (NP
+            (NP (DT the) (NN conduct))
+            (PP (IN of) (NP (JJ scientific) (NN research)))))))))
+[[u'nsubj', u'workplace', u'lab', u'4', u'1'], [u'cop', u'workplace', u'is', u'4', u'2'], [u'det', u'workplace', u'a', u'4', u'3'], [u'root', u'ROOT', u'workplace', u'0', u'4'], [u'det', u'conduct', u'the', u'7', u'6'], [u'prep_for', u'workplace', u'conduct', u'4', u'7'], [u'amod', u'research', u'scientific', u'10', u'9'], [u'prep_of', u'conduct', u'research', u'7', u'10']]
+[]
+lab is a workplace for the conduct of scientific research
+================================
+system.n.01
+[[u'system', u'0', u'6', u'system', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'instrumentality', u'10', u'25', u'instrumentality', u'NN', u'O'], [u'that', u'26', u'30', u'that', u'WDT', u'O'], [u'combines', u'31', u'39', u'combine', u'VBZ', u'O'], [u'interrelated', u'40', u'52', u'interrelated', u'JJ', u'O'], [u'interacting', u'53', u'64', u'interact', u'VBG', u'O'], [u'artifacts', u'65', u'74', u'artifact', u'NNS', u'O'], [u'designed', u'75', u'83', u'design', u'VBN', u'O'], [u'to', u'84', u'86', u'to', u'TO', u'O'], [u'work', u'87', u'91', u'work', u'VB', u'O'], [u'as', u'92', u'94', u'as', u'IN', u'O'], [u'a', u'95', u'96', u'a', u'DT', u'O'], [u'coherent', u'97', u'105', u'coherent', u'JJ', u'O'], [u'entity', u'106', u'112', u'entity', u'NN', u'O']]
+(ROOT (S (NP (NN system)) (VP (VBZ is) (NP (NP (NN instrumentality)) (SBAR (WHNP (WDT that)) (S (VP (VBZ combines) (ADJP (JJ interrelated)) (S (VP (VBG interacting) (NP (NP (NNS artifacts)) (VP (VBN designed) (S (VP (TO to) (VP (VB work) (PP (IN as) (NP (DT a) (JJ coherent) (NN entity)))))))))))))))))
+(ROOT
+  (S
+    (NP (NN system))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NN instrumentality))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ combines)
+              (ADJP (JJ interrelated))
+              (S
+                (VP
+                  (VBG interacting)
+                  (NP
+                    (NP (NNS artifacts))
+                    (VP
+                      (VBN designed)
+                      (S
+                        (VP
+                          (TO to)
+                          (VP
+                            (VB work)
+                            (PP
+                              (IN as)
+                              (NP (DT a) (JJ coherent) (NN entity)))))))))))))))))
+[[u'nsubj', u'instrumentality', u'system', u'3', u'1'], [u'cop', u'instrumentality', u'is', u'3', u'2'], [u'root', u'ROOT', u'instrumentality', u'0', u'3'], [u'nsubj', u'combines', u'instrumentality', u'5', u'3'], [u'rcmod', u'instrumentality', u'combines', u'3', u'5'], [u'acomp', u'combines', u'interrelated', u'5', u'6'], [u'xcomp', u'combines', u'interacting', u'5', u'7'], [u'dobj', u'interacting', u'artifacts', u'7', u'8'], [u'partmod', u'artifacts', u'designed', u'8', u'9'], [u'aux', u'work', u'to', u'11', u'10'], [u'xcomp', u'designed', u'work', u'9', u'11'], [u'det', u'entity', u'a', u'15', u'13'], [u'amod', u'entity', u'coherent', u'15', u'14'], [u'prep_as', u'work', u'entity', u'11', u'15']]
+[]
+system is instrumentality that combines interrelated interacting artifacts designed to work as a coherent entity
+================================
+table.n.02
+[[u'table', u'0', u'5', u'table', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'a', u'9', u'10', u'a', u'DT', u'O'], [u'piece', u'11', u'16', u'piece', u'NN', u'O'], [u'of', u'17', u'19', u'of', u'IN', u'O'], [u'furniture', u'20', u'29', u'furniture', u'NN', u'O'], [u'having', u'30', u'36', u'have', u'VBG', u'O'], [u'a', u'37', u'38', u'a', u'DT', u'O'], [u'smooth', u'39', u'45', u'smooth', u'JJ', u'O'], [u'flat', u'46', u'50', u'flat', u'JJ', u'O'], [u'top', u'51', u'54', u'top', u'NN', u'O'], [u'that', u'55', u'59', u'that', u'WDT', u'O'], [u'is', u'60', u'62', u'be', u'VBZ', u'O'], [u'usually', u'63', u'70', u'usually', u'RB', u'O'], [u'supported', u'71', u'80', u'support', u'VBN', u'O'], [u'by', u'81', u'83', u'by', u'IN', u'O'], [u'one', u'84', u'87', u'one', u'CD', u'NUMBER'], [u'or', u'88', u'90', u'or', u'CC', u'O'], [u'more', u'91', u'95', u'more', u'JJR', u'O'], [u'vertical', u'96', u'104', u'vertical', u'JJ', u'O'], [u'legs', u'105', u'109', u'leg', u'NNS', u'O']]
+(ROOT (S (NP (NN table)) (VP (VBZ is) (NP (NP (DT a) (NN piece)) (PP (IN of) (NP (NP (NN furniture)) (VP (VBG having) (NP (NP (DT a) (JJ smooth) (JJ flat) (NN top)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (ADVP (RB usually)) (VP (VBN supported) (PP (IN by) (NP (QP (NP (CD one)) (CC or) (NP (JJR more))) (JJ vertical) (NNS legs)))))))))))))))
+(ROOT
+  (S
+    (NP (NN table))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN piece))
+        (PP
+          (IN of)
+          (NP
+            (NP (NN furniture))
+            (VP
+              (VBG having)
+              (NP
+                (NP (DT a) (JJ smooth) (JJ flat) (NN top))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP
+                      (VBZ is)
+                      (ADVP (RB usually))
+                      (VP
+                        (VBN supported)
+                        (PP
+                          (IN by)
+                          (NP
+                            (QP
+                              (NP (CD one))
+                              (CC or)
+                              (NP (JJR more)))
+                            (JJ vertical)
+                            (NNS legs)))))))))))))))
+[[u'nsubj', u'piece', u'table', u'4', u'1'], [u'cop', u'piece', u'is', u'4', u'2'], [u'det', u'piece', u'a', u'4', u'3'], [u'root', u'ROOT', u'piece', u'0', u'4'], [u'prep_of', u'piece', u'furniture', u'4', u'6'], [u'partmod', u'furniture', u'having', u'6', u'7'], [u'det', u'top', u'a', u'11', u'8'], [u'amod', u'top', u'smooth', u'11', u'9'], [u'amod', u'top', u'flat', u'11', u'10'], [u'dobj', u'having', u'top', u'7', u'11'], [u'nsubjpass', u'supported', u'top', u'15', u'11'], [u'auxpass', u'supported', u'is', u'15', u'13'], [u'advmod', u'supported', u'usually', u'15', u'14'], [u'rcmod', u'top', u'supported', u'11', u'15'], [u'num', u'legs', u'one', u'21', u'17'], [u'conj_or', u'one', u'more', u'17', u'19'], [u'num', u'legs', u'more', u'21', u'19'], [u'amod', u'legs', u'vertical', u'21', u'20'], [u'agent', u'supported', u'legs', u'15', u'21']]
+[]
+table is a piece of furniture having a smooth flat top that is usually supported by one or more vertical legs
+================================
+office.n.01
+[[u'office', u'0', u'6', u'office', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'place', u'10', u'15', u'place', u'NN', u'O'], [u'of', u'16', u'18', u'of', u'IN', u'O'], [u'business', u'19', u'27', u'business', u'NN', u'O'], [u'where', u'28', u'33', u'where', u'WRB', u'O'], [u'professional', u'34', u'46', u'professional', u'JJ', u'O'], [u'or', u'47', u'49', u'or', u'CC', u'O'], [u'clerical', u'50', u'58', u'clerical', u'JJ', u'O'], [u'duties', u'59', u'65', u'duty', u'NNS', u'O'], [u'are', u'66', u'69', u'be', u'VBP', u'O'], [u'performed', u'70', u'79', u'perform', u'VBN', u'O']]
+(ROOT (S (NP (NN office)) (VP (VBZ is) (NP (NP (NN place)) (PP (IN of) (NP (NN business))) (SBAR (WHADVP (WRB where)) (S (NP (ADJP (JJ professional) (CC or) (JJ clerical)) (NNS duties)) (VP (VBP are) (VP (VBN performed)))))))))
+(ROOT
+  (S
+    (NP (NN office))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NN place))
+        (PP (IN of) (NP (NN business)))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP
+              (ADJP (JJ professional) (CC or) (JJ clerical))
+              (NNS duties))
+            (VP (VBP are) (VP (VBN performed)))))))))
+[[u'nsubj', u'place', u'office', u'3', u'1'], [u'cop', u'place', u'is', u'3', u'2'], [u'root', u'ROOT', u'place', u'0', u'3'], [u'prep_of', u'place', u'business', u'3', u'5'], [u'advmod', u'performed', u'where', u'12', u'6'], [u'amod', u'duties', u'professional', u'10', u'7'], [u'conj_or', u'professional', u'clerical', u'7', u'9'], [u'amod', u'duties', u'clerical', u'10', u'9'], [u'nsubjpass', u'performed', u'duties', u'12', u'10'], [u'auxpass', u'performed', u'are', u'12', u'11'], [u'rcmod', u'place', u'performed', u'3', u'12']]
+[]
+office is place of business where professional or clerical duties are performed
+================================
+shot.n.02
+[[u'shot', u'0', u'4', u'shot', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'a', u'8', u'9', u'a', u'DT', u'O'], [u'solid', u'10', u'15', u'solid', u'JJ', u'O'], [u'missile', u'16', u'23', u'missile', u'NN', u'O'], [u'discharged', u'24', u'34', u'discharge', u'VBN', u'O'], [u'from', u'35', u'39', u'from', u'IN', u'O'], [u'a', u'40', u'41', u'a', u'DT', u'O'], [u'firearm', u'42', u'49', u'firearm', u'NN', u'O']]
+(ROOT (S (NP (NN shot)) (VP (VBZ is) (NP (NP (DT a) (JJ solid) (NN missile)) (VP (VBN discharged) (PP (IN from) (NP (DT a) (NN firearm))))))))
+(ROOT
+  (S
+    (NP (NN shot))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (JJ solid) (NN missile))
+        (VP (VBN discharged) (PP (IN from) (NP (DT a) (NN firearm))))))))
+[[u'nsubj', u'missile', u'shot', u'5', u'1'], [u'cop', u'missile', u'is', u'5', u'2'], [u'det', u'missile', u'a', u'5', u'3'], [u'amod', u'missile', u'solid', u'5', u'4'], [u'root', u'ROOT', u'missile', u'0', u'5'], [u'partmod', u'missile', u'discharged', u'5', u'6'], [u'det', u'firearm', u'a', u'9', u'8'], [u'prep_from', u'discharged', u'firearm', u'6', u'9']]
+[]
+shot is a solid missile discharged from a firearm
+================================
+ship.n.01
+[[u'ship', u'0', u'4', u'ship', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'a', u'8', u'9', u'a', u'DT', u'O'], [u'vessel', u'10', u'16', u'vessel', u'NN', u'O'], [u'that', u'17', u'21', u'that', u'WDT', u'O'], [u'carries', u'22', u'29', u'carry', u'VBZ', u'O'], [u'passengers', u'30', u'40', u'passenger', u'NNS', u'O'], [u'or', u'41', u'43', u'or', u'CC', u'O'], [u'freight', u'44', u'51', u'freight', u'NN', u'O']]
+(ROOT (S (NP (NN ship)) (VP (VBZ is) (NP (NP (DT a) (NN vessel)) (SBAR (WHNP (WDT that)) (S (VP (VBZ carries) (NP (NNS passengers) (CC or) (NN freight)))))))))
+(ROOT
+  (S
+    (NP (NN ship))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN vessel))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ carries)
+              (NP (NNS passengers) (CC or) (NN freight)))))))))
+[[u'nsubj', u'vessel', u'ship', u'4', u'1'], [u'cop', u'vessel', u'is', u'4', u'2'], [u'det', u'vessel', u'a', u'4', u'3'], [u'root', u'ROOT', u'vessel', u'0', u'4'], [u'nsubj', u'carries', u'vessel', u'6', u'4'], [u'rcmod', u'vessel', u'carries', u'4', u'6'], [u'dobj', u'carries', u'passengers', u'6', u'7'], [u'dobj', u'carries', u'freight', u'6', u'9'], [u'conj_or', u'passengers', u'freight', u'7', u'9']]
+[]
+ship is a vessel that carries passengers or freight
+================================
+truck.n.01
+[[u'truck', u'0', u'5', u'truck', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'an', u'9', u'11', u'a', u'DT', u'O'], [u'automotive', u'12', u'22', u'automotive', u'JJ', u'O'], [u'vehicle', u'23', u'30', u'vehicle', u'NN', u'O'], [u'suitable', u'31', u'39', u'suitable', u'JJ', u'O'], [u'for', u'40', u'43', u'for', u'IN', u'O'], [u'hauling', u'44', u'51', u'haul', u'VBG', u'O']]
+(ROOT (S (NP (NN truck)) (VP (VBZ is) (NP (NP (DT an) (JJ automotive) (NN vehicle)) (ADJP (JJ suitable) (PP (IN for) (NP (VBG hauling))))))))
+(ROOT
+  (S
+    (NP (NN truck))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT an) (JJ automotive) (NN vehicle))
+        (ADJP (JJ suitable) (PP (IN for) (NP (VBG hauling))))))))
+[[u'nsubj', u'vehicle', u'truck', u'5', u'1'], [u'cop', u'vehicle', u'is', u'5', u'2'], [u'det', u'vehicle', u'an', u'5', u'3'], [u'amod', u'vehicle', u'automotive', u'5', u'4'], [u'root', u'ROOT', u'vehicle', u'0', u'5'], [u'amod', u'vehicle', u'suitable', u'5', u'6'], [u'prep_for', u'suitable', u'hauling', u'6', u'8']]
+[]
+truck is an automotive vehicle suitable for hauling
+================================
+porch.n.01
+[[u'porch', u'0', u'5', u'porch', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'a', u'9', u'10', u'a', u'DT', u'O'], [u'structure', u'11', u'20', u'structure', u'NN', u'O'], [u'attached', u'21', u'29', u'attach', u'VBN', u'O'], [u'to', u'30', u'32', u'to', u'TO', u'O'], [u'the', u'33', u'36', u'the', u'DT', u'O'], [u'exterior', u'37', u'45', u'exterior', u'NN', u'O'], [u'of', u'46', u'48', u'of', u'IN', u'O'], [u'a', u'49', u'50', u'a', u'DT', u'O'], [u'building', u'51', u'59', u'building', u'NN', u'O'], [u'often', u'60', u'65', u'often', u'RB', u'O'], [u'forming', u'66', u'73', u'form', u'VBG', u'O'], [u'a', u'74', u'75', u'a', u'DT', u'O'], [u'covered', u'76', u'83', u'covered', u'JJ', u'O'], [u'entrance', u'84', u'92', u'entrance', u'NN', u'O']]
+(ROOT (S (NP (NN porch)) (VP (VBZ is) (NP (NP (DT a) (NN structure)) (VP (VBN attached) (PP (TO to) (NP (NP (DT the) (NN exterior)) (PP (IN of) (NP (NP (DT a) (NN building)) (VP (ADVP (RB often)) (VBG forming) (NP (DT a) (ADJP (JJ covered)) (NN entrance))))))))))))
+(ROOT
+  (S
+    (NP (NN porch))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN structure))
+        (VP
+          (VBN attached)
+          (PP
+            (TO to)
+            (NP
+              (NP (DT the) (NN exterior))
+              (PP
+                (IN of)
+                (NP
+                  (NP (DT a) (NN building))
+                  (VP
+                    (ADVP (RB often))
+                    (VBG forming)
+                    (NP (DT a) (ADJP (JJ covered)) (NN entrance))))))))))))
+[[u'nsubj', u'structure', u'porch', u'4', u'1'], [u'cop', u'structure', u'is', u'4', u'2'], [u'det', u'structure', u'a', u'4', u'3'], [u'root', u'ROOT', u'structure', u'0', u'4'], [u'partmod', u'structure', u'attached', u'4', u'5'], [u'det', u'exterior', u'the', u'8', u'7'], [u'prep_to', u'attached', u'exterior', u'5', u'8'], [u'det', u'building', u'a', u'11', u'10'], [u'prep_of', u'exterior', u'building', u'8', u'11'], [u'advmod', u'forming', u'often', u'13', u'12'], [u'partmod', u'building', u'forming', u'11', u'13'], [u'det', u'entrance', u'a', u'16', u'14'], [u'amod', u'entrance', u'covered', u'16', u'15'], [u'dobj', u'forming', u'entrance', u'13', u'16']]
+[]
+porch is a structure attached to the exterior of a building often forming a covered entrance
+================================
+road.n.01
+[[u'road', u'0', u'4', u'road', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'an', u'8', u'10', u'a', u'DT', u'O'], [u'open', u'11', u'15', u'open', u'JJ', u'O'], [u'way', u'16', u'19', u'way', u'NN', u'O'], [u'for', u'21', u'24', u'for', u'IN', u'O'], [u'travel', u'25', u'31', u'travel', u'NN', u'O'], [u'or', u'32', u'34', u'or', u'CC', u'O'], [u'transportation', u'35', u'49', u'transportation', u'NN', u'O']]
+(ROOT (S (NP (NN road)) (VP (VBZ is) (NP (NP (DT an) (JJ open) (NN way)) (PP (IN for) (NP (NN travel) (CC or) (NN transportation)))))))
+(ROOT
+  (S
+    (NP (NN road))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT an) (JJ open) (NN way))
+        (PP (IN for) (NP (NN travel) (CC or) (NN transportation)))))))
+[[u'nsubj', u'way', u'road', u'5', u'1'], [u'cop', u'way', u'is', u'5', u'2'], [u'det', u'way', u'an', u'5', u'3'], [u'amod', u'way', u'open', u'5', u'4'], [u'root', u'ROOT', u'way', u'0', u'5'], [u'prep_for', u'way', u'travel', u'5', u'7'], [u'prep_for', u'way', u'transportation', u'5', u'9'], [u'conj_or', u'travel', u'transportation', u'7', u'9']]
+[]
+road is an open way  for travel or transportation
+================================
+apparel.n.01
+[[u'apparel', u'0', u'7', u'apparel', u'NN', u'O'], [u'is', u'8', u'10', u'be', u'VBZ', u'O'], [u'clothing', u'11', u'19', u'clothing', u'NN', u'O'], [u'in', u'20', u'22', u'in', u'IN', u'O'], [u'general', u'23', u'30', u'general', u'JJ', u'O']]
+(ROOT (S (NP (NN apparel)) (VP (VBZ is) (NP (NP (NN clothing)) (PP (IN in) (NP (JJ general)))))))
+(ROOT
+  (S
+    (NP (NN apparel))
+    (VP
+      (VBZ is)
+      (NP (NP (NN clothing)) (PP (IN in) (NP (JJ general)))))))
+[[u'nsubj', u'clothing', u'apparel', u'3', u'1'], [u'cop', u'clothing', u'is', u'3', u'2'], [u'root', u'ROOT', u'clothing', u'0', u'3'], [u'prep_in', u'clothing', u'general', u'3', u'5']]
+[]
+apparel is clothing in general
+================================
+structure.n.01
+[[u'structure', u'0', u'9', u'structure', u'NN', u'O'], [u'is', u'10', u'12', u'be', u'VBZ', u'O'], [u'a', u'13', u'14', u'a', u'DT', u'O'], [u'thing', u'15', u'20', u'thing', u'NN', u'O'], [u'constructed', u'21', u'32', u'construct', u'VBN', u'O'], [u';', u'32', u'33', u';', u':', u'O'], [u'a', u'34', u'35', u'a', u'DT', u'O'], [u'complex', u'36', u'43', u'complex', u'JJ', u'O'], [u'entity', u'44', u'50', u'entity', u'NN', u'O'], [u'constructed', u'51', u'62', u'construct', u'VBN', u'O'], [u'of', u'63', u'65', u'of', u'IN', u'O'], [u'many', u'66', u'70', u'many', u'JJ', u'O'], [u'parts', u'71', u'76', u'part', u'NNS', u'O']]
+(ROOT (S (NP (NN structure)) (VP (VBZ is) (NP (NP (NP (DT a) (NN thing)) (VP (VBN constructed))) (: ;) (NP (NP (DT a) (JJ complex) (NN entity)) (VP (VBN constructed) (PP (IN of) (NP (JJ many) (NNS parts)))))))))
+(ROOT
+  (S
+    (NP (NN structure))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NP (DT a) (NN thing)) (VP (VBN constructed)))
+        (: ;)
+        (NP
+          (NP (DT a) (JJ complex) (NN entity))
+          (VP
+            (VBN constructed)
+            (PP (IN of) (NP (JJ many) (NNS parts)))))))))
+[[u'nsubj', u'thing', u'structure', u'4', u'1'], [u'cop', u'thing', u'is', u'4', u'2'], [u'det', u'thing', u'a', u'4', u'3'], [u'root', u'ROOT', u'thing', u'0', u'4'], [u'partmod', u'thing', u'constructed', u'4', u'5'], [u'det', u'entity', u'a', u'9', u'7'], [u'amod', u'entity', u'complex', u'9', u'8'], [u'dep', u'thing', u'entity', u'4', u'9'], [u'partmod', u'entity', u'constructed', u'9', u'10'], [u'amod', u'parts', u'many', u'13', u'12'], [u'prep_of', u'constructed', u'parts', u'10', u'13']]
+[]
+structure is a thing constructed; a complex entity constructed of many parts
+================================
+flag.n.01
+[[u'flag', u'0', u'4', u'flag', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'emblem', u'8', u'14', u'emblem', u'NN', u'O'], [u'usually', u'15', u'22', u'usually', u'RB', u'O'], [u'consisting', u'23', u'33', u'consist', u'VBG', u'O'], [u'of', u'34', u'36', u'of', u'IN', u'O'], [u'a', u'37', u'38', u'a', u'DT', u'O'], [u'rectangular', u'39', u'50', u'rectangular', u'JJ', u'O'], [u'piece', u'51', u'56', u'piece', u'NN', u'O'], [u'of', u'57', u'59', u'of', u'IN', u'O'], [u'cloth', u'60', u'65', u'cloth', u'NN', u'O'], [u'of', u'66', u'68', u'of', u'IN', u'O'], [u'distinctive', u'69', u'80', u'distinctive', u'JJ', u'O'], [u'design', u'81', u'87', u'design', u'NN', u'O']]
+(ROOT (S (NP (NN flag)) (VP (VBZ is) (NP (NP (NN emblem)) (VP (ADVP (RB usually)) (VBG consisting) (PP (IN of) (NP (NP (DT a) (JJ rectangular) (NN piece)) (PP (IN of) (NP (NP (NN cloth)) (PP (IN of) (NP (JJ distinctive) (NN design))))))))))))
+(ROOT
+  (S
+    (NP (NN flag))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NN emblem))
+        (VP
+          (ADVP (RB usually))
+          (VBG consisting)
+          (PP
+            (IN of)
+            (NP
+              (NP (DT a) (JJ rectangular) (NN piece))
+              (PP
+                (IN of)
+                (NP
+                  (NP (NN cloth))
+                  (PP (IN of) (NP (JJ distinctive) (NN design))))))))))))
+[[u'nsubj', u'emblem', u'flag', u'3', u'1'], [u'cop', u'emblem', u'is', u'3', u'2'], [u'root', u'ROOT', u'emblem', u'0', u'3'], [u'advmod', u'consisting', u'usually', u'5', u'4'], [u'partmod', u'emblem', u'consisting', u'3', u'5'], [u'det', u'piece', u'a', u'9', u'7'], [u'amod', u'piece', u'rectangular', u'9', u'8'], [u'prep_of', u'consisting', u'piece', u'5', u'9'], [u'prep_of', u'piece', u'cloth', u'9', u'11'], [u'amod', u'design', u'distinctive', u'14', u'13'], [u'prep_of', u'cloth', u'design', u'11', u'14']]
+[]
+flag is emblem usually consisting of a rectangular piece of cloth of distinctive design
+================================
+train.n.01
+[[u'train', u'0', u'5', u'train', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'public', u'9', u'15', u'public', u'JJ', u'O'], [u'transport', u'16', u'25', u'transport', u'NN', u'O'], [u'provided', u'26', u'34', u'provide', u'VBN', u'O'], [u'by', u'35', u'37', u'by', u'IN', u'O'], [u'a', u'38', u'39', u'a', u'DT', u'O'], [u'line', u'40', u'44', u'line', u'NN', u'O'], [u'of', u'45', u'47', u'of', u'IN', u'O'], [u'railway', u'48', u'55', u'railway', u'NN', u'O'], [u'cars', u'56', u'60', u'car', u'NNS', u'O'], [u'coupled', u'61', u'68', u'couple', u'VBN', u'O'], [u'together', u'69', u'77', u'together', u'RB', u'O'], [u'and', u'78', u'81', u'and', u'CC', u'O'], [u'drawn', u'82', u'87', u'draw', u'VBN', u'O'], [u'by', u'88', u'90', u'by', u'IN', u'O'], [u'a', u'91', u'92', u'a', u'DT', u'O'], [u'locomotive', u'93', u'103', u'locomotive', u'NN', u'O']]
+(ROOT (S (NP (NN train)) (VP (VBZ is) (NP (NP (JJ public) (NN transport)) (VP (VBN provided) (PP (IN by) (NP (NP (DT a) (NN line)) (PP (IN of) (NP (NP (NN railway) (NNS cars)) (VP (VP (VBN coupled) (ADVP (RB together))) (CC and) (VP (VBN drawn) (PP (IN by) (NP (DT a) (NN locomotive))))))))))))))
+(ROOT
+  (S
+    (NP (NN train))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (JJ public) (NN transport))
+        (VP
+          (VBN provided)
+          (PP
+            (IN by)
+            (NP
+              (NP (DT a) (NN line))
+              (PP
+                (IN of)
+                (NP
+                  (NP (NN railway) (NNS cars))
+                  (VP
+                    (VP (VBN coupled) (ADVP (RB together)))
+                    (CC and)
+                    (VP
+                      (VBN drawn)
+                      (PP (IN by) (NP (DT a) (NN locomotive))))))))))))))
+[[u'nsubj', u'transport', u'train', u'4', u'1'], [u'cop', u'transport', u'is', u'4', u'2'], [u'amod', u'transport', u'public', u'4', u'3'], [u'root', u'ROOT', u'transport', u'0', u'4'], [u'partmod', u'transport', u'provided', u'4', u'5'], [u'det', u'line', u'a', u'8', u'7'], [u'agent', u'provided', u'line', u'5', u'8'], [u'nn', u'cars', u'railway', u'11', u'10'], [u'prep_of', u'line', u'cars', u'8', u'11'], [u'dep', u'cars', u'coupled', u'11', u'12'], [u'advmod', u'coupled', u'together', u'12', u'13'], [u'dep', u'cars', u'drawn', u'11', u'15'], [u'conj_and', u'coupled', u'drawn', u'12', u'15'], [u'det', u'locomotive', u'a', u'18', u'17'], [u'prep_by', u'drawn', u'locomotive', u'15', u'18']]
+[]
+train is public transport provided by a line of railway cars coupled together and drawn by a locomotive
+================================
+drug.n.01
+[[u'drug', u'0', u'4', u'drug', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'a', u'8', u'9', u'a', u'DT', u'O'], [u'substance', u'10', u'19', u'substance', u'NN', u'O'], [u'that', u'20', u'24', u'that', u'WDT', u'O'], [u'is', u'25', u'27', u'be', u'VBZ', u'O'], [u'used', u'28', u'32', u'use', u'VBN', u'O'], [u'as', u'33', u'35', u'as', u'IN', u'O'], [u'a', u'36', u'37', u'a', u'DT', u'O'], [u'medicine', u'38', u'46', u'medicine', u'NN', u'O'], [u'or', u'47', u'49', u'or', u'CC', u'O'], [u'narcotic', u'50', u'58', u'narcotic', u'JJ', u'O']]
+(ROOT (S (NP (NN drug)) (VP (VBZ is) (NP (NP (DT a) (NN substance)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (UCP (VP (VBN used) (PP (IN as) (NP (DT a) (NN medicine)))) (CC or) (ADJP (JJ narcotic))))))))))
+(ROOT
+  (S
+    (NP (NN drug))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN substance))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ is)
+              (UCP
+                (VP
+                  (VBN used)
+                  (PP (IN as) (NP (DT a) (NN medicine))))
+                (CC or)
+                (ADJP (JJ narcotic))))))))))
+[[u'nsubj', u'substance', u'drug', u'4', u'1'], [u'cop', u'substance', u'is', u'4', u'2'], [u'det', u'substance', u'a', u'4', u'3'], [u'root', u'ROOT', u'substance', u'0', u'4'], [u'nsubj', u'is', u'substance', u'6', u'4'], [u'rcmod', u'substance', u'is', u'4', u'6'], [u'dep', u'is', u'used', u'6', u'7'], [u'det', u'medicine', u'a', u'10', u'9'], [u'prep_as', u'used', u'medicine', u'7', u'10'], [u'dep', u'is', u'narcotic', u'6', u'12'], [u'conj_or', u'used', u'narcotic', u'7', u'12']]
+[]
+drug is a substance that is used as a medicine or narcotic
+================================
+fabric.n.01
+[[u'fabric', u'0', u'6', u'fabric', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'artifact', u'10', u'18', u'artifact', u'NN', u'O'], [u'made', u'19', u'23', u'make', u'VBN', u'O'], [u'by', u'24', u'26', u'by', u'IN', u'O'], [u'weaving', u'27', u'34', u'weave', u'VBG', u'O'], [u'or', u'35', u'37', u'or', u'CC', u'O'], [u'felting', u'38', u'45', u'felt', u'VBG', u'O'], [u'or', u'46', u'48', u'or', u'CC', u'O'], [u'knitting', u'49', u'57', u'knit', u'VBG', u'O'], [u'or', u'58', u'60', u'or', u'CC', u'O'], [u'crocheting', u'61', u'71', u'crochet', u'VBG', u'O'], [u'natural', u'72', u'79', u'natural', u'JJ', u'O'], [u'or', u'80', u'82', u'or', u'CC', u'O'], [u'synthetic', u'83', u'92', u'synthetic', u'JJ', u'O'], [u'fibers', u'93', u'99', u'fiber', u'NNS', u'O']]
+(ROOT (S (NP (NN fabric)) (VP (VBZ is) (NP (NP (NN artifact)) (VP (VBN made) (PP (IN by) (S (VP (VP (VBG weaving) (CC or) (VBG felting)) (CC or) (VP (VBG knitting) (CC or) (VBG crocheting) (NP (ADJP (JJ natural) (CC or) (JJ synthetic)) (NNS fibers)))))))))))
+(ROOT
+  (S
+    (NP (NN fabric))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NN artifact))
+        (VP
+          (VBN made)
+          (PP
+            (IN by)
+            (S
+              (VP
+                (VP (VBG weaving) (CC or) (VBG felting))
+                (CC or)
+                (VP
+                  (VBG knitting)
+                  (CC or)
+                  (VBG crocheting)
+                  (NP
+                    (ADJP (JJ natural) (CC or) (JJ synthetic))
+                    (NNS fibers)))))))))))
+[[u'nsubj', u'artifact', u'fabric', u'3', u'1'], [u'cop', u'artifact', u'is', u'3', u'2'], [u'root', u'ROOT', u'artifact', u'0', u'3'], [u'partmod', u'artifact', u'made', u'3', u'4'], [u'agent', u'made', u'weaving', u'4', u'6'], [u'agent', u'made', u'felting', u'4', u'8'], [u'conj_or', u'weaving', u'felting', u'6', u'8'], [u'agent', u'made', u'knitting', u'4', u'10'], [u'conj_or', u'weaving', u'knitting', u'6', u'10'], [u'conj_or', u'weaving', u'crocheting', u'6', u'12'], [u'conj_or', u'knitting', u'crocheting', u'10', u'12'], [u'amod', u'fibers', u'natural', u'16', u'13'], [u'conj_or', u'natural', u'synthetic', u'13', u'15'], [u'amod', u'fibers', u'synthetic', u'16', u'15'], [u'dobj', u'knitting', u'fibers', u'10', u'16']]
+[]
+fabric is artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers
+================================
+instrument.n.01
+[[u'instrument', u'0', u'10', u'instrument', u'NN', u'O'], [u'is', u'11', u'13', u'be', u'VBZ', u'O'], [u'a', u'14', u'15', u'a', u'DT', u'O'], [u'device', u'16', u'22', u'device', u'NN', u'O'], [u'that', u'23', u'27', u'that', u'WDT', u'O'], [u'requires', u'28', u'36', u'require', u'VBZ', u'O'], [u'skill', u'37', u'42', u'skill', u'NN', u'O'], [u'for', u'43', u'46', u'for', u'IN', u'O'], [u'proper', u'47', u'53', u'proper', u'JJ', u'O'], [u'use', u'54', u'57', u'use', u'NN', u'O']]
+(ROOT (S (NP (NN instrument)) (VP (VBZ is) (NP (NP (DT a) (NN device)) (SBAR (WHNP (WDT that)) (S (VP (VBZ requires) (NP (NP (NN skill)) (PP (IN for) (NP (JJ proper) (NN use)))))))))))
+(ROOT
+  (S
+    (NP (NN instrument))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN device))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ requires)
+              (NP
+                (NP (NN skill))
+                (PP (IN for) (NP (JJ proper) (NN use)))))))))))
+[[u'nsubj', u'device', u'instrument', u'4', u'1'], [u'cop', u'device', u'is', u'4', u'2'], [u'det', u'device', u'a', u'4', u'3'], [u'root', u'ROOT', u'device', u'0', u'4'], [u'nsubj', u'requires', u'device', u'6', u'4'], [u'rcmod', u'device', u'requires', u'4', u'6'], [u'dobj', u'requires', u'skill', u'6', u'7'], [u'amod', u'use', u'proper', u'10', u'9'], [u'prep_for', u'skill', u'use', u'7', u'10']]
+[]
+instrument is a device that requires skill for proper use
+================================
+church.n.02
+[[u'church', u'0', u'6', u'church', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'a', u'10', u'11', u'a', u'DT', u'O'], [u'place', u'12', u'17', u'place', u'NN', u'O'], [u'for', u'18', u'21', u'for', u'IN', u'O'], [u'public', u'22', u'28', u'public', u'JJ', u'O'], [u'worship', u'30', u'37', u'worship', u'NN', u'O']]
+(ROOT (S (NP (NN church)) (VP (VBZ is) (NP (NP (DT a) (NN place)) (PP (IN for) (NP (JJ public) (NN worship)))))))
+(ROOT
+  (S
+    (NP (NN church))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN place))
+        (PP (IN for) (NP (JJ public) (NN worship)))))))
+[[u'nsubj', u'place', u'church', u'4', u'1'], [u'cop', u'place', u'is', u'4', u'2'], [u'det', u'place', u'a', u'4', u'3'], [u'root', u'ROOT', u'place', u'0', u'4'], [u'amod', u'worship', u'public', u'7', u'6'], [u'prep_for', u'place', u'worship', u'4', u'7']]
+[]
+church is a place for public  worship
+================================
+light.n.02
+[[u'light', u'0', u'5', u'light', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'any', u'9', u'12', u'any', u'DT', u'O'], [u'device', u'13', u'19', u'device', u'NN', u'O'], [u'serving', u'20', u'27', u'serve', u'VBG', u'O'], [u'as', u'28', u'30', u'as', u'IN', u'O'], [u'a', u'31', u'32', u'a', u'DT', u'O'], [u'source', u'33', u'39', u'source', u'NN', u'O'], [u'of', u'40', u'42', u'of', u'IN', u'O'], [u'illumination', u'43', u'55', u'illumination', u'NN', u'O']]
+(ROOT (S (NP (NN light)) (VP (VBZ is) (NP (NP (DT any) (NN device)) (VP (VBG serving) (PP (IN as) (NP (NP (DT a) (NN source)) (PP (IN of) (NP (NN illumination))))))))))
+(ROOT
+  (S
+    (NP (NN light))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT any) (NN device))
+        (VP
+          (VBG serving)
+          (PP
+            (IN as)
+            (NP
+              (NP (DT a) (NN source))
+              (PP (IN of) (NP (NN illumination))))))))))
+[[u'nsubj', u'device', u'light', u'4', u'1'], [u'cop', u'device', u'is', u'4', u'2'], [u'det', u'device', u'any', u'4', u'3'], [u'root', u'ROOT', u'device', u'0', u'4'], [u'partmod', u'device', u'serving', u'4', u'5'], [u'det', u'source', u'a', u'8', u'7'], [u'prep_as', u'serving', u'source', u'5', u'8'], [u'prep_of', u'source', u'illumination', u'8', u'10']]
+[]
+light is any device serving as a source of illumination
+================================
+gate.n.01
+[[u'gate', u'0', u'4', u'gate', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'a', u'8', u'9', u'a', u'DT', u'O'], [u'movable', u'10', u'17', u'movable', u'JJ', u'O'], [u'barrier', u'18', u'25', u'barrier', u'NN', u'O'], [u'in', u'26', u'28', u'in', u'IN', u'O'], [u'a', u'29', u'30', u'a', u'DT', u'O'], [u'fence', u'31', u'36', u'fence', u'NN', u'O'], [u'or', u'37', u'39', u'or', u'CC', u'O'], [u'wall', u'40', u'44', u'wall', u'NN', u'O']]
+(ROOT (S (NP (NN gate)) (VP (VBZ is) (NP (NP (DT a) (JJ movable) (NN barrier)) (PP (IN in) (NP (DT a) (NN fence) (CC or) (NN wall)))))))
+(ROOT
+  (S
+    (NP (NN gate))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (JJ movable) (NN barrier))
+        (PP (IN in) (NP (DT a) (NN fence) (CC or) (NN wall)))))))
+[[u'nsubj', u'barrier', u'gate', u'5', u'1'], [u'cop', u'barrier', u'is', u'5', u'2'], [u'det', u'barrier', u'a', u'5', u'3'], [u'amod', u'barrier', u'movable', u'5', u'4'], [u'root', u'ROOT', u'barrier', u'0', u'5'], [u'det', u'fence', u'a', u'8', u'7'], [u'prep_in', u'barrier', u'fence', u'5', u'8'], [u'prep_in', u'barrier', u'wall', u'5', u'10'], [u'conj_or', u'fence', u'wall', u'8', u'10']]
+[]
+gate is a movable barrier in a fence or wall
+================================
+chair.n.01
+[[u'chair', u'0', u'5', u'chair', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'a', u'9', u'10', u'a', u'DT', u'O'], [u'seat', u'11', u'15', u'seat', u'NN', u'O'], [u'for', u'16', u'19', u'for', u'IN', u'O'], [u'one', u'20', u'23', u'one', u'CD', u'NUMBER'], [u'person', u'24', u'30', u'person', u'NN', u'O'], [u',', u'30', u'31', u',', u',', u'O'], [u'with', u'32', u'36', u'with', u'IN', u'O'], [u'a', u'37', u'38', u'a', u'DT', u'O'], [u'support', u'39', u'46', u'support', u'NN', u'O'], [u'for', u'47', u'50', u'for', u'IN', u'O'], [u'the', u'51', u'54', u'the', u'DT', u'O'], [u'back', u'55', u'59', u'back', u'NN', u'O']]
+(ROOT (S (NP (NN chair)) (VP (VBZ is) (NP (NP (DT a) (NN seat)) (PP (IN for) (NP (CD one) (NN person)))) (, ,) (PP (IN with) (NP (NP (DT a) (NN support)) (PP (IN for) (NP (DT the) (NN back))))))))
+(ROOT
+  (S
+    (NP (NN chair))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN seat))
+        (PP (IN for) (NP (CD one) (NN person))))
+      (, ,)
+      (PP
+        (IN with)
+        (NP
+          (NP (DT a) (NN support))
+          (PP (IN for) (NP (DT the) (NN back))))))))
+[[u'nsubj', u'seat', u'chair', u'4', u'1'], [u'cop', u'seat', u'is', u'4', u'2'], [u'det', u'seat', u'a', u'4', u'3'], [u'root', u'ROOT', u'seat', u'0', u'4'], [u'num', u'person', u'one', u'7', u'6'], [u'prep_for', u'seat', u'person', u'4', u'7'], [u'det', u'support', u'a', u'11', u'10'], [u'prep_with', u'seat', u'support', u'4', u'11'], [u'det', u'back', u'the', u'14', u'13'], [u'prep_for', u'support', u'back', u'11', u'14']]
+[]
+chair is a seat for one person, with a support for the back
+================================
+airplane.n.01
+[[u'airplane', u'0', u'8', u'airplane', u'NN', u'O'], [u'is', u'9', u'11', u'be', u'VBZ', u'O'], [u'an', u'12', u'14', u'a', u'DT', u'O'], [u'aircraft', u'15', u'23', u'aircraft', u'NN', u'O'], [u'that', u'24', u'28', u'that', u'WDT', u'O'], [u'has', u'29', u'32', u'have', u'VBZ', u'O'], [u'a', u'33', u'34', u'a', u'DT', u'O'], [u'fixed', u'35', u'40', u'fixed', u'JJ', u'O'], [u'wing', u'41', u'45', u'wing', u'NN', u'O'], [u'and', u'46', u'49', u'and', u'CC', u'O'], [u'is', u'50', u'52', u'be', u'VBZ', u'O'], [u'powered', u'53', u'60', u'power', u'VBN', u'O'], [u'by', u'61', u'63', u'by', u'IN', u'O'], [u'propellers', u'64', u'74', u'propeller', u'NNS', u'O'], [u'or', u'75', u'77', u'or', u'CC', u'O'], [u'jets', u'78', u'82', u'jet', u'NNS', u'O']]
+(ROOT (S (NP (NN airplane)) (VP (VBZ is) (NP (NP (DT an) (NN aircraft)) (SBAR (WHNP (WDT that)) (S (VP (VP (VBZ has) (NP (DT a) (JJ fixed) (NN wing))) (CC and) (VP (VBZ is) (VP (VBN powered) (PP (IN by) (NP (NNS propellers) (CC or) (NNS jets))))))))))))
+(ROOT
+  (S
+    (NP (NN airplane))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT an) (NN aircraft))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VP (VBZ has) (NP (DT a) (JJ fixed) (NN wing)))
+              (CC and)
+              (VP
+                (VBZ is)
+                (VP
+                  (VBN powered)
+                  (PP
+                    (IN by)
+                    (NP (NNS propellers) (CC or) (NNS jets))))))))))))
+[[u'nsubj', u'aircraft', u'airplane', u'4', u'1'], [u'cop', u'aircraft', u'is', u'4', u'2'], [u'det', u'aircraft', u'an', u'4', u'3'], [u'root', u'ROOT', u'aircraft', u'0', u'4'], [u'nsubj', u'has', u'aircraft', u'6', u'4'], [u'nsubjpass', u'powered', u'aircraft', u'12', u'4'], [u'rcmod', u'aircraft', u'has', u'4', u'6'], [u'det', u'wing', u'a', u'9', u'7'], [u'amod', u'wing', u'fixed', u'9', u'8'], [u'dobj', u'has', u'wing', u'6', u'9'], [u'auxpass', u'powered', u'is', u'12', u'11'], [u'rcmod', u'aircraft', u'powered', u'4', u'12'], [u'conj_and', u'has', u'powered', u'6', u'12'], [u'agent', u'powered', u'propellers', u'12', u'14'], [u'agent', u'powered', u'jets', u'12', u'16'], [u'conj_or', u'propellers', u'jets', u'14', u'16']]
+[]
+airplane is an aircraft that has a fixed wing and is powered by propellers or jets
+================================
+piece.n.01
+[[u'piece', u'0', u'5', u'piece', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'a', u'9', u'10', u'a', u'DT', u'O'], [u'separate', u'11', u'19', u'separate', u'JJ', u'O'], [u'part', u'20', u'24', u'part', u'NN', u'O'], [u'of', u'25', u'27', u'of', u'IN', u'O'], [u'a', u'28', u'29', u'a', u'DT', u'O'], [u'whole', u'30', u'35', u'whole', u'NN', u'O']]
+(ROOT (S (NP (NN piece)) (VP (VBZ is) (NP (NP (DT a) (JJ separate) (NN part)) (PP (IN of) (NP (DT a) (NN whole)))))))
+(ROOT
+  (S
+    (NP (NN piece))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (JJ separate) (NN part))
+        (PP (IN of) (NP (DT a) (NN whole)))))))
+[[u'nsubj', u'part', u'piece', u'5', u'1'], [u'cop', u'part', u'is', u'5', u'2'], [u'det', u'part', u'a', u'5', u'3'], [u'amod', u'part', u'separate', u'5', u'4'], [u'root', u'ROOT', u'part', u'0', u'5'], [u'det', u'whole', u'a', u'8', u'7'], [u'prep_of', u'part', u'whole', u'5', u'8']]
+[]
+piece is a separate part of a whole
+================================
+photograph.n.01
+[[u'photograph', u'0', u'10', u'photograph', u'NN', u'O'], [u'is', u'11', u'13', u'be', u'VBZ', u'O'], [u'a', u'14', u'15', u'a', u'DT', u'O'], [u'representation', u'16', u'30', u'representation', u'NN', u'O'], [u'of', u'31', u'33', u'of', u'IN', u'O'], [u'a', u'34', u'35', u'a', u'DT', u'O'], [u'person', u'36', u'42', u'person', u'NN', u'O'], [u'or', u'43', u'45', u'or', u'CC', u'O'], [u'scene', u'46', u'51', u'scene', u'NN', u'O'], [u'in', u'52', u'54', u'in', u'IN', u'O'], [u'the', u'55', u'58', u'the', u'DT', u'O'], [u'form', u'59', u'63', u'form', u'NN', u'O'], [u'of', u'64', u'66', u'of', u'IN', u'O'], [u'a', u'67', u'68', u'a', u'DT', u'O'], [u'print', u'69', u'74', u'print', u'NN', u'O'], [u'or', u'75', u'77', u'or', u'CC', u'O'], [u'transparent', u'78', u'89', u'transparent', u'JJ', u'O'], [u'slide', u'90', u'95', u'slide', u'NN', u'O'], [u';', u'95', u'96', u';', u':', u'O'], [u'recorded', u'97', u'105', u'record', u'VBN', u'O'], [u'by', u'106', u'108', u'by', u'IN', u'O'], [u'a', u'109', u'110', u'a', u'DT', u'O'], [u'camera', u'111', u'117', u'camera', u'NN', u'O'], [u'on', u'118', u'120', u'on', u'IN', u'O'], [u'light-sensitive', u'121', u'136', u'light-sensitive', u'JJ', u'O'], [u'material', u'137', u'145', u'material', u'NN', u'O']]
+(ROOT (S (NP (NN photograph)) (VP (VBZ is) (NP (NP (DT a) (NN representation)) (PP (IN of) (NP (NP (DT a) (NN person) (CC or) (NN scene)) (PP (IN in) (NP (NP (DT the) (NN form)) (PP (IN of) (NP (NP (DT a) (NP (NN print) (CC or) (JJ transparent)) (NN slide)) (: ;) (VP (VBN recorded) (PP (IN by) (NP (NP (DT a) (NN camera)) (PP (IN on) (NP (JJ light-sensitive) (NN material))))))))))))))))
+(ROOT
+  (S
+    (NP (NN photograph))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN representation))
+        (PP
+          (IN of)
+          (NP
+            (NP (DT a) (NN person) (CC or) (NN scene))
+            (PP
+              (IN in)
+              (NP
+                (NP (DT the) (NN form))
+                (PP
+                  (IN of)
+                  (NP
+                    (NP
+                      (DT a)
+                      (NP (NN print) (CC or) (JJ transparent))
+                      (NN slide))
+                    (: ;)
+                    (VP
+                      (VBN recorded)
+                      (PP
+                        (IN by)
+                        (NP
+                          (NP (DT a) (NN camera))
+                          (PP
+                            (IN on)
+                            (NP (JJ light-sensitive) (NN material))))))))))))))))
+[[u'nsubj', u'representation', u'photograph', u'4', u'1'], [u'cop', u'representation', u'is', u'4', u'2'], [u'det', u'representation', u'a', u'4', u'3'], [u'root', u'ROOT', u'representation', u'0', u'4'], [u'det', u'person', u'a', u'7', u'6'], [u'prep_of', u'representation', u'person', u'4', u'7'], [u'prep_of', u'representation', u'scene', u'4', u'9'], [u'conj_or', u'person', u'scene', u'7', u'9'], [u'det', u'form', u'the', u'12', u'11'], [u'prep_in', u'person', u'form', u'7', u'12'], [u'det', u'slide', u'a', u'18', u'14'], [u'nn', u'slide', u'print', u'18', u'15'], [u'conj_or', u'print', u'transparent', u'15', u'17'], [u'nn', u'slide', u'transparent', u'18', u'17'], [u'prep_of', u'form', u'slide', u'12', u'18'], [u'partmod', u'slide', u'recorded', u'18', u'20'], [u'det', u'camera', u'a', u'23', u'22'], [u'agent', u'recorded', u'camera', u'20', u'23'], [u'amod', u'material', u'light-sensitive', u'26', u'25'], [u'prep_on', u'camera', u'material', u'23', u'26']]
+[]
+photograph is a representation of a person or scene in the form of a print or transparent slide; recorded by a camera on light-sensitive material
+================================
+yard.n.02
+[[u'yard', u'0', u'4', u'yard', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'the', u'8', u'11', u'the', u'DT', u'O'], [u'enclosed', u'12', u'20', u'enclosed', u'JJ', u'O'], [u'land', u'21', u'25', u'land', u'NN', u'O'], [u'around', u'26', u'32', u'around', u'IN', u'O'], [u'a', u'33', u'34', u'a', u'DT', u'O'], [u'house', u'35', u'40', u'house', u'NN', u'O'], [u'or', u'41', u'43', u'or', u'CC', u'O'], [u'other', u'44', u'49', u'other', u'JJ', u'O'], [u'building', u'50', u'58', u'building', u'NN', u'O']]
+(ROOT (S (NP (NN yard)) (VP (VBZ is) (NP (NP (DT the) (JJ enclosed) (NN land)) (PP (IN around) (NP (NP (DT a) (NN house)) (CC or) (NP (JJ other) (NN building))))))))
+(ROOT
+  (S
+    (NP (NN yard))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT the) (JJ enclosed) (NN land))
+        (PP
+          (IN around)
+          (NP
+            (NP (DT a) (NN house))
+            (CC or)
+            (NP (JJ other) (NN building))))))))
+[[u'nsubj', u'land', u'yard', u'5', u'1'], [u'cop', u'land', u'is', u'5', u'2'], [u'det', u'land', u'the', u'5', u'3'], [u'amod', u'land', u'enclosed', u'5', u'4'], [u'root', u'ROOT', u'land', u'0', u'5'], [u'det', u'house', u'a', u'8', u'7'], [u'prep_around', u'land', u'house', u'5', u'8'], [u'amod', u'building', u'other', u'11', u'10'], [u'prep_around', u'land', u'building', u'5', u'11'], [u'conj_or', u'house', u'building', u'8', u'11']]
+[]
+yard is the enclosed land around a house or other building
+================================
+thing.n.04
+[[u'thing', u'0', u'5', u'thing', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'an', u'9', u'11', u'a', u'DT', u'O'], [u'artifact', u'12', u'20', u'artifact', u'NN', u'O']]
+(ROOT (S (NP (NN thing)) (VP (VBZ is) (NP (DT an) (NN artifact)))))
+(ROOT (S (NP (NN thing)) (VP (VBZ is) (NP (DT an) (NN artifact)))))
+[[u'nsubj', u'artifact', u'thing', u'4', u'1'], [u'cop', u'artifact', u'is', u'4', u'2'], [u'det', u'artifact', u'an', u'4', u'3'], [u'root', u'ROOT', u'artifact', u'0', u'4']]
+[]
+thing is an artifact
+================================
+door.n.01
+[[u'door', u'0', u'4', u'door', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'a', u'8', u'9', u'a', u'DT', u'O'], [u'swinging', u'10', u'18', u'swinging', u'NN', u'O'], [u'or', u'19', u'21', u'or', u'CC', u'O'], [u'sliding', u'22', u'29', u'slide', u'VBG', u'O'], [u'barrier', u'30', u'37', u'barrier', u'NN', u'O'], [u'that', u'38', u'42', u'that', u'WDT', u'O'], [u'will', u'43', u'47', u'will', u'MD', u'O'], [u'close', u'48', u'53', u'close', u'VB', u'O'], [u'the', u'54', u'57', u'the', u'DT', u'O'], [u'entrance', u'58', u'66', u'entrance', u'NN', u'O'], [u'to', u'67', u'69', u'to', u'TO', u'O'], [u'a', u'70', u'71', u'a', u'DT', u'O'], [u'room', u'72', u'76', u'room', u'NN', u'O'], [u'or', u'77', u'79', u'or', u'CC', u'O'], [u'building', u'80', u'88', u'building', u'NN', u'O'], [u'or', u'89', u'91', u'or', u'CC', u'O'], [u'vehicle', u'92', u'99', u'vehicle', u'NN', u'O']]
+(ROOT (S (NP (NN door)) (VP (VBZ is) (NP (NP (DT a) (NN swinging)) (CC or) (VP (VBG sliding) (NP (NP (NN barrier)) (SBAR (WHNP (WDT that)) (S (VP (MD will) (VP (VB close) (NP (DT the) (NN entrance)) (PP (TO to) (NP (NP (NP (DT a) (NN room)) (CC or) (NP (NN building))) (CC or) (NN vehicle)))))))))))))
+(ROOT
+  (S
+    (NP (NN door))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN swinging))
+        (CC or)
+        (VP
+          (VBG sliding)
+          (NP
+            (NP (NN barrier))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP
+                  (MD will)
+                  (VP
+                    (VB close)
+                    (NP (DT the) (NN entrance))
+                    (PP
+                      (TO to)
+                      (NP
+                        (NP
+                          (NP (DT a) (NN room))
+                          (CC or)
+                          (NP (NN building)))
+                        (CC or)
+                        (NN vehicle)))))))))))))
+[[u'nsubj', u'swinging', u'door', u'4', u'1'], [u'nsubj', u'sliding', u'door', u'6', u'1'], [u'cop', u'swinging', u'is', u'4', u'2'], [u'det', u'swinging', u'a', u'4', u'3'], [u'root', u'ROOT', u'swinging', u'0', u'4'], [u'conj_or', u'swinging', u'sliding', u'4', u'6'], [u'partmod', u'swinging', u'sliding', u'4', u'6'], [u'dobj', u'sliding', u'barrier', u'6', u'7'], [u'nsubj', u'close', u'barrier', u'10', u'7'], [u'aux', u'close', u'will', u'10', u'9'], [u'rcmod', u'barrier', u'close', u'7', u'10'], [u'det', u'entrance', u'the', u'12', u'11'], [u'dobj', u'close', u'entrance', u'10', u'12'], [u'det', u'room', u'a', u'15', u'14'], [u'prep_to', u'close', u'room', u'10', u'15'], [u'prep_to', u'close', u'building', u'10', u'17'], [u'conj_or', u'room', u'building', u'15', u'17'], [u'prep_to', u'close', u'vehicle', u'10', u'19'], [u'conj_or', u'room', u'vehicle', u'15', u'19']]
+[]
+door is a swinging or sliding barrier that will close the entrance to a room or building or vehicle
+================================
+tube.n.01
+[[u'tube', u'0', u'4', u'tube', u'NN', u'O'], [u'is', u'5', u'7', u'be', u'VBZ', u'O'], [u'conduit', u'8', u'15', u'conduit', u'NN', u'O'], [u'consisting', u'16', u'26', u'consist', u'VBG', u'O'], [u'of', u'27', u'29', u'of', u'IN', u'O'], [u'a', u'30', u'31', u'a', u'DT', u'O'], [u'long', u'32', u'36', u'long', u'JJ', u'O'], [u'hollow', u'37', u'43', u'hollow', u'JJ', u'O'], [u'object', u'44', u'50', u'object', u'NN', u'O'], [u'used', u'52', u'56', u'use', u'VBN', u'O'], [u'to', u'57', u'59', u'to', u'TO', u'O'], [u'hold', u'60', u'64', u'hold', u'VB', u'O'], [u'and', u'65', u'68', u'and', u'CC', u'O'], [u'conduct', u'69', u'76', u'conduct', u'VB', u'O'], [u'objects', u'77', u'84', u'object', u'NNS', u'O'], [u'or', u'85', u'87', u'or', u'CC', u'O'], [u'liquids', u'88', u'95', u'liquid', u'NNS', u'O'], [u'or', u'96', u'98', u'or', u'CC', u'O'], [u'gases', u'99', u'104', u'gas', u'NNS', u'O']]
+(ROOT (S (NP (NN tube)) (VP (VBZ is) (NP (NP (NN conduit)) (VP (VBG consisting) (PP (IN of) (NP (NP (DT a) (JJ long) (JJ hollow) (NN object)) (VP (VBN used) (S (VP (TO to) (VP (VB hold) (CC and) (VB conduct) (NP (NP (NNS objects)) (CC or) (NP (NNS liquids) (CC or) (NNS gases))))))))))))))
+(ROOT
+  (S
+    (NP (NN tube))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NN conduit))
+        (VP
+          (VBG consisting)
+          (PP
+            (IN of)
+            (NP
+              (NP (DT a) (JJ long) (JJ hollow) (NN object))
+              (VP
+                (VBN used)
+                (S
+                  (VP
+                    (TO to)
+                    (VP
+                      (VB hold)
+                      (CC and)
+                      (VB conduct)
+                      (NP
+                        (NP (NNS objects))
+                        (CC or)
+                        (NP (NNS liquids) (CC or) (NNS gases))))))))))))))
+[[u'nsubj', u'conduit', u'tube', u'3', u'1'], [u'cop', u'conduit', u'is', u'3', u'2'], [u'root', u'ROOT', u'conduit', u'0', u'3'], [u'partmod', u'conduit', u'consisting', u'3', u'4'], [u'det', u'object', u'a', u'9', u'6'], [u'amod', u'object', u'long', u'9', u'7'], [u'amod', u'object', u'hollow', u'9', u'8'], [u'prep_of', u'consisting', u'object', u'4', u'9'], [u'partmod', u'object', u'used', u'9', u'10'], [u'aux', u'hold', u'to', u'12', u'11'], [u'xcomp', u'used', u'hold', u'10', u'12'], [u'xcomp', u'used', u'conduct', u'10', u'14'], [u'conj_and', u'hold', u'conduct', u'12', u'14'], [u'dobj', u'hold', u'objects', u'12', u'15'], [u'dobj', u'hold', u'liquids', u'12', u'17'], [u'conj_or', u'objects', u'liquids', u'15', u'17'], [u'conj_or', u'objects', u'gases', u'15', u'19'], [u'conj_or', u'liquids', u'gases', u'17', u'19']]
+[]
+tube is conduit consisting of a long hollow object  used to hold and conduct objects or liquids or gases
+================================
+house.n.01
+[[u'house', u'0', u'5', u'house', u'NN', u'O'], [u'is', u'6', u'8', u'be', u'VBZ', u'O'], [u'a', u'9', u'10', u'a', u'DT', u'O'], [u'dwelling', u'11', u'19', u'dwelling', u'NN', u'O'], [u'that', u'20', u'24', u'that', u'WDT', u'O'], [u'serves', u'25', u'31', u'serve', u'VBZ', u'O'], [u'as', u'32', u'34', u'as', u'IN', u'O'], [u'living', u'35', u'41', u'live', u'VBG', u'O'], [u'quarters', u'42', u'50', u'quarter', u'NNS', u'O'], [u'for', u'51', u'54', u'for', u'IN', u'O'], [u'one', u'55', u'58', u'one', u'CD', u'NUMBER'], [u'or', u'59', u'61', u'or', u'CC', u'O'], [u'more', u'62', u'66', u'more', u'JJR', u'O'], [u'families', u'67', u'75', u'family', u'NNS', u'O']]
+(ROOT (S (NP (NN house)) (VP (VBZ is) (NP (NP (DT a) (NN dwelling)) (SBAR (WHNP (WDT that)) (S (VP (VBZ serves) (PP (IN as) (NP (NP (VBG living) (NNS quarters)) (PP (IN for) (NP (QP (NP (CD one)) (CC or) (NP (JJR more))) (NNS families))))))))))))
+(ROOT
+  (S
+    (NP (NN house))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN dwelling))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ serves)
+              (PP
+                (IN as)
+                (NP
+                  (NP (VBG living) (NNS quarters))
+                  (PP
+                    (IN for)
+                    (NP
+                      (QP (NP (CD one)) (CC or) (NP (JJR more)))
+                      (NNS families))))))))))))
+[[u'nsubj', u'dwelling', u'house', u'4', u'1'], [u'cop', u'dwelling', u'is', u'4', u'2'], [u'det', u'dwelling', u'a', u'4', u'3'], [u'root', u'ROOT', u'dwelling', u'0', u'4'], [u'nsubj', u'serves', u'dwelling', u'6', u'4'], [u'rcmod', u'dwelling', u'serves', u'4', u'6'], [u'amod', u'quarters', u'living', u'9', u'8'], [u'prep_as', u'serves', u'quarters', u'6', u'9'], [u'num', u'families', u'one', u'14', u'11'], [u'conj_or', u'one', u'more', u'11', u'13'], [u'num', u'families', u'more', u'14', u'13'], [u'prep_for', u'quarters', u'families', u'9', u'14']]
+[]
+house is a dwelling that serves as living quarters for one or more families
+================================
+hat.n.01
+[[u'hat', u'0', u'3', u'hat', u'NN', u'O'], [u'is', u'4', u'6', u'be', u'VBZ', u'O'], [u'headdress', u'7', u'16', u'headdress', u'NN', u'O'], [u'that', u'17', u'21', u'that', u'WDT', u'O'], [u'protects', u'22', u'30', u'protect', u'VBZ', u'O'], [u'the', u'31', u'34', u'the', u'DT', u'O'], [u'head', u'35', u'39', u'head', u'NN', u'O'], [u'from', u'40', u'44', u'from', u'IN', u'O'], [u'bad', u'45', u'48', u'bad', u'JJ', u'O'], [u'weather', u'49', u'56', u'weather', u'NN', u'O'], [u';', u'56', u'57', u';', u':', u'O'], [u'has', u'58', u'61', u'have', u'VBZ', u'O'], [u'shaped', u'62', u'68', u'shape', u'VBN', u'O'], [u'crown', u'69', u'74', u'crown', u'NN', u'O'], [u'and', u'75', u'78', u'and', u'CC', u'O'], [u'usually', u'79', u'86', u'usually', u'RB', u'O'], [u'a', u'87', u'88', u'a', u'DT', u'O'], [u'brim', u'89', u'93', u'brim', u'NN', u'O']]
+(ROOT (S (NP (NN hat)) (VP (VBZ is) (NP (NP (NN headdress)) (SBAR (WHNP (WDT that)) (S (VP (VBZ protects) (S (NP (NP (DT the) (NN head)) (PP (IN from) (NP (JJ bad) (NN weather)))) (: ;) (VP (VBZ has) (VP (VBN shaped) (NP-TMP (NP (NN crown)) (CC and) (ADVP (RB usually)) (NP (DT a) (NN brim)))))))))))))
+(ROOT
+  (S
+    (NP (NN hat))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NN headdress))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ protects)
+              (S
+                (NP
+                  (NP (DT the) (NN head))
+                  (PP (IN from) (NP (JJ bad) (NN weather))))
+                (: ;)
+                (VP
+                  (VBZ has)
+                  (VP
+                    (VBN shaped)
+                    (NP-TMP
+                      (NP (NN crown))
+                      (CC and)
+                      (ADVP (RB usually))
+                      (NP (DT a) (NN brim)))))))))))))
+[[u'nsubj', u'headdress', u'hat', u'3', u'1'], [u'cop', u'headdress', u'is', u'3', u'2'], [u'root', u'ROOT', u'headdress', u'0', u'3'], [u'nsubj', u'protects', u'headdress', u'5', u'3'], [u'rcmod', u'headdress', u'protects', u'3', u'5'], [u'det', u'head', u'the', u'7', u'6'], [u'nsubj', u'shaped', u'head', u'13', u'7'], [u'amod', u'weather', u'bad', u'10', u'9'], [u'prep_from', u'head', u'weather', u'7', u'10'], [u'aux', u'shaped', u'has', u'13', u'12'], [u'ccomp', u'protects', u'shaped', u'5', u'13'], [u'tmod', u'shaped', u'crown', u'13', u'14'], [u'tmod', u'shaped', u'usually', u'13', u'16'], [u'advmod', u'crown', u'usually', u'14', u'16'], [u'conj_and', u'crown', u'usually', u'14', u'16'], [u'det', u'brim', u'a', u'18', u'17'], [u'tmod', u'shaped', u'brim', u'13', u'18'], [u'conj_and', u'crown', u'brim', u'14', u'18']]
+[]
+hat is headdress that protects the head from bad weather; has shaped crown and usually a brim
+================================
+bullet.n.01
+[[u'bullet', u'0', u'6', u'bullet', u'NN', u'O'], [u'is', u'7', u'9', u'be', u'VBZ', u'O'], [u'a', u'10', u'11', u'a', u'DT', u'O'], [u'projectile', u'12', u'22', u'projectile', u'NN', u'O'], [u'that', u'23', u'27', u'that', u'WDT', u'O'], [u'is', u'28', u'30', u'be', u'VBZ', u'O'], [u'fired', u'31', u'36', u'fire', u'VBN', u'O'], [u'from', u'37', u'41', u'from', u'IN', u'O'], [u'a', u'42', u'43', u'a', u'DT', u'O'], [u'gun', u'44', u'47', u'gun', u'NN', u'O']]
+(ROOT (S (NP (NN bullet)) (VP (VBZ is) (NP (NP (DT a) (NN projectile)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (VP (VBN fired) (PP (IN from) (NP (DT a) (NN gun)))))))))))
+(ROOT
+  (S
+    (NP (NN bullet))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN projectile))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (VP
+              (VBZ is)
+              (VP (VBN fired) (PP (IN from) (NP (DT a) (NN gun)))))))))))
+[[u'nsubj', u'projectile', u'bullet', u'4', u'1'], [u'cop', u'projectile', u'is', u'4', u'2'], [u'det', u'projectile', u'a', u'4', u'3'], [u'root', u'ROOT', u'projectile', u'0', u'4'], [u'nsubjpass', u'fired', u'projectile', u'7', u'4'], [u'auxpass', u'fired', u'is', u'7', u'6'], [u'rcmod', u'projectile', u'fired', u'4', u'7'], [u'det', u'gun', u'a', u'10', u'9'], [u'prep_from', u'fired', u'gun', u'7', u'10']]
+[]
+bullet is a projectile that is fired from a gun
+================================
+apartment.n.01
+[[u'apartment', u'0', u'9', u'apartment', u'NN', u'O'], [u'is', u'10', u'12', u'be', u'VBZ', u'O'], [u'a', u'13', u'14', u'a', u'DT', u'O'], [u'suite', u'15', u'20', u'suite', u'NN', u'O'], [u'of', u'21', u'23', u'of', u'IN', u'O'], [u'rooms', u'24', u'29', u'room', u'NNS', u'O'], [u'usually', u'30', u'37', u'usually', u'RB', u'O'], [u'on', u'38', u'40', u'on', u'IN', u'O'], [u'one', u'41', u'44', u'one', u'CD', u'NUMBER'], [u'floor', u'45', u'50', u'floor', u'NN', u'O'], [u'of', u'51', u'53', u'of', u'IN', u'O'], [u'an', u'54', u'56', u'a', u'DT', u'O'], [u'apartment', u'57', u'66', u'apartment', u'NN', u'O'], [u'house', u'67', u'72', u'house', u'NN', u'O']]
+(ROOT (S (NP (NN apartment)) (VP (VBZ is) (NP (NP (DT a) (NN suite)) (PP (IN of) (NP (NP (NNS rooms)) (PP (RB usually) (IN on) (NP (NP (CD one) (NN floor)) (PP (IN of) (NP (DT an) (NN apartment) (NN house)))))))))))
+(ROOT
+  (S
+    (NP (NN apartment))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (DT a) (NN suite))
+        (PP
+          (IN of)
+          (NP
+            (NP (NNS rooms))
+            (PP
+              (RB usually)
+              (IN on)
+              (NP
+                (NP (CD one) (NN floor))
+                (PP (IN of) (NP (DT an) (NN apartment) (NN house)))))))))))
+[[u'nsubj', u'suite', u'apartment', u'4', u'1'], [u'cop', u'suite', u'is', u'4', u'2'], [u'det', u'suite', u'a', u'4', u'3'], [u'root', u'ROOT', u'suite', u'0', u'4'], [u'prep_of', u'suite', u'rooms', u'4', u'6'], [u'advmod', u'rooms', u'usually', u'6', u'7'], [u'num', u'floor', u'one', u'10', u'9'], [u'prep_on', u'rooms', u'floor', u'6', u'10'], [u'det', u'house', u'an', u'14', u'12'], [u'nn', u'house', u'apartment', u'14', u'13'], [u'prep_of', u'floor', u'house', u'10', u'14']]
+[]
+apartment is a suite of rooms usually on one floor of an apartment house
+================================
+apparatus.n.01
+[[u'apparatus', u'0', u'9', u'apparatus', u'NN', u'O'], [u'is', u'10', u'12', u'be', u'VBZ', u'O'], [u'equipment', u'13', u'22', u'equipment', u'NN', u'O'], [u'designed', u'23', u'31', u'design', u'VBN', u'O'], [u'to', u'32', u'34', u'to', u'TO', u'O'], [u'serve', u'35', u'40', u'serve', u'VB', u'O'], [u'a', u'41', u'42', u'a', u'DT', u'O'], [u'specific', u'43', u'51', u'specific', u'JJ', u'O'], [u'function', u'52', u'60', u'function', u'NN', u'O']]
+(ROOT (S (NP (NN apparatus)) (VP (VBZ is) (NP (NP (NN equipment)) (VP (VBN designed) (S (VP (TO to) (VP (VB serve) (NP (DT a) (JJ specific) (NN function))))))))))
+(ROOT
+  (S
+    (NP (NN apparatus))
+    (VP
+      (VBZ is)
+      (NP
+        (NP (NN equipment))
+        (VP
+          (VBN designed)
+          (S
+            (VP
+              (TO to)
+              (VP (VB serve) (NP (DT a) (JJ specific) (NN function))))))))))
+[[u'nsubj', u'equipment', u'apparatus', u'3', u'1'], [u'cop', u'equipment', u'is', u'3', u'2'], [u'root', u'ROOT', u'equipment', u'0', u'3'], [u'partmod', u'equipment', u'designed', u'3', u'4'], [u'aux', u'serve', u'to', u'6', u'5'], [u'xcomp', u'designed', u'serve', u'4', u'6'], [u'det', u'function', u'a', u'9', u'7'], [u'amod', u'function', u'specific', u'9', u'8'], [u'dobj', u'serve', u'function', u'6', u'9']]
+[]
+apparatus is equipment designed to serve a specific function
